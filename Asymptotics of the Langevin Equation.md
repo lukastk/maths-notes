@@ -3,17 +3,19 @@
 
 ## The Smoluchowski and Freidlin-Wentzell Limits
 
-The Langevin equation (with $m=1$)
+The Langevin equation (with $m=1$):
 
 $$
-\ddot{x} = - \nabla V(x) - \gamma \dot{x} + \sqrt{2 \gamma \beta^{-1}} \dot{W}
+\ddot{x} = - \nabla V(x) - \gamma \dot{x} + \sqrt{2 \gamma \beta^{-1}} \dot{W} \quad (1)
 $$
 
+There are two parameters in the problem, the friction coefficient $\gamma$ and the inverse temperature $\beta$.
 
+**The large 
 
 **References:**
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTQ2Mjc5N119
+eyJoaXN0b3J5IjpbLTkyOTE3ODI5MF19
 -->
