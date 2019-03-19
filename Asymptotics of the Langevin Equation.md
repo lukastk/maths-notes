@@ -17,11 +17,15 @@ $$\dot x = \sqrt{2 \gamma \beta^{-1}} \dot W$$
 
 #### The small temperature limit $\beta \gg 1$
 
-Mor
+More subtle regime. It leads to exponential, Arrhenius-type, asymptotics for the reaction rate (in the case of a particle escaping from a potential well due to thermal noise), or the diffusion coefficient (in the caes of a particle moving in a periodic potential in the presence of thermal noise).
+
+$$\kappa = \nu \exp ( - \beta E_b )$$
+
+where $\kappa$ is e
 
 **References:**
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU0MTA5NTldfQ==
+eyJoaXN0b3J5IjpbLTM2NzQ0OTYyMV19
 -->
