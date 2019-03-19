@@ -11,11 +11,13 @@ $$
 
 There are two parameters in the problem, the friction coefficient $\gamma$ and the inverse temperature $\beta$.
 
-**The large 
+#### The large temperature limit $\beta \ll 1$
+
+The dynamics of (1) iis 
 
 **References:**
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTE3ODI5MF19
+eyJoaXN0b3J5IjpbLTE4NDY2OTY1NDFdfQ==
 -->
