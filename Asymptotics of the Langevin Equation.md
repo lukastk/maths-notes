@@ -21,11 +21,13 @@ More subtle regime. It leads to exponential, Arrhenius-type, asymptotics for the
 
 $$\kappa = \nu \exp ( - \beta E_b )$$
 
-where $\kappa$ is either the reaction rate or the diffusion coefficient. $E_b$ would be some sort of activation energy for the reaction/
+where $\kappa$ is either the reaction rate or the diffusion coefficient. $E_b$ would be some sort of activation energy for the reaction.
+
+In the case of a bistable potential $\kappa$ would give the rate of the particle moving between minima. $\kappa$ could be the diffusion coefficient if we have a periodic potential.
 
 **References:**
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDM4MjkwNjRdfQ==
+eyJoaXN0b3J5IjpbLTEzNTg5MzY0OV19
 -->
