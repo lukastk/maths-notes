@@ -19,7 +19,7 @@ $$\dot x = \sqrt{2 \gamma \beta^{-1}} \dot W$$
 
 More subtle regime. It leads to exponential, Arrhenius-type, asymptotics for the reaction rate (in the case of a particle escaping from a potential well due to thermal noise), or the diffusion coefficient (in the caes of a particle moving in a periodic potential in the presence of thermal noise).
 
-$$\kappa = \nu \exp ( - \beta E_b )$$
+$$\kappa = \nu \exp ( - \beta E_b ) \quad (2)$$
 
 where $\kappa$ is either the reaction rate or the diffusion coefficient. $E_b$ would be some sort of activation energy for the reaction.
 
@@ -33,13 +33,15 @@ In many applications (especially in Biology), the friction coefficient is large 
 
 For $\gamma \ll 1$ the position is the fast variable, whereas the energy is the slow variable. We can eliminate the position, and obtain an equation for the energy. This is the **underdamped** or **Freidlin-Wentzell** limit.
 
-In both cases, we have to look at sufficiently long time scales.
+In both cases, we have to look at sufficiently long time scales. Rescale the solution to (1)
 
+$$x^\gamma(t) = \lambda_\gamma (t / \mu_\gamma) \quad (3)$$
 
+which satisfies the equation 
 
 ## References
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1Nzk4MTE5MV19
+eyJoaXN0b3J5IjpbNTkyNDIxNzAxLDE2NTc5ODExOTFdfQ==
 -->
