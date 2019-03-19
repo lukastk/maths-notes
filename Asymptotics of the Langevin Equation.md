@@ -25,15 +25,17 @@ where $\kappa$ is either the reaction rate or the diffusion coefficient. $E_b$ w
 
 In the case of a bistable potential $\kappa$ would give the rate of the particle moving between minima. $\kappa$ could be the diffusion coefficient if we have a periodic potential.
 
-### Varying t
+### Friction asymptotics
 
 If the temperature is held fixed, the only parameter left is the friction $\gamma$. The large/small friction asymptotics can be expressed in terms of a slow/fast system of SDEs.
 
+In many applications (especially in Biology), the friction coefficient is large $\gamma \gg 1$, in which case the momentum is the fast variable, which we can eliminate to obtain an equation for the position. This is the **overdamped** or **Smoluchowski** limit.
 
+For $\gamma \ll 1$ the position is the fast variable, whereas the energy is the slow variable
 
 **References:**
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDM4MTc0MV19
+eyJoaXN0b3J5IjpbLTc2MDE4ODA0MF19
 -->
