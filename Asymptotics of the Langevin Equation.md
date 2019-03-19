@@ -21,11 +21,11 @@ More subtle regime. It leads to exponential, Arrhenius-type, asymptotics for the
 
 $$\kappa = \nu \exp ( - \beta E_b )$$
 
-where $\kappa$ is e
+where $\kappa$ is either the reaction rate or the diffusion coefficient. $E_b$ would be some sort of activation energy for the reaction/
 
 **References:**
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzQ0OTYyMV19
+eyJoaXN0b3J5IjpbLTE4NDM4MjkwNjRdfQ==
 -->
