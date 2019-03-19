@@ -39,14 +39,18 @@ $$x(t) \to x^\gamma(t) =  \lambda_\gamma x (t / \mu_\gamma) \quad (3)$$
 
 in which case the rescaled process $x^\gamma$ satisfies the equation
 
-$$\ddot{x}^\gamma = - \frac{\lambda_\gamma}{\mu_\gamma^2} \partial_x V(x^\gamma/\lambda_\gamma) - \frac{\gamma}{\mu_\gamma} \dot{x}^\gamma + \sqrt{2 \gamma \lambda_\gamma^2 \mu_\gamma^{-3} \beta^{-1}} \$$
+$$\ddot{x}^\gamma = - \frac{\lambda_\gamma}{\mu_\gamma^2} \partial_x V(x^\gamma/\lambda_\gamma) - \frac{\gamma}{\mu_\gamma} \dot{x}^\gamma + \sqrt{2 \gamma \lambda_\gamma^2 \mu_\gamma^{-3} \beta^{-1}} \dot{W} \quad (3).$$
 
-which satisfies the equation 
+Different choices for these two parameters leads to the overdamped and underdamped limits.
+
+#### Overdamped limit
+
+Take $\lambda_\gamma =1$, $\mu_\gamma = \gamma^{-1}$ and $\gamma 
 
 ## References
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA5MzA1NjMsNTkyNDIxNzAxLDE2NT
-c5ODExOTFdfQ==
+eyJoaXN0b3J5IjpbLTU2NzE5NDI3Miw1OTI0MjE3MDEsMTY1Nz
+k4MTE5MV19
 -->
