@@ -6,12 +6,14 @@
 The Langevin equation (with $m=1$)
 
 $$
-\ddot{x} = - \nabla V(x) - \gamma \dot{x} + \sqrt{2 \gamma \beta^{-1}
+\ddot{x} = - \nabla V(x) - \gamma \dot{x} + \sqrt{2 \gamma \beta^{-1}} \dot{W}
 $$
+
+
 
 **References:**
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzYxNTg4OTRdfQ==
+eyJoaXN0b3J5IjpbLTI0MTQ2Mjc5N119
 -->
