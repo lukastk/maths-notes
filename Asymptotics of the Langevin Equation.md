@@ -31,11 +31,15 @@ If the temperature is held fixed, the only parameter left is the friction $\gamm
 
 In many applications (especially in Biology), the friction coefficient is large $\gamma \gg 1$, in which case the momentum is the fast variable, which we can eliminate to obtain an equation for the position. This is the **overdamped** or **Smoluchowski** limit.
 
-For $\gamma \ll 1$ the position is the fast variable, whereas the energy is the slow variable
+For $\gamma \ll 1$ the position is the fast variable, whereas the energy is the slow variable. We can eliminate the position, and obtain an equation for the energy. This is the **underdamped** or **Freidlin-Wentzell** limit.
 
-**References:**
+In both cases, we have to look at sufficiently long time scales.
+
+
+
+## References
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDE4ODA0MF19
+eyJoaXN0b3J5IjpbMTY1Nzk4MTE5MV19
 -->
