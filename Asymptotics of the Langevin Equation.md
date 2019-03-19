@@ -35,7 +35,11 @@ For $\gamma \ll 1$ the position is the fast variable, whereas the energy is the 
 
 In both cases, we have to look at sufficiently long time scales. Rescale the solution to (1)
 
-$$x^\gamma(t) = \lambda_\gamma (t / \mu_\gamma) \quad (3)$$
+$$x(t) \to x^\gamma(t) =  \lambda_\gamma x (t / \mu_\gamma) \quad (3)$$
+
+in which case the rescaled process satisfies the equation
+
+$$\ddot{x}
 
 which satisfies the equation 
 
@@ -43,5 +47,6 @@ which satisfies the equation
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyNDIxNzAxLDE2NTc5ODExOTFdfQ==
+eyJoaXN0b3J5IjpbLTgyNDg5NDA5Nyw1OTI0MjE3MDEsMTY1Nz
+k4MTE5MV19
 -->
