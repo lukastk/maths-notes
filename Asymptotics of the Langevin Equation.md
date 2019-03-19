@@ -37,9 +37,9 @@ In both cases, we have to look at sufficiently long time scales. Rescale the sol
 
 $$x(t) \to x^\gamma(t) =  \lambda_\gamma x (t / \mu_\gamma) \quad (3)$$
 
-in which case the rescaled process satisfies the equation
+in which case the rescaled process $x^\gamma$ satisfies the equation
 
-$$\ddot{x}
+$$\ddot{x}^\gamma = - \frac{\lambda_\gamma}{\mu_\gamma^2} \partial_x V(x^\gamma/\lambda_\gamma) - \frac{\gamma}{\mu_\gamma} \dot{x}^\gamma + \sqrt{2 \gamma \lambda_\gamma^2 \mu_\gamma^{-3} \beta^{-1}} \$$
 
 which satisfies the equation 
 
@@ -47,6 +47,6 @@ which satisfies the equation
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDg5NDA5Nyw1OTI0MjE3MDEsMTY1Nz
-k4MTE5MV19
+eyJoaXN0b3J5IjpbLTE2ODA5MzA1NjMsNTkyNDIxNzAxLDE2NT
+c5ODExOTFdfQ==
 -->
