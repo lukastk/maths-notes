@@ -53,12 +53,17 @@ We will see that in the limit as $\gamma \to \infty$ the solution to (4) can be 
 
 $$\dot{x} = - \nabla_x V + \sqrt{2 \beta^{-1}} \dot{W} $$
 
+Let $\epsilon = \gamma^{-1}$, then (4) becomes
+
+$$ \epsilon^{2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1}} \dot{W} \quad (5) $$
+
+
 
 ## References
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI0MDgyMjUxLDIxMTY1MzIzODgsLTY0Mj
+eyJoaXN0b3J5IjpbNDQ2OTUyNzg0LDIxMTY1MzIzODgsLTY0Mj
 kwNzc2LC01NjcxOTQyNzIsNTkyNDIxNzAxLDE2NTc5ODExOTFd
 fQ==
 -->
