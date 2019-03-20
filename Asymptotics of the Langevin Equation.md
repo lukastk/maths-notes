@@ -47,22 +47,22 @@ Different choices for these two parameters leads to the overdamped and underdamp
 
 Take $\lambda_\gamma =1$, $\mu_\gamma = \gamma^{-1}$ and $\gamma \gg 1$, and (3) becomes
 
-$$ \gamma^{-2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1} \gamma} \dot{W} \quad (4) $$
+$$ \gamma^{-2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1}} \dot{W} \quad (4) $$
 
 We will see that in the limit as $\gamma \to \infty$ the solution to (4) can be approximated by the solution to
 
-$$\dot{x} = - \nabla_x V + \sqrt{2 \beta^{-1} \gamma} \dot{W} $$
+$$\dot{x} = - \nabla_x V + \sqrt{2 \beta^{-1}} \dot{W} $$
 
 Let $\epsilon = \gamma^{-1}$, then (4) becomes
 
-$$ \epsilon^{2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1} \epsilon^{-1}} \dot{W} \quad (6) $$
+$$ \epsilon^{2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1}} \dot{W} \quad (6) $$
 
 We can write (6) as a system of SDEs
 
 $$
 \begin{aligned}
 \dot{x} & = \frac{1}{\epsilon} v \\
-\dot{v} & = -\frac{1}{\epsilon} \nabla V(x)-\frac{1}{\epsilon^2} v + \sqrt{
+\dot{v} & = -\frac{1}{\epsilon} \nabla V(x)-\frac{1}{\epsilon^2} v + \sqrt{\frac{2}{\beta \epsilon^2}} \dot{W}
 \end{aligned}
 $$
 
@@ -70,7 +70,7 @@ $$
 
 - [These slides. There are quite a lot of typos.](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTEwOTExMywyMTE2NTMyMzg4LC02ND
-I5MDc3NiwtNTY3MTk0MjcyLDU5MjQyMTcwMSwxNjU3OTgxMTkx
-XX0=
+eyJoaXN0b3J5IjpbMTUyNTQxNzk0LDIwNzExMDkxMTMsMjExNj
+UzMjM4OCwtNjQyOTA3NzYsLTU2NzE5NDI3Miw1OTI0MjE3MDEs
+MTY1Nzk4MTE5MV19
 -->
