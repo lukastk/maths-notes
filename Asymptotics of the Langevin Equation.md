@@ -55,7 +55,7 @@ $$\dot{x} = - \nabla_x V + \sqrt{2 \beta^{-1}} \dot{W} $$
 
 Let $\epsilon = \gamma^{-1}$, then (4) becomes
 
-$$ \epsilon^{2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1}} \dot{W} \quad (5) $$
+$$ \epsilon^{2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1} \epsilon^{-1}} \dot{W} \quad (5) $$
 
 
 
@@ -63,7 +63,7 @@ $$ \epsilon^{2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqr
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2OTUyNzg0LDIxMTY1MzIzODgsLTY0Mj
-kwNzc2LC01NjcxOTQyNzIsNTkyNDIxNzAxLDE2NTc5ODExOTFd
-fQ==
+eyJoaXN0b3J5IjpbLTk2MzU1NjM2MCwyMTE2NTMyMzg4LC02ND
+I5MDc3NiwtNTY3MTk0MjcyLDU5MjQyMTcwMSwxNjU3OTgxMTkx
+XX0=
 -->
