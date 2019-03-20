@@ -47,14 +47,18 @@ Different choices for these two parameters leads to the overdamped and underdamp
 
 Take $\lambda_\gamma =1$, $\mu_\gamma = \gamma^{-1}$ and $\gamma \gg 1$, and (3) becomes
 
-$$ \gamma^{-2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1}} \dot{W} $$
+$$ \gamma^{-2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1}} \dot{W} \quad (4) $$
 
+We will see that in the limit as $\gamma \to \infty$ the solution to (4) can be approximated by the solution to
+
+$$\dot{x} = - \nabla_x V + \sqrt{2 \beta^{-1}} \dot{W} $$
 
 
 ## References
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjUzMjM4OCwtNjQyOTA3NzYsLTU2Nz
-E5NDI3Miw1OTI0MjE3MDEsMTY1Nzk4MTE5MV19
+eyJoaXN0b3J5IjpbMzI0MDgyMjUxLDIxMTY1MzIzODgsLTY0Mj
+kwNzc2LC01NjcxOTQyNzIsNTkyNDIxNzAxLDE2NTc5ODExOTFd
+fQ==
 -->
