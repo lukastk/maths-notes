@@ -45,12 +45,16 @@ Different choices for these two parameters leads to the overdamped and underdamp
 
 #### Overdamped limit
 
-Take $\lambda_\gamma =1$, $\mu_\gamma = \gamma^{-1}$ and $\gamma 
+Take $\lambda_\gamma =1$, $\mu_\gamma = \gamma^{-1}$ and $\gamma \gg 1$, and (3) becomes
+
+$$ \gamma^{-2} \dot{x}^\gamma = - \partial_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1}} \dot{W} $$
+
+
 
 ## References
 
 - [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzE5NDI3Miw1OTI0MjE3MDEsMTY1Nz
-k4MTE5MV19
+eyJoaXN0b3J5IjpbLTY0MjkwNzc2LC01NjcxOTQyNzIsNTkyND
+IxNzAxLDE2NTc5ODExOTFdfQ==
 -->
