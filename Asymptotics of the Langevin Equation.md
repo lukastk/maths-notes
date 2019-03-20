@@ -47,11 +47,11 @@ Different choices for these two parameters leads to the overdamped and underdamp
 
 Take $\lambda_\gamma =1$, $\mu_\gamma = \gamma^{-1}$ and $\gamma \gg 1$, and (3) becomes
 
-$$ \gamma^{-2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1}} \dot{W} \quad (4) $$
+$$ \gamma^{-2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1} \gamma} \dot{W} \quad (4) $$
 
 We will see that in the limit as $\gamma \to \infty$ the solution to (4) can be approximated by the solution to
 
-$$\dot{x} = - \nabla_x V + \sqrt{2 \beta^{-1}} \dot{W} $$
+$$\dot{x} = - \nabla_x V + \sqrt{2 \beta^{-1} \gamma} \dot{W} $$
 
 Let $\epsilon = \gamma^{-1}$, then (4) becomes
 
@@ -61,9 +61,9 @@ $$ \epsilon^{2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqr
 
 ## References
 
-- [These slides](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
+- [These slides. There are quite a lot of typos.](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MzU1NjM2MCwyMTE2NTMyMzg4LC02ND
-I5MDc3NiwtNTY3MTk0MjcyLDU5MjQyMTcwMSwxNjU3OTgxMTkx
-XX0=
+eyJoaXN0b3J5IjpbLTEyNjg0ODExMTgsMjExNjUzMjM4OCwtNj
+QyOTA3NzYsLTU2NzE5NDI3Miw1OTI0MjE3MDEsMTY1Nzk4MTE5
+MV19
 -->
