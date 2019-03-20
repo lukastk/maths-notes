@@ -55,15 +55,22 @@ $$\dot{x} = - \nabla_x V + \sqrt{2 \beta^{-1} \gamma} \dot{W} $$
 
 Let $\epsilon = \gamma^{-1}$, then (4) becomes
 
-$$ \epsilon^{2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1} \epsilon^{-1}} \dot{W} \quad (5) $$
+$$ \epsilon^{2} \ddot{x}^\gamma = - \nabla_x V(x^\gamma) - \dot{x}^\gamma + \sqrt{2 \beta^{-1} \epsilon^{-1}} \dot{W} \quad (6) $$
 
+We can write (6) as a system of SDEs
 
+$$
+\begin{aligned}
+\dot{x} & = \frac{1}{\epsilon} v \\
+\dot{v} & = -\frac{1}{\ep
+\end{aligned}
+$$
 
 ## References
 
 - [These slides. There are quite a lot of typos.](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg0ODExMTgsMjExNjUzMjM4OCwtNj
-QyOTA3NzYsLTU2NzE5NDI3Miw1OTI0MjE3MDEsMTY1Nzk4MTE5
-MV19
+eyJoaXN0b3J5IjpbMTcyMTY4MjY5NCwyMTE2NTMyMzg4LC02ND
+I5MDc3NiwtNTY3MTk0MjcyLDU5MjQyMTcwMSwxNjU3OTgxMTkx
+XX0=
 -->
