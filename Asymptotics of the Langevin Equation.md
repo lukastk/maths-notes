@@ -62,7 +62,7 @@ We can write (6) as a system of SDEs
 $$
 \begin{aligned}
 \dot{x} & = \frac{1}{\epsilon} v \\
-\dot{v} & = -\frac{1}{\ep
+\dot{v} & = -\frac{1}{\epsilon} \nabla V(x)-\frac{1}{\epsilon^2} v + \sqrt{
 \end{aligned}
 $$
 
@@ -70,7 +70,7 @@ $$
 
 - [These slides. There are quite a lot of typos.](http://wwwf.imperial.ac.uk/~pavl/lec_freid_wentz_smooluch.pdf)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTY4MjY5NCwyMTE2NTMyMzg4LC02ND
+eyJoaXN0b3J5IjpbMjA3MTEwOTExMywyMTE2NTMyMzg4LC02ND
 I5MDc3NiwtNTY3MTk0MjcyLDU5MjQyMTcwMSwxNjU3OTgxMTkx
 XX0=
 -->
