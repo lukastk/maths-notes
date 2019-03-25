@@ -10,9 +10,19 @@ Where $\chi_{ij}(t;t')$ is the *response function*.
 
 
 
-### 
+### Classical mechanics
 
+Consider a driven system of the form
 
+$$
+\ddot x_i + g_i (\dot x, x) = F_i(t)
+$$
+
+Then the response
+
+$$
+x_i(t) = \int_0^t 
+$$
 
 Generally, the value of $x(t)$ will depend not only on the present value of $h(t)$, but also on past values.
 
@@ -21,5 +31,5 @@ Generally, the value of $x(t)$ will depend not only on the present value of $h(t
 - http://www.damtp.cam.ac.uk/user/tong/kintheory/four.pdf
 - https://en.wikipedia.org/wiki/Linear_response_function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDg0Mzk2NV19
+eyJoaXN0b3J5IjpbMjA1NzQ0ODg2OF19
 -->
