@@ -35,7 +35,7 @@ The linear response function is the first-order term in the Volterra series. The
 Let $y(t)$ denote a continuous time-invariant system, with input $x(t)$. Then the response of $y(t)$ can be expanded in a Volterra series as
 
 $$
-y(t) = h_0 + \sum_{n=1}^N \int
+y(t) = h_0 + \sum_{n=1}^N \int_a^b \dot \int_a^b h_n(\tau_1, \dots, \tau_n) \prod_{j
 $$
 
 ### Example: Classical mechanics
@@ -63,5 +63,5 @@ that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (
 - https://en.wikipedia.org/wiki/Linear_response_function
 - https://en.wikipedia.org/wiki/Volterra_series
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzQzOTQsMjA0OTA5MzA4XX0=
+eyJoaXN0b3J5IjpbLTE5MzUxMTA5NDYsMjA0OTA5MzA4XX0=
 -->
