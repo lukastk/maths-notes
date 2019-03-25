@@ -28,7 +28,9 @@ $$
 
 So the response is "local" in frequency space: if you shake something at frequency $\omega$, it responds at frequency $\omega$. Anything beyond this lies in the domain of non-linear response.
 
+### Derivation
 
+The linear response function is the first-order term in the Volterra series. The Volterra series is a method ot
 
 ### Example: Classical mechanics
 
@@ -55,5 +57,5 @@ that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (
 - https://en.wikipedia.org/wiki/Linear_response_function
 - https://en.wikipedia.org/wiki/Volterra_series
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDAzMzg1NCwyMDQ5MDkzMDhdfQ==
+eyJoaXN0b3J5IjpbNTAzNDgzNDc5LDIwNDkwOTMwOF19
 -->
