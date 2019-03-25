@@ -15,14 +15,18 @@ Where $\chi_{ij}(t;t')$ is the *response function*.
 Consider a driven system of the form
 
 $$
-\ddot x_i + g_i (\dot x, x) = F_i(t)
+\ddot x_i + g_i (\dot x, x) = F_i(t) \quad (1)
 $$
 
-Then the response
+Then we can clearly see from the response
 
 $$
-x_i(t) = \int_0^t 
+x_i(t) = \int_0^t \chi_{ij}(t - t') F_j(t)
 $$
+
+that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (1).
+
+
 
 Generally, the value of $x(t)$ will depend not only on the present value of $h(t)$, but also on past values.
 
@@ -31,5 +35,5 @@ Generally, the value of $x(t)$ will depend not only on the present value of $h(t
 - http://www.damtp.cam.ac.uk/user/tong/kintheory/four.pdf
 - https://en.wikipedia.org/wiki/Linear_response_function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzQ0ODg2OF19
+eyJoaXN0b3J5IjpbLTkzODI5NTY2Nl19
 -->
