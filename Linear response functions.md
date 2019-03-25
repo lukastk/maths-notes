@@ -20,9 +20,15 @@ Taking the Fourier transform of (1) gives
 
 $$
 \begin{aligned}
-\delta \hat{\mathcal{O}}_i(\omega) = \int dt' \int dt e^{i \omega t} \xi_{ij}(t - t') \h
+\delta \hat{\mathcal{O}}_i(\omega)  & = \int dt' \int dt\ e^{i \omega t} \chi_{ij}(t - t') \phi_j(t') \\
+& = \int dt' \int dt\ e^{i \omega (t - t')} \chi_{ij} (t - t') e^{i \omega t'} \phi_j(t') \\
+& = \hat{\chi}_{ij}(\omega) \hat{\phi}_j(\omega)
 \end{aligned}
 $$
+
+So the response is "local" in frequency space: if you shake something at frequency $\omega$, it responds at frequency $\omega$. Anything beyond this lies in the domain of non-linear response.
+
+
 
 ### Example: Classical mechanics
 
@@ -49,5 +55,5 @@ that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (
 - https://en.wikipedia.org/wiki/Linear_response_function
 - https://en.wikipedia.org/wiki/Volterra_series
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NDM5NjUzNywyMDQ5MDkzMDhdfQ==
+eyJoaXN0b3J5IjpbLTcyMDAzMzg1NCwyMDQ5MDkzMDhdfQ==
 -->
