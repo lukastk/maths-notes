@@ -61,7 +61,13 @@ that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (
 For a damped harmonic oscillator, with external driving force $h(t)$,
 
 $$
-\ddot x + \gamma
+\ddot x + \gamma \dot x + \omega_0^2 x = h,
+$$
+
+the complex-valued Fourier transform of the linear response function is given by
+
+$$
+\hat{\chi}(\omega) = \frac{1}{\omega_0^2 - \omega^2 + i \gamma \omega}.
 $$
 
 ### References
@@ -70,5 +76,5 @@ $$
 - https://en.wikipedia.org/wiki/Linear_response_function
 - https://en.wikipedia.org/wiki/Volterra_series
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDIxMzc2NzgsMjA0OTA5MzA4XX0=
+eyJoaXN0b3J5IjpbNjk4Njc0NzA3LDIwNDkwOTMwOF19
 -->
