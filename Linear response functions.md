@@ -32,11 +32,13 @@ So the response is "local" in frequency space: if you shake something at frequen
 
 The linear response function is the first-order term in the Volterra series. The Volterra series is a method to capture the non-linear response of a system to some input. A Taylor series can be used for this if the response of the system is dependent solely on the value of the input at that particular time. The Volterra series depends on the input of the system at *all* times.
 
-Let $y(t)$ denote a continuous time-invariant system, with input $x(t)$. Then the response of $y(t)$ can be expanded in a Volterra series as
+Let $y(t)$ denote a continuous time-invariant system, with input $\phi(t)$. Then the response of $y(t)$ can be expanded in a Volterra series as
 
 $$
-y(t) = h_0 + \sum_{n=1}^N \int_a^b \dot \int_a^b h_n(\tau_1, \dots, \tau_n) \prod_{j
+y(t) = h_0 + \sum_{n=1}^N \int_a^b \dots \int_a^b h_n(\tau_1, \dots, \tau_n) \prod_{j=1}^n \phi(t - \tau_j) d \tau_j
 $$
+
+The function $h_n(\tau_1, \dots, \tau_n)$ is called the *n*-th order Volterra kernel.
 
 ### Example: Classical mechanics
 
@@ -63,5 +65,5 @@ that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (
 - https://en.wikipedia.org/wiki/Linear_response_function
 - https://en.wikipedia.org/wiki/Volterra_series
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzUxMTA5NDYsMjA0OTA5MzA4XX0=
+eyJoaXN0b3J5IjpbLTgzOTY4MjA0NSwyMDQ5MDkzMDhdfQ==
 -->
