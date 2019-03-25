@@ -30,7 +30,9 @@ So the response is "local" in frequency space: if you shake something at frequen
 
 ### Derivation
 
-The linear response function is the first-order term in the Volterra series. The Volterra series is a method ot
+The linear response function is the first-order term in the Volterra series. The Volterra series is a method to capture the non-linear response of a system to some input. A Taylor series can be used for this if the response of the system is dependent solely on the value of the input at that particular time. The Volterra series depends on the input of the system at *all* times.
+
+
 
 ### Example: Classical mechanics
 
@@ -57,5 +59,5 @@ that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (
 - https://en.wikipedia.org/wiki/Linear_response_function
 - https://en.wikipedia.org/wiki/Volterra_series
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzNDgzNDc5LDIwNDkwOTMwOF19
+eyJoaXN0b3J5IjpbLTcyODkwNjQ3NSwyMDQ5MDkzMDhdfQ==
 -->
