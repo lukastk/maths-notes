@@ -28,11 +28,15 @@ $$
 
 So the response is "local" in frequency space: if you shake something at frequency $\omega$, it responds at frequency $\omega$. Anything beyond this lies in the domain of non-linear response.
 
-### Derivation
+### Volterra series
 
 The linear response function is the first-order term in the Volterra series. The Volterra series is a method to capture the non-linear response of a system to some input. A Taylor series can be used for this if the response of the system is dependent solely on the value of the input at that particular time. The Volterra series depends on the input of the system at *all* times.
 
+Let $y(t)$ denote a continuous time-invariant system, with input $x(t)$. Then the response of $y(t)$ can be expanded in a Volterra series as
 
+$$
+y(t) = h_0 + \sum_{n=1}^N \int
+$$
 
 ### Example: Classical mechanics
 
@@ -59,5 +63,5 @@ that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (
 - https://en.wikipedia.org/wiki/Linear_response_function
 - https://en.wikipedia.org/wiki/Volterra_series
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODkwNjQ3NSwyMDQ5MDkzMDhdfQ==
+eyJoaXN0b3J5IjpbLTkxNzQzOTQsMjA0OTA5MzA4XX0=
 -->
