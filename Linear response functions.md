@@ -6,11 +6,13 @@ $$
 \Delta \mathcal{O}_i(t) = \int dt'\ \chi_{ij} (t ; t') \phi_j(t')
 $$
 
-Where $\chi_{ij}(t;t')$ is the *response function*.
+Where $\chi_{ij}(t;t')$ is the *response function*. Assuming time-translation invariance, we have
+
+$$\chi_{ij}(t;t') = \chi_{ij}(t - t').$$
 
 
 
-### Classical mechanics
+### Example: Classical mechanics
 
 Consider a driven system of the form
 
@@ -26,14 +28,14 @@ $$
 
 that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (1).
 
+### Example:  Damped harmonic oscillator
 
-
-Generally, the value of $x(t)$ will depend not only on the present value of $h(t)$, but also on past values.
 
 ### References
 
 - http://www.damtp.cam.ac.uk/user/tong/kintheory/four.pdf
 - https://en.wikipedia.org/wiki/Linear_response_function
+- https://en.wikipedia.org/wiki/Volterra_series
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODI5NTY2Nl19
+eyJoaXN0b3J5IjpbMjA0OTA5MzA4XX0=
 -->
