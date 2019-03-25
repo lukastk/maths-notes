@@ -38,14 +38,14 @@ $$
 y(t) = h_0 + \sum_{n=1}^N \int_a^b \dots \int_a^b h_n(\tau_1, \dots, \tau_n) \prod_{j=1}^n \phi(t - \tau_j) d \tau_j
 $$
 
-The function $h_n(\tau_1, \dots, \tau_n)$ is called the *n*-th order Volterra kernel.
+The function $h_n(\tau_1, \dots, \tau_n)$ is called the *n*-th order Volterra kernel. If $N$ is finite, the series is said to be *truncated*. If *a*, *b*, and *N* are finite, the series is called *doubly finite*.
 
 ### Example: Classical mechanics
 
 Consider a driven system of the form
 
 $$
-\ddot x_i + g_i (\dot x, x) = F_i(t) \quad (1)
+\ddot x_i + g_i (\dot x, x) = F_i(t) \quad (2)
 $$
 
 Then we can clearly see from the response
@@ -54,10 +54,15 @@ $$
 x_i(t) = \int_0^t \chi_{ij}(t - t') F_j(t)
 $$
 
-that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (1).
+that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (2).
 
 ### Example:  Damped harmonic oscillator
 
+For a damped harmonic oscillator, with external driving force $h(t)$,
+
+$$
+\ddot x + \gamma
+$$
 
 ### References
 
@@ -65,5 +70,5 @@ that $\chi_{ij}(t-t')$ is simply the Green's function of the left-hand side of (
 - https://en.wikipedia.org/wiki/Linear_response_function
 - https://en.wikipedia.org/wiki/Volterra_series
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTY4MjA0NSwyMDQ5MDkzMDhdfQ==
+eyJoaXN0b3J5IjpbLTEzMDIxMzc2NzgsMjA0OTA5MzA4XX0=
 -->
