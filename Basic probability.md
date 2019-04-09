@@ -150,12 +150,14 @@ Consider the same sequence above. The central limit theorem states that, as $n \
 
 ## Stochastic processes
 
-Let $T$ be an index set, and $X_t,\ t \in T$ be a random variable. A stochastic process $X = \{ X_t, t \in T\}$ is a function $X : T \times \Omega \to \mathbb{R}$ of two variables, where $X(t) = X_t$ is a random variable for each $t \in \T 
+Let $T$ be an index set, and $X_t,\ t \in T$ be a random variable. A stochastic process $X = \{ X_t, t \in T\}$ is a function $X : T \times \Omega \to \mathbb{R}$ of two variables, where $X(t) = X_t$ is a random variable for each $t \in T$.
+
+We say that $X(\cdot, \omega) : T \to \mathbb{R}$ is a *realization*, *sample path* or *trajectory* of the stochastic process, for each $\omega \in \Omega$. 
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5NDQxNjM3LC0xODQwNDg1NDY0LC04ND
-Q2OTc1MDAsNDI4NzkzNzE4LC01NTE3MjQxNjRdfQ==
+eyJoaXN0b3J5IjpbLTE2ODgzOTA5MTEsLTE4NDA0ODU0NjQsLT
+g0NDY5NzUwMCw0Mjg3OTM3MTgsLTU1MTcyNDE2NF19
 -->
