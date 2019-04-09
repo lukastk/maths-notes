@@ -146,14 +146,10 @@ with the convergence taken in the *mean-square* sense.
 
 ### Central limit theorem
 
-Consider the same sequence above, and define the normalised i.i.d random variables
-
-$$ Z_n = \frac{S_n - n \mu}{\sigma \sqrt{n}}$$
-
-for which $\mathbb{E}[Z_n] = 0$ and $\text{Var}[Z_n] = 1$
+Consider the same sequence above. The central limit theorem states that, as $n \to \infty$, $A_n$ starts converging to a standard Gaussian random variable $A$ with $\mathbb{E}[A] = \mu$ and variance $\text{Var}[A] = \sigma^2 / n$.
 
 ## References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTk4NDc4MywtNTUxNzI0MTY0XX0=
+eyJoaXN0b3J5IjpbNDI4NzkzNzE4LC01NTE3MjQxNjRdfQ==
 -->
