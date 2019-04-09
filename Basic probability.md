@@ -20,10 +20,16 @@ If $P(A) =1$ for some $A \in \mathcal{A}$, then we say that the event $A$ occurs
 
 $$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
 
-**Def:** Random variable
+**Def:** A function $X : \Omega \to \mathbb{R}$ is a *random variable* of the triplet $(\Omega, \mathcal{A}, P)$ if its information content is appropriately restricted, that is if
+
+$$ \{ \omega \in \Omega : X(\omega) \leq a \} $$
+
+is an event for each $a \in \mathbb{R}$. Then we call the function $F_X : \mathbb{R} \to \mathbb{R}$
+
+$$ F_X(x) = P_X( (-\inf
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2OTg1MTc0XX0=
+eyJoaXN0b3J5IjpbLTIwODcwOTY1XX0=
 -->
