@@ -150,8 +150,10 @@ Consider the same sequence above, and define the normalised i.i.d random variabl
 
 $$ Z_n = \frac{S_n - n \mu}{\sigma \sqrt{n}}$$
 
+for which $\mathbb{E}[Z_n] = 0$ and $\text{Var}[Z_n] = 1$
+
 ## References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTcyNDE2NF19
+eyJoaXN0b3J5IjpbLTY2NTk4NDc4MywtNTUxNzI0MTY0XX0=
 -->
