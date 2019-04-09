@@ -138,12 +138,18 @@ Given a sequence of independent identically distributed (i.i.d) random variables
 
 $$A_n = \frac{1}{n} S_n = \frac{1}{n} \sum_{i=1}^n X_i$$
 
-also have mean $\mathbb
+also have mean $\mathbb{E}[A_n] = \mu$ and variance $\text{Var}[A_n] = \sigma^2 / n$. The *Law of Large Numbers$ say that
+
+$$ A_n \to \mu \quad \text{as} \quad n \to \infty$$
+
+with the convergence taken in the *mean-square* sense.
 
 ### Central limit theorem
+
+
 
 ## References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTgxODY5MF19
+eyJoaXN0b3J5IjpbMjI1NjY0MTc5XX0=
 -->
