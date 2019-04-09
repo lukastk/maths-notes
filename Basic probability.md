@@ -87,13 +87,15 @@ $$
 \end{aligned}
 $$
 
-## Types of convergences of random sequences
+## Convergence of random sequences
 
 We often have an infinite sequence $X_1, X_2, \dots, X_n, \dots$ of random variables, and are interested in its asymptotic behaviour. That is, we are interested in the existence of a random variable $X$ which is the limit of $X_n$ for $n\to \infty$, in some sense.
 
+### Types of convergences
+
 There are several different ways in which such a convergence can be defined. Roughly, these fall into a *weak* and a *strong* class of convergences. The latter requires $X_n$ so converge onto $X$ in some sense, and the former only their probability distributions do.
 
-### Strong class of convergences
+#### Strong class of convergences
 
 **Def:** *Convergence with probability one* (or *almost sure convergence*):
 
@@ -116,7 +118,7 @@ $$ \mathbb{E}(|Y|) \leq \sqrt{\mathbb{E}(|Y|^2)}$$
 
 we see that mean-square convergence implies strong convergence. 
 
-### Weak class of convergences
+#### Weak class of convergences
 
 For the class of weaker convergences we do not need to know the actual random variables, just their distribution functions.
 
@@ -130,12 +132,14 @@ $$ \lim_{n\to\infty} \int_{-\infty}^\infty f(x) dF_{X_n}(x) = \int_{-\infty}^\in
 
 for all *test functions* $f : \mathbb{R} \to \mathbb{R}$.
 
-## Law of large numbers
+### Law of large numbers
 
+Given a sequence of random variables $X_1, X_2, \dots$, satisfying $\mu = \mathbb{E
 
+### Central limit theorem
 
 ## References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTAxNDk4MF19
+eyJoaXN0b3J5IjpbLTY3MTcyMTU5OV19
 -->
