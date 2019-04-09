@@ -70,10 +70,22 @@ $$
 \end{aligned}
 $$
 
-for all $k \in \mathbb{Z_+}$. So a Gaus
+for all $k \in \mathbb{Z_+}$. So a Gaussian random variable is completely determined by $\mu$ and $\sigma$.
+
+**Def:** The *covariance* of two random variables $X_1$ and $X_2$ is
+
+$$\text{Cov}[X_1, X_2] = \mathbb{E}[X_1 X_2]$$
+
+**Def:** $X_1$ and $X_2$ are *independent* if
+
+$$
+\begin{aligned}
+& \text{Cov} =
+\end{aligned}
+$$
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM0OTE4NTJdfQ==
+eyJoaXN0b3J5IjpbLTQ1MjI5NTg0MV19
 -->
