@@ -146,10 +146,12 @@ with the convergence taken in the *mean-square* sense.
 
 ### Central limit theorem
 
+Consider the same sequence above, and define the normalised i.i.d random variables
 
+$$ Z_n = \frac{S_n - n \mu}{\sigma \sqrt{n}}$$
 
 ## References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1NjY0MTc5XX0=
+eyJoaXN0b3J5IjpbLTU1MTcyNDE2NF19
 -->
