@@ -120,14 +120,22 @@ we see that mean-square convergence implies strong convergence.
 
 For the class of weaker convergences we do not need to know the actual random variables, just their distribution functions.
 
-**Def:** *Convergence in distribution*:
+**Def:** *Convergence in distribution* (or *convergence in law*):
 
 $$ \lim_{n \to \infty} F_{X_n}(x) = F_X(x) \quad \text{at all continuity points of}\ F_X $$
+
+**Def:** *Weak convergence*:
+
+$$ \lim_{n\to\infty} \int_{-\infty}^\infty f(x) dF_{X_n}(x) = \int_{-\infty}^\infty f(x) dF(x) $$
+
+for all *test functions* $f : \mathbb{R} \to \mathbb{R}$.
+
+## Law of large numbers
 
 
 
 ## References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMzM5OTcyM119
+eyJoaXN0b3J5IjpbMTE2OTAxNDk4MF19
 -->
