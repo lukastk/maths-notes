@@ -55,10 +55,22 @@ or
 
 $$ \mathbb{E}[X] = \int_{-\infty}^\infty p(x) x\ dx$$
 
-for continuous random variables. We often denote $\mu = \mathbb{E}[X]$ and $\sigma^2 = \text{Var}[$
+for continuous random variables. We often denote $\mu = \mathbb{E}[X]$ and $\sigma^2 = \text{Var}[X] = \mathbb{E}[ (X - \mu)^2 ]$.
+
+**Def:** The *p*th moment of a random variable is $\mathbb{E}[X^p]$.
+
+**Def:** The *p*th central moment of a random variable is $\mathbb{E}[(X-\mu)^p]$.
+
+For a Gaussian random variable, we have
+
+$$
+\begin{aligned}
+\mathbb{E}[ (X - \mu)
+\end{aligned}
+$$
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTkwMjk0NV19
+eyJoaXN0b3J5IjpbLTI3OTU1OTAyOV19
 -->
