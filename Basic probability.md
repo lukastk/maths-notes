@@ -4,10 +4,11 @@
 
 **Def:** A set $\mathcal{A}$ is a $\sigma$-algebra of $\Omega$ if
 
-1. $\Omega \
+1. $\Omega \in \mathcal{A}$
+2. $A^c = \Omega \ A \in \mathcal{A} \quad \text{if}\ A \in \mathcal{A}$
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNzQ0MzQ5MV19
+eyJoaXN0b3J5IjpbLTgzNDczNzAyMF19
 -->
