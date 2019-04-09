@@ -148,10 +148,14 @@ with the convergence taken in the *mean-square* sense.
 
 Consider the same sequence above. The central limit theorem states that, as $n \to \infty$, $A_n$ starts converging to a standard Gaussian random variable $A$ with $\mathbb{E}[A] = \mu$ and variance $\text{Var}[A] = \sigma^2 / n$.
 
+## Stochastic processes
+
+
+
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDY5NzUwMCw0Mjg3OTM3MTgsLTU1MT
-cyNDE2NF19
+eyJoaXN0b3J5IjpbLTE4NDA0ODU0NjQsLTg0NDY5NzUwMCw0Mj
+g3OTM3MTgsLTU1MTcyNDE2NF19
 -->
