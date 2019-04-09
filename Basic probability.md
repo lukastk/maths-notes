@@ -26,10 +26,22 @@ $$ \{ \omega \in \Omega : X(\omega) \leq a \} $$
 
 is an event for each $a \in \mathbb{R}$. Then we call the function $F_X : \mathbb{R} \to \mathbb{R}$
 
-$$ F_X(x) = P_X( (-\inf
+$$ F_X(x) = P_X( (-\infty, x)) = P( \{ \in \Omega : X(\omega) \leq x\} ) $$
+
+the *distribution function* of $X$.
+
+**Def:** The indication function $I_A$ of an event $A$ is defined as
+
+$$ I_A (\omega) = \begin{cases} 0 & : & \omega = \not A \\
+1  & : & \omega \in A \end{cases} $$
+
+and its distribution function is then
+
+$$ F_A (\omega) = \begin{cases} 0 & : & \omega = \not A \\
+1  & : & \omega \in A \end{cases} $$
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcwOTY1XX0=
+eyJoaXN0b3J5IjpbMjAxMzk5MjY0Nl19
 -->
