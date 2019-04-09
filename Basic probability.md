@@ -97,10 +97,14 @@ There are several different ways in which such a convergence can be defined. Rou
 
 **Def:** *Convergence with probability one* (or *almost sure convergence*):
 
-$$P\left( \right) = 1
+$$P\left(
+\left\{ \omega \in \Omega : \lim_{n\to\infty} | X_n(\omega) - X(\omega) | = 0 \right\}
+\right) = 1$$
+
+**Def:** *Mean-square convergence*: $\mathbb{E}[|X_n|] < \infty
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODg5Njc4N119
+eyJoaXN0b3J5IjpbLTE2NjgxNDA5NjddfQ==
 -->
