@@ -109,10 +109,21 @@ $$ \lim_{n\to\infty} \mathbb{E} [ |X_n - X|^2 ] = 0 $$
 
 $$ \lim_{n\to\infty} \mathbb{E} [ |X_n - X|] = 0 $$
 
-y
 
-### References
+By the Lyapunov inequality
+
+$$ \mathbb{E}(|Y|) \leq \sqrt{\mathbb{E}(|Y|^2)}$$
+
+we see that mean-square convergence implies strong convergence. 
+
+### Weak class of convergences
+
+For the class of weaker convergences we do not need to know the actual random variables, just their distribution functions.
+
+
+
+## References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDc3NTAyNV19
+eyJoaXN0b3J5IjpbLTc3MjQ5OTM5NV19
 -->
