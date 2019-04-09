@@ -65,12 +65,15 @@ For a Gaussian random variable, we have
 
 $$
 \begin{aligned}
-\mathbb{E}[ (X - \mu)
+& \mathbb{E}[ (X - \mu)^{2k+1}]  = 0 \\
+& \mathbb{E}[ (X - \mu)^{2k}] = \sigma^{2k} (2k-1)!!
 \end{aligned}
 $$
+
+for all $k \in \mathbb{Z_+}$. So a Gaus
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTU1OTAyOV19
+eyJoaXN0b3J5IjpbLTExNjM0OTE4NTJdfQ==
 -->
