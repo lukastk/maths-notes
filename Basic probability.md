@@ -43,10 +43,16 @@ P(A) & : & 0 < x < 1 \\
 1 & : & 1 < x
  \end{cases} $$
 
-**Def:** $X$ is a *continuous random variable* if $P(\{\omega \in \Omega : X(\omega) = x\})=0$ for each $x \in \mathbb{R}$. In this case $F_X$ is often differentiable, and there 
+**Def:** $X$ is a *continuous random variable* if $P(\{\omega \in \Omega : X(\omega) = x\})=0$ for each $x \in \mathbb{R}$. In this case $F_X$ is often differentiable, and there exists a density function $p$ s.t
+
+$$ F_X(x) = \int_{-\infty}^x p(s) ds \quad \forall x \in \mathbb{R} $$
+
+**Def:** The *mean* is defined as
+
+$$ \mathbb{E}[X} = \sum_i p_i x_i \quad \text{where}\ p_i = P(X= x_i)$$
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjgyMTEyNV19
+eyJoaXN0b3J5IjpbNzM1OTI2OTYzXX0=
 -->
