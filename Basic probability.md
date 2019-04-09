@@ -49,10 +49,16 @@ $$ F_X(x) = \int_{-\infty}^x p(s) ds \quad \forall x \in \mathbb{R} $$
 
 **Def:** The *mean* is defined as
 
-$$ \mathbb{E}[X} = \sum_i p_i x_i \quad \text{where}\ p_i = P(X= x_i)$$
+$$ \mathbb{E}[X] = \sum_i p_i x_i \quad \text{where}\ p_i = P(X= x_i)$$
+
+or 
+
+$$ \mathbb{E}[X] = \int_{-\infty}^\infty p(x) x\ dx$$
+
+for continuous random variables. We often denote $\mu = \mathbb{E}[X]$ and $\sigma^2 = \text{Var}[$
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1OTI2OTYzXX0=
+eyJoaXN0b3J5IjpbLTY2OTkwMjk0NV19
 -->
