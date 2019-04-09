@@ -37,11 +37,16 @@ $$ I_A (\omega) = \begin{cases} 0 & : & \omega = \not A \\
 
 and its distribution function is then
 
-$$ F_A (\omega) = \begin{cases} 0 & : & \omega = \not A \\
-1  & : & \omega \in A \end{cases} $$
+$$ F_{I_A} (x) = \begin{cases} 
+0 & : & x < 0 \\
+P(A) & : & 0 < x < 1 \\
+1 & : & 1 < x
+ \end{cases} $$
+
+**Def:** $X$ is a *continuous random variable* if $P(\{\omega \in \Omega : X(\omega) = x\})=0$ for each $x \in \mathbb{R}$. In this case $F_X$ is often differentiable, and there 
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMzk5MjY0Nl19
+eyJoaXN0b3J5IjpbMTUwMjgyMTEyNV19
 -->
