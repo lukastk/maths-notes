@@ -162,14 +162,11 @@ $$ P(X_{n+1} = x_j | X_n = x_{i_n}, \dots, X_2 = x_{i_2}, X_1 = x_{i_1})  = P(X_
 
 for all possible $x_j, x_{i_1}, x_{i_2}, \dots, x_{i_n}$ in a given state space $\chi$, and all $n = 1, 2, \dots$, is called a *discrete time Markov chain*.
 
-### Continuous Time Markov Chains
-
-Let $X(t)$ be distributed over a finite state space $\chi = \{ x_1 , x_2 , \dots, x_N\}$
-
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODM3MjYwLC0xODQwNDg1NDY0LC04ND
-Q2OTc1MDAsNDI4NzkzNzE4LC01NTE3MjQxNjRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzM0MDMwMjUsLTQ4ODM3MjYwLC0xOD
+QwNDg1NDY0LC04NDQ2OTc1MDAsNDI4NzkzNzE4LC01NTE3MjQx
+NjRdfQ==
 -->
