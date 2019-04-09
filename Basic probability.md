@@ -156,12 +156,14 @@ We say that $X(\cdot, \omega) : T \to \mathbb{R}$ is a *realization*, *sample pa
 
 ### Discrete Time Markov Chains
 
-Let $T$ be a set of discrete indices. 
+Let $T$ be a set of discrete indices. A stochastic process that satisfies the *Markov property*
+
+$$ P(X_{n+1} = x_j | X_n = 
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNzg5OTA1MiwtMTg0MDQ4NTQ2NCwtOD
-Q0Njk3NTAwLDQyODc5MzcxOCwtNTUxNzI0MTY0XX0=
+eyJoaXN0b3J5IjpbLTE0MDU2NDMzNzgsLTE4NDA0ODU0NjQsLT
+g0NDY5NzUwMCw0Mjg3OTM3MTgsLTU1MTcyNDE2NF19
 -->
