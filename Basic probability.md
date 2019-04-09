@@ -160,12 +160,12 @@ Let $T$ be a set of discrete indices. A stochastic process that satisfies the *M
 
 $$ P(X_{n+1} = x_j | X_n = x_{i_n}, \dots, X_2 = x_{i_2}, X_1 = x_{i_1})  = P(X_{n+1} = x_j | X_n = x_{i_n} ) $$
 
-for all possible $x_j, x_
+for all possible $x_j, x_{i_1}, x_{i_2}, \dots, x_{i_n}$ in a given state space $\chi$, and all $n = 1, 2, \dots$, is called a *discrete time Markov chain*.
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4MjI5NTkzLC0xODQwNDg1NDY0LC04ND
-Q2OTc1MDAsNDI4NzkzNzE4LC01NTE3MjQxNjRdfQ==
+eyJoaXN0b3J5IjpbLTEzMzM0MDMwMjUsLTE4NDA0ODU0NjQsLT
+g0NDY5NzUwMCw0Mjg3OTM3MTgsLTU1MTcyNDE2NF19
 -->
