@@ -8,10 +8,14 @@
 2. $A^c = \Omega  / A \in \mathcal{A} \quad \text{if}\ A \in \mathcal{A}$
 3. $\cup_{n=1}^\infty A_n \in \mathcal{A} \quad \text{if}\ A_n \in \mathcal{A}$
 
-**Def:** A function $ *probability measure* 
+**Def:** A function $P: \mathcal{A} \to [0,1]$ is a *probability measure* if
+
+1. $P(\Omega) = 1$
+2. $P(A^c)=1 - P(A)$
+3. $P\left(\cup_{n=1}^\infty\right) = \sum_{n=1}^\infty P(A_n) \quad \text{if}\ A_i \cap A_j = \emptyset\ \text{for}\ i \ j$
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3NjUyNjA5XX0=
+eyJoaXN0b3J5IjpbMTkyMjczMjQ2XX0=
 -->
