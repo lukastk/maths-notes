@@ -154,10 +154,14 @@ Let $T$ be an index set, and $X_t,\ t \in T$ be a random variable. A stochastic 
 
 We say that $X(\cdot, \omega) : T \to \mathbb{R}$ is a *realization*, *sample path* or *trajectory* of the stochastic process, for each $\omega \in \Omega$. 
 
+### Discrete Time Markov Chains
+
+Let $T$ be a set of discrete indices. 
+
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODgzOTA5MTEsLTE4NDA0ODU0NjQsLT
-g0NDY5NzUwMCw0Mjg3OTM3MTgsLTU1MTcyNDE2NF19
+eyJoaXN0b3J5IjpbMTYzNzg5OTA1MiwtMTg0MDQ4NTQ2NCwtOD
+Q0Njk3NTAwLDQyODc5MzcxOCwtNTUxNzI0MTY0XX0=
 -->
