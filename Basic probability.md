@@ -134,12 +134,16 @@ for all *test functions* $f : \mathbb{R} \to \mathbb{R}$.
 
 ### Law of large numbers
 
-Given a sequence of random variables $X_1, X_2, \dots$, satisfying $\mu = \mathbb{E
+Given a sequence of independent identically distributed (i.i.d) random variables $X_1, X_2, \dots$, satisfying $\mu = \mathbb{E}[X_n]$ and $\sigma^2 = \text{Var}[X_n]$. From independence the averaged random variables
+
+$$A_n = \frac{1}{n} S_n = \frac{1}{n} \sum_{i=1}^n X_i$$
+
+also have mean $\mathbb
 
 ### Central limit theorem
 
 ## References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MTcyMTU5OV19
+eyJoaXN0b3J5IjpbMTk0NTgxODY5MF19
 -->
