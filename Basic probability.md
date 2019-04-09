@@ -101,10 +101,18 @@ $$P\left(
 \left\{ \omega \in \Omega : \lim_{n\to\infty} | X_n(\omega) - X(\omega) | = 0 \right\}
 \right) = 1$$
 
-**Def:** *Mean-square convergence*: $\mathbb{E}[|X_n|] < \infty
+**Def:** *Mean-square convergence*: $\mathbb{E}[|X_n|^2] < \infty$ for $n = 1,2,\dots$, $\mathbb{E}[|X|]^2 < \infty$ and
+
+$$ \lim_{n\to\infty} \mathbb{E} [ |X_n - X|^2 ] = 0 $$
+
+**Def:** *Strong convergence*: $\mathbb{E}[|X_n|] < \infty$ for $n = 1,2,\dots$, $\mathbb{E}[|X|] < \infty$ and
+
+$$ \lim_{n\to\infty} \mathbb{E} [ |X_n - X|] = 0 $$
+
+y
 
 ### References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjgxNDA5NjddfQ==
+eyJoaXN0b3J5IjpbMTU0MDc3NTAyNV19
 -->
