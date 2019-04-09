@@ -120,10 +120,14 @@ we see that mean-square convergence implies strong convergence.
 
 For the class of weaker convergences we do not need to know the actual random variables, just their distribution functions.
 
+**Def:** *Convergence in distribution*:
+
+$$ \lim_{n \to \infty} F_{X_n}(x) = F_X(x) \quad \text{at all continuity points of}\ F_X $$
+
 
 
 ## References
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Chapter 1.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MjQ5OTM5NV19
+eyJoaXN0b3J5IjpbLTMxMzM5OTcyM119
 -->
