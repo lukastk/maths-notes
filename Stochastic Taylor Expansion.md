@@ -69,15 +69,16 @@ $$
 
 For a time-independent function $f=f(x)$, we have
 
-$$
-f(X_t) = f(X_{t_0})  + \int_{t_0}^t \left( a(X_s) f'(X_s) + \frac{1}{2} b^2(X_s) f''(X_s) \right) ds + \int_{t_0}^t b \frac{\partial g}{\partial x}\ dW_s \quad.
-$$
+$$\begin{aligned}
+f(X_t) & = f(X_{t_0})  + \int_{t_0}^t \left( a(X_s) f'(X_s) + \frac{1}{2} b^2(X_s) f''(X_s) \right) ds + \int_{t_0}^t b(X_s) f'(X_s)\ dW_s \\
+& = f(X_{t_0}) + \int_{t_0}^t L^0 f(X_s) ds + \int_{t_0}^t L^1 f(X_s) dW_s
+\end{aligned} \quad (12)$$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ2NTgyNTMsMTQwNzM4MjQ0MiwtMj
-k0OTA3NDgwLC0yOTExMTIzMCwtNzkyNDI2NjE3LDE1NTcwODQw
-MzEsMTI5MjA5MjU2MSwxODU1Mjk1OTA5LC0zNzQzMzM2OF19
+eyJoaXN0b3J5IjpbMTQ3MDE5OTM3OCwxNDA3MzgyNDQyLC0yOT
+Q5MDc0ODAsLTI5MTExMjMwLC03OTI0MjY2MTcsMTU1NzA4NDAz
+MSwxMjkyMDkyNTYxLDE4NTUyOTU5MDksLTM3NDMzMzY4XX0=
 -->
