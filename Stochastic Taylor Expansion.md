@@ -71,22 +71,22 @@ For a time-independent function $f=f(x)$, we have
 
 $$\begin{aligned}
 f(X_t) & = f(X_{t_0})  + \int_{t_0}^t \left( a(X_s) f'(X_s) + \frac{1}{2} b^2(X_s) f''(X_s) \right) ds + \int_{t_0}^t b(X_s) f'(X_s)\ dW_s \\
-& = f(X_{t_0}) + \int_{t_0}^t L^0 f(X_s) ds + \int_{t_0}^t L^1 f(X_s) dW_s
+& = f(X_{t_0}) + \int_{t_0}^t L_0 f(X_s) ds + \int_{t_0}^t L_1 f(X_s) dW_s
 \end{aligned} \quad (12)$$
 
 where we have introduced the operators
 
-$$L^0 f = af' + \frac{1}{2} b^2 f'' \quad (13)$$
+$$L_0 f = af' + \frac{1}{2} b^2 f'' \quad (13)$$
 
 and
 
-$$L^1 f = b f'
+$$L_1 f = b f' \quad (14)$$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0NDg4MzU3LDE0MDczODI0NDIsLTI5ND
+eyJoaXN0b3J5IjpbNzUwNDU4NjU0LDE0MDczODI0NDIsLTI5ND
 kwNzQ4MCwtMjkxMTEyMzAsLTc5MjQyNjYxNywxNTU3MDg0MDMx
 LDEyOTIwOTI1NjEsMTg1NTI5NTkwOSwtMzc0MzMzNjhdfQ==
 -->
