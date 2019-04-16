@@ -64,20 +64,20 @@ $$ X_t = X_{t_0} + \int_{t_0}^t a(X_s) ds + \int_{t_0}^t b(X_s)\ dW_s \quad (11)
 where the second integral is an Ito stochastic integral. Recall the Ito formula
 
 $$
-g(t, X_t) = g(t_0, X_{t_0})  + \int_{t_0}^t \left\{ \frac{\partial g}{\partial t} + a \frac{\partial g}{\partial x} + \frac{1}{2} f^2 \frac{\partial^2 g}{\partial x^2}\right\}ds + \int_{t_0}^t f \frac{\partial g}{\partial x}\ dW_s \quad.
+g(t, X_t) = g(t_0, X_{t_0})  + \int_{t_0}^t \left\{ \frac{\partial g}{\partial t} + a \frac{\partial g}{\partial x} + \frac{1}{2} b^2 \frac{\partial^2 g}{\partial x^2}\right\}ds + \int_{t_0}^t b \frac{\partial g}{\partial x}\ dW_s \quad.
 $$
 
 For a time-independent function $f=f(x)$, we have
 
 $$
-f(X_t) = f(X_{t_0})  + \int_{t_0}^t \left\{ \frac{\partial g}{\partial t} + a \frac{\partial g}{\partial x} + \frac{1}{2} f^2 \frac{\partial^2 g}{\partial x^2}\right\}ds + \int_{t_0}^t f \frac{\partial g}{\partial x}\ dW_s \quad.
+f(X_t) = f(X_{t_0})  + \int_{t_0}^t \left( a(X_s) f'(X_s) + \frac{1}{2} b^2(X_s) f''(X_s) \right) ds + \int_{t_0}^t b \frac{\partial g}{\partial x}\ dW_s \quad.
 $$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEyNTA1ODU1LDE0MDczODI0NDIsLTI5ND
-kwNzQ4MCwtMjkxMTEyMzAsLTc5MjQyNjYxNywxNTU3MDg0MDMx
-LDEyOTIwOTI1NjEsMTg1NTI5NTkwOSwtMzc0MzMzNjhdfQ==
+eyJoaXN0b3J5IjpbLTE1OTQ2NTgyNTMsMTQwNzM4MjQ0MiwtMj
+k0OTA3NDgwLC0yOTExMTIzMCwtNzkyNDI2NjE3LDE1NTcwODQw
+MzEsMTI5MjA5MjU2MSwxODU1Mjk1OTA5LC0zNzQzMzM2OF19
 -->
