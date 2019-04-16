@@ -32,9 +32,16 @@ which we can plug into (2) to get
 
 $$ \begin{aligned}
 X_t & = X_{t_0} + \int_{t_0}^t \left( a(X_{t_0}) + \int_{t_0}^{s_1} L a(X_{s_2}) ds_2 \right) ds_1 \\
-& =  X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_1 + \int_{t_0}^t \int_{t_0}^{s_1} L a(X_{s_2}) ds_1 ds_2
+& =  X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_1 + \int_{t_0}^t \int_{t_0}^{s_1} L a(X_{s_2}) ds_1 ds_2 \\
+& =  X_{t_0} + a(X_{t_0}) (t - t_0) + \int_{t_0}^t \int_{t_0}^{s_1} L a(X_{s_2}) ds_1 ds_2 
 \end{aligned} $$
+
+which is the simplest non-trivial Taylor expansion for $X_t$.
+
+## References
+
+- Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgzNTI4ODM0LDEyOTIwOTI1NjEsMTg1NT
-I5NTkwOSwtMzc0MzMzNjhdfQ==
+eyJoaXN0b3J5IjpbMTYzNzQ5MzkxMCwxMjkyMDkyNTYxLDE4NT
+UyOTU5MDksLTM3NDMzMzY4XX0=
 -->
