@@ -42,12 +42,12 @@ $$La(X_t) = La(X_{t_0}) + \int_{t_0}^t L^2 a(X_s) ds \quad(8)$$
 
 and we substitute this into (7) to get
 
-$$X_t = X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_1 + $$
+$$X_t = X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_1 + La(X_{t_0}) \int_{t_0}^t \int_{$$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTIwMDg5MjUsMTI5MjA5MjU2MSwxOD
+eyJoaXN0b3J5IjpbLTE2NTY5NjE2NzcsMTI5MjA5MjU2MSwxOD
 U1Mjk1OTA5LC0zNzQzMzM2OF19
 -->
