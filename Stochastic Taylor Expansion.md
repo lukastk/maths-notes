@@ -50,12 +50,15 @@ $$R_3 = \int_{t_0}^t \int_{t_0}^{s_3} \int_{t_0}^{s_2} L^2 a(X_{s_1})\ ds_1 ds_2
 
 Doing this $r+1$ times gives us the classical *Taylor formula*
 
-$$f(X_t) = f(X_0) + \sum_{l=1}^r \frac{ (t-t_0)^l}{l!}$$
+$$\begin{aligned}
+f(X_t) =\ & f(X_0) + \sum_{l=1}^r \frac{ (t-t_0)^l}{l!} L^l f(X_{t_0}) \\
+& + \int_{t_0}^t \dots \int_{t_0}^{s_2} L^{r+1} f(X_{s_1})\ ds_1 \dots ds_{r+1} \quad (10)
+\end{aligned}$$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzE5Nzc5MDUsMTU1NzA4NDAzMSwxMj
+eyJoaXN0b3J5IjpbLTE4MzcyMTY5NzQsMTU1NzA4NDAzMSwxMj
 kyMDkyNTYxLDE4NTUyOTU5MDksLTM3NDMzMzY4XX0=
 -->
