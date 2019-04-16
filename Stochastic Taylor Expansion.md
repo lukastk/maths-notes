@@ -26,14 +26,15 @@ for all $t \in [t_0, T]$.  Now let $f(x) = x$ we have $Lf = a$, $L^2 f = La$, an
 
 Now let $f=a$, we then have
 
-$$a(X_t) = a(X_{t_0}) + \int_{t_0}^t a(X_s) ds$$
+$$a(X_t) = a(X_{t_0}) + \int_{t_0}^t L a(X_s) ds$$
 
 which we can plug into (2) to get
 
 $$ \begin{aligned}
-X_t = X_{t_0} + \int_{t_0}^t \left( a(X_{t_0}) + \int_{t_0}^{s a(X_{s_2}) ds_2 \right) ds_1
+X_t & = X_{t_0} + \int_{t_0}^t \left( a(X_{t_0}) + \int_{t_0}^{s_1} L a(X_{s_2}) ds_2 \right) ds_1 \\
+& =  X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_1 + \int_{t_0}^t \int_{t_0}^{s_1} L a(X_{s_2}) ds_1 ds_2
 \end{aligned} $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1NzI1MjQzLDEyOTIwOTI1NjEsMTg1NT
+eyJoaXN0b3J5IjpbOTgzNTI4ODM0LDEyOTIwOTI1NjEsMTg1NT
 I5NTkwOSwtMzc0MzMzNjhdfQ==
 -->
