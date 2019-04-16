@@ -61,13 +61,17 @@ Consider the an Ito SDE in integral form
 
 $$ X_t = X_{t_0} + \int_{t_0}^t a(X_s) ds + \int_{t_0}^t b(X_s)\ dW_s $$
 
-where the second integral is an Ito stochastic integral. 
+where the second integral is an Ito stochastic integral. Recall the Ito formula
+
+$$
+
+$$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTExMjMwLC03OTI0MjY2MTcsMTU1Nz
-A4NDAzMSwxMjkyMDkyNTYxLDE4NTUyOTU5MDksLTM3NDMzMzY4
-XX0=
+eyJoaXN0b3J5IjpbLTU0Njc0OTcwNiwtMjkxMTEyMzAsLTc5Mj
+QyNjYxNywxNTU3MDg0MDMxLDEyOTIwOTI1NjEsMTg1NTI5NTkw
+OSwtMzc0MzMzNjhdfQ==
 -->
