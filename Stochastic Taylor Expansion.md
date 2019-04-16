@@ -64,14 +64,14 @@ $$ X_t = X_{t_0} + \int_{t_0}^t a(X_s) ds + \int_{t_0}^t b(X_s)\ dW_s $$
 where the second integral is an Ito stochastic integral. Recall the Ito formula
 
 $$
-g(t, X_t) = g(t_0, X_{t_0}) + \int_{t_0}^t + \int_{t_0}^t \left\{ \frac{\partial g}{\partial t} + e \frac{\partial g}{\partial x} \right\}
+g(t, X_t) = g(t_0, X_{t_0})  + \int_{t_0}^t \left\{ \frac{\partial g}{\partial t} + a \frac{\partial g}{\partial x} + \frac{1}{2} f^2 \frac{\partial^2 g}{\partial x^2}\right\}ds + \int_{t_0}^t f \frac{\partial g}{\partial x}\ dW_s
 $$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTM1NDY4MiwxNDA3MzgyNDQyLC0yOT
+eyJoaXN0b3J5IjpbMTM5ODE2NDA0NiwxNDA3MzgyNDQyLC0yOT
 Q5MDc0ODAsLTI5MTExMjMwLC03OTI0MjY2MTcsMTU1NzA4NDAz
 MSwxMjkyMDkyNTYxLDE4NTUyOTU5MDksLTM3NDMzMzY4XX0=
 -->
