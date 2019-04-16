@@ -24,8 +24,10 @@ $$f(X_t) = f(X_{t_0}) + \int_{t_0}^t L f(X_s)\ ds \quad (5)$$
 
 for all $t \in [t_0, T]$.  Now let $f(x) = x$ we have $Lf = a$, $L^2 f = La$, and so on. Then (5) reduces to equation (2).
 
+Now let $f=a$, we then have
 
+$$a(X_t) = X_
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjA5MjU2MSwxODU1Mjk1OTA5LC0zNz
-QzMzM2OF19
+eyJoaXN0b3J5IjpbLTEzNTA0Mjc4MzAsMTI5MjA5MjU2MSwxOD
+U1Mjk1OTA5LC0zNzQzMzM2OF19
 -->
