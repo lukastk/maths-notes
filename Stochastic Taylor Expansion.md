@@ -82,11 +82,14 @@ and
 
 $$L_1 f = b f' \quad (14)$$
 
+In analogy with above, we can apply 
+
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwNDU4NjU0LDE0MDczODI0NDIsLTI5ND
-kwNzQ4MCwtMjkxMTEyMzAsLTc5MjQyNjYxNywxNTU3MDg0MDMx
-LDEyOTIwOTI1NjEsMTg1NTI5NTkwOSwtMzc0MzMzNjhdfQ==
+eyJoaXN0b3J5IjpbLTE2NzIxODAwODMsNzUwNDU4NjU0LDE0MD
+czODI0NDIsLTI5NDkwNzQ4MCwtMjkxMTEyMzAsLTc5MjQyNjYx
+NywxNTU3MDg0MDMxLDEyOTIwOTI1NjEsMTg1NTI5NTkwOSwtMz
+c0MzMzNjhdfQ==
 -->
