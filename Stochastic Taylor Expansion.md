@@ -82,14 +82,24 @@ and
 
 $$L_1 f = b f' \quad (14)$$
 
-In analogy with above, we can apply 
+In analogy with above, we can apply (12) to the functions $f=a$ and $f=b$, to get
+
+$$\begin{aligned}
+X_t = X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds + b(X_{t_0}) \int_{t_0}^t dW_s + R
+\end{aligned}$$
+
+where
+
+$$\begin{aligned}
+R = 
+\end{aligned}$$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzIxODAwODMsNzUwNDU4NjU0LDE0MD
-czODI0NDIsLTI5NDkwNzQ4MCwtMjkxMTEyMzAsLTc5MjQyNjYx
-NywxNTU3MDg0MDMxLDEyOTIwOTI1NjEsMTg1NTI5NTkwOSwtMz
-c0MzMzNjhdfQ==
+eyJoaXN0b3J5IjpbMTc5OTY4NjkxNSw3NTA0NTg2NTQsMTQwNz
+M4MjQ0MiwtMjk0OTA3NDgwLC0yOTExMTIzMCwtNzkyNDI2NjE3
+LDE1NTcwODQwMzEsMTI5MjA5MjU2MSwxODU1Mjk1OTA5LC0zNz
+QzMzM2OF19
 -->
