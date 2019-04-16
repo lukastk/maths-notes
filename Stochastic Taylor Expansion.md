@@ -59,19 +59,25 @@ f(X_t) =\ & f(X_0) + \sum_{l=1}^r \frac{ (t-t_0)^l}{l!} L^l f(X_{t_0}) \\
 
 Consider the an Ito SDE in integral form
 
-$$ X_t = X_{t_0} + \int_{t_0}^t a(X_s) ds + \int_{t_0}^t b(X_s)\ dW_s $$
+$$ X_t = X_{t_0} + \int_{t_0}^t a(X_s) ds + \int_{t_0}^t b(X_s)\ dW_s \quad (11) $$
 
 where the second integral is an Ito stochastic integral. Recall the Ito formula
 
 $$
-g(t, X_t) = g(t_0, X_{t_0})  + \int_{t_0}^t \left\{ \frac{\partial g}{\partial t} + a \frac{\partial g}{\partial x} + \frac{1}{2} f^2 \frac{\partial^2 g}{\partial x^2}\right\}ds + \int_{t_0}^t f \frac{\partial g}{\partial x}\ dW_s
+g(t, X_t) = g(t_0, X_{t_0})  + \int_{t_0}^t \left\{ \frac{\partial g}{\partial t} + a \frac{\partial g}{\partial x} + \frac{1}{2} f^2 \frac{\partial^2 g}{\partial x^2}\right\}ds + \int_{t_0}^t f \frac{\partial g}{\partial x}\ dW_s \quad.
+$$
+
+For a time-independent function $f=f(x)$, we have
+
+$$
+f(X_t) = f(X_{t_0})  + \int_{t_0}^t \left\{ \frac{\partial g}{\partial t} + a \frac{\partial g}{\partial x} + \frac{1}{2} f^2 \frac{\partial^2 g}{\partial x^2}\right\}ds + \int_{t_0}^t f \frac{\partial g}{\partial x}\ dW_s \quad.
 $$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODE2NDA0NiwxNDA3MzgyNDQyLC0yOT
-Q5MDc0ODAsLTI5MTExMjMwLC03OTI0MjY2MTcsMTU1NzA4NDAz
-MSwxMjkyMDkyNTYxLDE4NTUyOTU5MDksLTM3NDMzMzY4XX0=
+eyJoaXN0b3J5IjpbNTEyNTA1ODU1LDE0MDczODI0NDIsLTI5ND
+kwNzQ4MCwtMjkxMTEyMzAsLTc5MjQyNjYxNywxNTU3MDg0MDMx
+LDEyOTIwOTI1NjEsMTg1NTI5NTkwOSwtMzc0MzMzNjhdfQ==
 -->
