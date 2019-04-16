@@ -31,8 +31,8 @@ $$a(X_t) = a(X_{t_0}) + \int_{t_0}^t L a(X_s) ds \quad(6)$$
 which we can plug into (2) to get
 
 $$ \begin{aligned}
-X_t & = X_{t_0} + \int_{t_0}^t \left( a(X_{t_0}) + \int_{t_0}^{s_1} L a(X_{s_2}) ds_2 \right) ds_1 \\
-& =  X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_1 + \int_{t_0}^t \int_{t_0}^{s_1} L a(X_{s_2}) ds_1 ds_2 \\
+X_t & = X_{t_0} + \int_{t_0}^t \left( a(X_{t_0}) + \int_{t_0}^{s_2} L a(X_{s_1}) ds_1 \right) ds_2 \\
+& =  X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_2 + \int_{t_0}^t \int_{t_0}^{s_2} L a(X_{s_1}) ds_1 ds_2  \\
 & =  X_{t_0} + a(X_{t_0}) (t - t_0) + \int_{t_0}^t \int_{t_0}^{s_2} L a(X_{s_1}) ds_1 ds_2 \quad (7)
 \end{aligned} $$
 
@@ -42,12 +42,12 @@ $$La(X_t) = La(X_{t_0}) + \int_{t_0}^t L^2 a(X_s) ds \quad(8)$$
 
 and we substitute this into (7) to get
 
-$$X_t = X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_1 + La(X_{t_0}) \int_{t_0}^t \int_{t_0}^{s_1} ds_2 ds_1$$
+$$X_t = X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_2 + La(X_{t_0}) \int_{t_0}^t \int_{t_0}^{s_2} ds_1 ds_2$$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDMzMDM2OSwxNTU3MDg0MDMxLDEyOT
+eyJoaXN0b3J5IjpbLTUyMjM3MjczNiwxNTU3MDg0MDMxLDEyOT
 IwOTI1NjEsMTg1NTI5NTkwOSwtMzc0MzMzNjhdfQ==
 -->
