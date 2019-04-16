@@ -22,8 +22,8 @@ and then express (3) as
 
 $$f(X_t) = f(X_{t_0}) + \int_{t_0}^t L f(X_s)\ ds \quad (5)$$
 
-for all $t \in [t_0, T]$.  Now let 
+for all $t \in [t_0, T]$.  Now let $f(x) = x$ we have $Lf = a$, $L^2 f = La$, and so on. Then (5) reduces to equation (2).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NjY5Njc3NSwxODU1Mjk1OTA5LC0zNz
+eyJoaXN0b3J5IjpbLTk4MjA4MTk5NSwxODU1Mjk1OTA5LC0zNz
 QzMzM2OF19
 -->
