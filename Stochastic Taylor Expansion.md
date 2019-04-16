@@ -42,16 +42,18 @@ $$La(X_t) = La(X_{t_0}) + \int_{t_0}^t L^2 a(X_s) ds \quad(8)$$
 
 and we substitute this into (7) to get
 
-$$X_t = X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_3 + La(X_{t_0}) \int_{t_0}^t \int_{t_0}^{s_2} ds_1 ds_2 + R_3$$
+$$X_t = X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_1 + La(X_{t_0}) \int_{t_0}^t \int_{t_0}^{s_2} ds_1 ds_2 + R_3$$
 
 where 
 
-$$R_3 = \int_{t_0}^t \int_{t_0}^{s_3} \int_{t_0}^{s_2} L^2 a(X_{s_1}) ds_1 ds_2 ds_3 $$
+$$R_3 = \int_{t_0}^t \int_{t_0}^{s_3} \int_{t_0}^{s_2} L^2 a(X_{s_1})\ ds_1 ds_2 ds_3 .$$
+
+
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY0MTExODgsMTU1NzA4NDAzMSwxMj
-kyMDkyNTYxLDE4NTUyOTU5MDksLTM3NDMzMzY4XX0=
+eyJoaXN0b3J5IjpbLTM4NTg4NzczNCwxNTU3MDg0MDMxLDEyOT
+IwOTI1NjEsMTg1NTI5NTkwOSwtMzc0MzMzNjhdfQ==
 -->
