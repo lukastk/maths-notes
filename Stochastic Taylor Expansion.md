@@ -88,18 +88,18 @@ $$\begin{aligned}
 X_t = X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds + b(X_{t_0}) \int_{t_0}^t dW_s + R
 \end{aligned} \quad (15)$$
 
-where
+with remainder
 
 $$\begin{aligned}
 R  = & \int_{t_0}^t \int_{t_0}^s L_0 a(X_z) dz ds + \int_{t_0}^t \int_{t_0}^s L_1 a(X_z) dW_z ds \\
  & + \int_{t_0}^t  \int_{t_0}^s L_0 b(X_z) dz dW_s + \int_{t_0}^t \int_{t_0}^s L_1 b(X_z) dW_z dW_s
-\end{aligned} \quad(16)$$
+\end{aligned} \quad(16).$$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5MDUyNTgxMywtMTI1NDIwOTgzMiw3NT
+eyJoaXN0b3J5IjpbMTk2MTk0NTg3MSwtMTI1NDIwOTgzMiw3NT
 A0NTg2NTQsMTQwNzM4MjQ0MiwtMjk0OTA3NDgwLC0yOTExMTIz
 MCwtNzkyNDI2NjE3LDE1NTcwODQwMzEsMTI5MjA5MjU2MSwxOD
 U1Mjk1OTA5LC0zNzQzMzM2OF19
