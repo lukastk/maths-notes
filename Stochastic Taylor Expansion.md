@@ -74,11 +74,19 @@ f(X_t) & = f(X_{t_0})  + \int_{t_0}^t \left( a(X_s) f'(X_s) + \frac{1}{2} b^2(X_
 & = f(X_{t_0}) + \int_{t_0}^t L^0 f(X_s) ds + \int_{t_0}^t L^1 f(X_s) dW_s
 \end{aligned} \quad (12)$$
 
+where we have introduced the operators
+
+$$L^0 f = af' + \frac{1}{2} b^2 f'' \quad (13)$$
+
+and
+
+$$L^1 f = b f'
+
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDE5OTM3OCwxNDA3MzgyNDQyLC0yOT
-Q5MDc0ODAsLTI5MTExMjMwLC03OTI0MjY2MTcsMTU1NzA4NDAz
-MSwxMjkyMDkyNTYxLDE4NTUyOTU5MDksLTM3NDMzMzY4XX0=
+eyJoaXN0b3J5IjpbODg0NDg4MzU3LDE0MDczODI0NDIsLTI5ND
+kwNzQ4MCwtMjkxMTEyMzAsLTc5MjQyNjYxNywxNTU3MDg0MDMx
+LDEyOTIwOTI1NjEsMTg1NTI5NTkwOSwtMzc0MzMzNjhdfQ==
 -->
