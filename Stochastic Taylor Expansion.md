@@ -42,18 +42,20 @@ $$La(X_t) = La(X_{t_0}) + \int_{t_0}^t L^2 a(X_s) ds \quad(8)$$
 
 and we substitute this into (7) to get
 
-$$X_t = X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_1 + La(X_{t_0}) \int_{t_0}^t \int_{t_0}^{s_2} ds_1 ds_2 + R_3$$
+$$X_t = X_{t_0} + a(X_{t_0}) \int_{t_0}^t ds_1 + La(X_{t_0}) \int_{t_0}^t \int_{t_0}^{s_2} ds_1 ds_2 + R_3 \quad (9)$$
 
-where 
+with the remainder
 
-$$R_3 = \int_{t_0}^t \int_{t_0}^{s_3} \int_{t_0}^{s_2} L^2 a(X_{s_1})\ ds_1 ds_2 ds_3 .$$
+$$R_3 = \int_{t_0}^t \int_{t_0}^{s_3} \int_{t_0}^{s_2} L^2 a(X_{s_1})\ ds_1 ds_2 ds_3 . \quad (10)$$
 
+Doing this $r+1$ times gives us the classical *Taylor formula*
 
+$$f(X_t) = f(X_0) + \sum_{l=1}^r \frac{ (t-t_0)^l}{l!}$$
 
 ## References
 
 - Numerical Solutions of SDEs Through Computer Experiments - Kloeden, Platen, Schurz. Section 2.3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTg4NzczNCwxNTU3MDg0MDMxLDEyOT
-IwOTI1NjEsMTg1NTI5NTkwOSwtMzc0MzMzNjhdfQ==
+eyJoaXN0b3J5IjpbLTExMzE5Nzc5MDUsMTU1NzA4NDAzMSwxMj
+kyMDkyNTYxLDE4NTUyOTU5MDksLTM3NDMzMzY4XX0=
 -->
