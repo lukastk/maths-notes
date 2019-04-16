@@ -26,8 +26,8 @@ for all $t \in [t_0, T]$.  Now let $f(x) = x$ we have $Lf = a$, $L^2 f = La$, an
 
 Now let $f=a$, we then have
 
-$$a(X_t) = X_
+$$a(X_t) = a(X_{t0
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA0Mjc4MzAsMTI5MjA5MjU2MSwxOD
-U1Mjk1OTA5LC0zNzQzMzM2OF19
+eyJoaXN0b3J5IjpbODUzNTAyOTgsMTI5MjA5MjU2MSwxODU1Mj
+k1OTA5LC0zNzQzMzM2OF19
 -->
