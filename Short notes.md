@@ -24,7 +24,7 @@ and assume that the solution is a perturbation series dependent on both $t$ and 
 
 $$ y(t) = Y_0(t, t_1) + \epsilon Y_1(t, t_1) + O(\epsilon^2 ) $$ 
 
-The Duffing equation becomes
+This type of perturbation leads to a solution that is valid for $t=O(\epsilon^{-2})$.
 
 Another example is the simpler equation
 
@@ -34,8 +34,8 @@ which has the analytical solution
 
 $$ y(t) = A \cos t + B \cos t + \frac{1}{2} t \sin t. $$
 
-The third term is a secular term. In general, the appearance of a secular tmer s
+The third term is a secular term. In general, the appearance of a secular term signals the nonuniform validity of perturbation expansions for large $t$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjk0MTA5ODgsODUwODY0MjYsMTAwNz
+eyJoaXN0b3J5IjpbLTEwODIwMDc3MDIsODUwODY0MjYsMTAwNz
 A2MTEzNV19
 -->
