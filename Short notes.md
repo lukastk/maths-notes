@@ -14,7 +14,9 @@ $$ y(t) = \cos (t) + \epsilon \left[ \frac{1}{32} \cos(3t) - \frac{1}{32} \cos (
 
 The last term in the square braces is secular: it grows without bound for large $t$. Specifically, for $t = O(\epsilon^{-1})$ we have that the term is $O(1)$, and has the same order of magnitude as the leading-order term. Since the terms have become disordered, the series is no longer an asymptotic expansion of the solution.
 
-The method of multiple scales involves separating the short and long-term behaviours of the system into two independen
+The method of multiple scales involves separating the short and long-term behaviours of the system, and assuming that they are independent variables. For example, it might help us locate the periodic and secular components of the evolution of the solution.
+
+To 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5MzE0ODExXX0=
+eyJoaXN0b3J5IjpbNzQ0MDQyOTU0XX0=
 -->
