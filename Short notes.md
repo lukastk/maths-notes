@@ -35,7 +35,12 @@ which has the analytical solution
 $$ y(t) = A \cos t + B \cos t + \frac{1}{2} t \sin t. $$
 
 The third term is a secular term. In general, the appearance of a secular term signals the nonuniform validity of perturbation expansions for large $t$.
+
+#### References
+
+- Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
+- [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODIwMDc3MDIsODUwODY0MjYsMTAwNz
+eyJoaXN0b3J5IjpbLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNz
 A2MTEzNV19
 -->
