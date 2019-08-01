@@ -25,6 +25,10 @@ and assume that the solution is a perturbation series dependent on both $t$ and 
 $$ y(t) = Y_0(t, t_1) + \epsilon Y_1(t, t_1) + O(\epsilon^2 ) $$ 
 
 The Duffing equation becomes
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUwODY0MjYsMTAwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbLTE1ODg3NjczODgsODUwODY0MjYsMTAwNz
+A2MTEzNV19
 -->
