@@ -22,7 +22,9 @@ $$ t_1 = \epsilon t $$
 
 and assume that the solution is a perturbation series dependent on both $t$ and $t_1$,
 
-$y(t) = Y_0(t, t_1) + \epsilon Y_1(t, t_1) + O(\epsilon^2_)
+$$ y(t) = Y_0(t, t_1) + \epsilon Y_1(t, t_1) + O(\epsilon^2 ) $$ 
+
+The Duffing equation becomes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbODUwODY0MjYsMTAwNzA2MTEzNV19
 -->
