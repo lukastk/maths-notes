@@ -16,7 +16,13 @@ The last term in the square braces is secular: it grows without bound for large 
 
 The method of multiple scales involves separating the short and long-term behaviours of the system, and assuming that they are independent variables. For example, it might help us locate the periodic and secular components of the evolution of the solution.
 
-To 
+We introduce the slow scale
+
+$$ t_1 = \epsilon t $$
+
+and assume that the solution is a perturbation series dependent on both $t$ and $t_1$,
+
+$y(t) = Y_0(t, t_1) + \epsilon Y_1(t, t_1) + O(\epsilon^2_)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0MDQyOTU0XX0=
+eyJoaXN0b3J5IjpbMTAwNzA2MTEzNV19
 -->
