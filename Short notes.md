@@ -26,9 +26,16 @@ $$ y(t) = Y_0(t, t_1) + \epsilon Y_1(t, t_1) + O(\epsilon^2 ) $$
 
 The Duffing equation becomes
 
+Another example is the simpler equation
 
+$$ \frac{d^2 y}{dt^2} + y = \cos(t) $$
 
+which has the analytical solution
+
+$$ y(t) = A \cos t + B \cos t + \frac{1}{2} t \sin t. $$
+
+The third term is a secular term. In general, the appearance of a secular tmer s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg3NjczODgsODUwODY0MjYsMTAwNz
+eyJoaXN0b3J5IjpbLTE2Mjk0MTA5ODgsODUwODY0MjYsMTAwNz
 A2MTEzNV19
 -->
