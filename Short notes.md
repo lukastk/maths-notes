@@ -59,7 +59,7 @@ So regardless of the pairing, we get the same result. Thus the sum in $\prod \su
 
 $$\begin{aligned}
 & \int_0^t d\tau_1 \dots d\tau_{2m} \frac{\partial}{\partial q^{\nu_1} (\tau_1)} g_{i_1}^{\nu_1}  \dots \frac{\partial}{\partial q^{\nu_{2m}} (\tau_{2m}) } g_{i_{2m}}^{\nu_{2m}} \xi^{i_1}(\tau_1) \dots \xi^{i_{2m}}(\tau_{2m}) \\
-& =  (2m-1)!! \int_0^t d\tau_1 \dots d\tau_m 
+& =  \frac{(2m)!}{2^m m!} \prod_{i=1}^m \int_0^t d\tau_i \frac{\partial}{\partial q_{\mu}(\tau_i) } g_{i}^{\mu} \frac{\partial}{\partial q_{\nu}(\tau_i) } g_{j}^{\nu} \delta^{ij}
  \end{aligned}$$
 
 #### Reference
@@ -111,7 +111,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNTA5OTQxOSw4MjkyOTk3NzEsLTEyMj
+eyJoaXN0b3J5IjpbMTcwNTIxMTc5Myw4MjkyOTk3NzEsLTEyMj
 EwMjY4MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQy
 NiwxMDA3MDYxMTM1XX0=
 -->
