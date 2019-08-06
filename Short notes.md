@@ -66,7 +66,7 @@ So the probability becomes
 
 $$ \begin{aligned}
 P(q,t) & = T \bigg\{ \exp\left[ \int_0^t d\tau \left( - \frac{\partial}{\partial q^\nu(\tau)} f^\nu (q(\tau)) \right) \right] \\
-& \times \sum_{m=0}^\infty   \frac{1}{2^m m!} \prod_{i=1}^m \int_0^t d\tau_i \frac{\partial}{\partial q_{\mu}(\tau_i) } g_{i}^{\mu} \frac{\partial}{\partial q_{\nu}(\tau_i) } g_{j}^{\nu} \delta^{ij} \\
+& \times \sum_{m=0}^\infty   \frac{1}{2^m m!} \prod_{i=1}^m \int_0^t d\tau_i \frac{\partial}{\partial q^{\mu}(\tau_i) } g_{i}^{\mu} \frac{\partial}{\partial q^{\nu}(\tau_i) } g_{j}^{\nu} \delta^{ij} \\
 & \times P(q,0)
 \end{aligned}$$
 
@@ -119,7 +119,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjgwMDYxMiw4MjkyOTk3NzEsLTEyMj
-EwMjY4MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQy
-NiwxMDA3MDYxMTM1XX0=
+eyJoaXN0b3J5IjpbODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMT
+AyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2
+LDEwMDcwNjExMzVdfQ==
 -->
