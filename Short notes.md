@@ -1,5 +1,7 @@
 ## Nice mathsy derivation of the Fokker-Planck equation
 
+
+
 See the introduction (Section 1) of *Covariant Formulation of Non-Equilibrium Statistical Thermodynamics* by *Robert Graham*.
 
 Link: [https://link.springer.com/content/pdf/10.1007%2FBF01570750.pdf](https://link.springer.com/content/pdf/10.1007%2FBF01570750.pdf)
@@ -47,6 +49,6 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDI2Mzk3OSwtMTM3ODEyMjQ0NSw4NT
-A4NjQyNiwxMDA3MDYxMTM1XX0=
+eyJoaXN0b3J5IjpbLTExNzU5MjQ5ODUsLTEzNzgxMjI0NDUsOD
+UwODY0MjYsMTAwNzA2MTEzNV19
 -->
