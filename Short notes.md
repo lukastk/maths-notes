@@ -44,7 +44,7 @@ $$\langle \xi^i (t_1) \xi^j (t_2) \rangle = \delta^{ij} \delta(t_2 - t_1)$$
 So
 
 $$
-\langle \xi^{i_1} (\tau_1)
+\langle \xi^{i_1} (\tau_1) \dots \xi^{i_n}(\tau_n)\rangle = \sum \prod \delta^{ij} \delta(t_2 - t_1)
 $$
 
 #### Reference
@@ -96,7 +96,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg0ODQzMiwtMTIyMTAyNjgyMiwxMj
-YzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjEx
-MzVdfQ==
+eyJoaXN0b3J5IjpbODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNj
+MzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEz
+NV19
 -->
