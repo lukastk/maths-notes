@@ -6,6 +6,8 @@ $$ \dot q^\nu = f^\nu(q) + g_i^\nu \xi^i (t)  \quad (1)$$
 
 We have that Greek indices $\nu=1, \dots, n$ number the macroscopic variables, and $i=1, \dots, m$ number the fluctuating forces.
 
+*Note: We interpret (1) in the sense of Stratonovich, not in the sense of Ito.*
+
 For every path-realisation of the noise $\xi$ we have a probability density $P_\xi(q,t)$, satisfying the continuity equation
 
 $$\frac{\partial P_\xi}{\partial t} + \frac{\partial}{\partial q^\nu} \dot q^\nu P_\xi = 0 \quad (2) $$
@@ -138,7 +140,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTA3MDgxMDUsODk3MDA2OTA4LDgyOT
-I5OTc3MSwtMTIyMTAyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIy
-NDQ1LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ==
+eyJoaXN0b3J5IjpbNjQ0NTcxOTY3LDg5NzAwNjkwOCw4MjkyOT
+k3NzEsLTEyMjEwMjY4MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0
+NSw4NTA4NjQyNiwxMDA3MDYxMTM1XX0=
 -->
