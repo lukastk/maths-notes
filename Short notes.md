@@ -47,11 +47,12 @@ $$
 \langle \xi^{i_1} (\tau_1) \dots \xi^{i_n}(\tau_n)\rangle = \langle \xi^{i_1} (\tau_1) \xi^{i_2} (\tau_2) \rangle \dots \langle \xi^{i_{n-1}} (\tau_{n-1}) \xi^{i_n} (\tau_n) \rangle + \dots \quad (4)
 $$
 
-Consider the first factor of the first term in (4), inserting it into the time integral we get:
+Consider some factor of one of the terms in (4), inserting it into the time integral we get:
 
-$$
-\int_0^t d \tau_1 d\tau_2 \frac{\partial}{\partial q_{\nu_1}(\tau_1) }
-$$
+$$ \begin{aligned}
+\int_0^t d \tau_a d\tau_b  \frac{\partial}{\partial q_{\nu_a}(\tau_a) } g_{i_a}^{\nu_a} \frac{\partial}{\partial q_{\nu_b}(\tau_b) } g_{i_b}^{\nu_b} \\
+= s
+\end{aligned} $$
 
 #### Reference
 
@@ -102,7 +103,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDM3MDU4MCw4MjkyOTk3NzEsLTEyMj
-EwMjY4MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQy
-NiwxMDA3MDYxMTM1XX0=
+eyJoaXN0b3J5IjpbMTgzNjU3MDI3LDgyOTI5OTc3MSwtMTIyMT
+AyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2
+LDEwMDcwNjExMzVdfQ==
 -->
