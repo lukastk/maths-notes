@@ -73,7 +73,13 @@ P(q,t) & = T \bigg\{ \exp\left[ \int_0^t d\tau \left( - \frac{\partial}{\partial
 which can be resummed to
 
 $$
-P(q,t) = T \left\{ \exp \left[ \int_0^t d\tau \left( - \frac{\partial}{\partial q^\nu)\tau)} f^\nu(q(\tau)) + \frac{1}{2} \delta^{ik} \right) \right] \right\}
+P(q,t) = T \left\{ \exp \left[ \int_0^t d\tau \left( - \frac{\partial}{\partial q^\nu)\tau)} f^\nu(q(\tau)) + \frac{1}{2} \delta^{ij} \frac{\partial}{\partial q^\nu(\tau)} g_i^\nu \frac{\partial}{\partial q^\mu(\tau)} g_j^\mu \right) \right] \right\} P(q, 0). \quad (5)
+$$
+
+Taking the time derivative of (5) gives us the Fokker-Planck equation
+
+$$
+\fra
 $$
 
 #### Reference
@@ -125,7 +131,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDcyOTY1Niw4OTcwMDY5MDgsODI5Mj
+eyJoaXN0b3J5IjpbLTg3OTU5MDI3OSw4OTcwMDY5MDgsODI5Mj
 k5NzcxLC0xMjIxMDI2ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0
 NDUsODUwODY0MjYsMTAwNzA2MTEzNV19
 -->
