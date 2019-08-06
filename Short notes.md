@@ -24,7 +24,9 @@ $$ \begin{aligned}P_\xi(q,t) & = T \left[ \exp \left\{ - \int_{0}^t d\tau L^\dag
 
 and can be expanded in the form (by simply expanding the Dyson series)
 
-$$ \begin{aligned}P_\xi(q,t) & = T \left\{ \exp\left[ \int_0^t d\tau \left( - \frac{\partial}{\partial q^\nu(\tau)} f^\nu (q(\tau)) \right) \right] \sum_{n=0}^\infty  \frac{(-1)^n}{n!} \int_0^t d\tau_1 \dots d\tau_n \frac{\partial}{\partial q^{\nu_1} (\tau_1)} g_{i_1}^{\nu_1} \right\} P(q,0) \end{aligned}$$
+$$ \begin{aligned}P_\xi(q,t) & = T \left\{ \exp\left[ \int_0^t d\tau \left( - \frac{\partial}{\partial q^\nu(\tau)} f^\nu (q(\tau)) \right) \right] \sum_{n=0}^\infty  \frac{(-1)^n}{n!} \int_0^t d\tau_1 \dots d\tau_n \frac{\partial}{\partial q^{\nu_1} (\tau_1)} g_{i_1}^{\nu_1}  \dots \frac{\partial}{\partial q^{\nu_n} (\tau_n) } g_{i_n}^{\nu_n} \xi^{i_1}(\tau_1) \dots \xi^{i_n}(\tau_n) \right\} P(q,0) \end{aligned} \quad (3)$$
+
+Now (3) can
 
 #### Reference
 
@@ -75,6 +77,6 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY0NzM4NjUsMTI2MzM1Njc4MCwtMT
+eyJoaXN0b3J5IjpbLTE2NjE2NDQ1MjcsMTI2MzM1Njc4MCwtMT
 M3ODEyMjQ0NSw4NTA4NjQyNiwxMDA3MDYxMTM1XX0=
 -->
