@@ -44,11 +44,13 @@ $$\langle \xi^i (t_1) \xi^j (t_2) \rangle = \delta^{ij} \delta(t_2 - t_1)$$
 So
 
 $$
-\langle \xi^{i_1} (\tau_1) \dots \xi^{i_n}(\tau_n)\rangle = \langle \xi^{i_1} (\tau_1) \xi^{i_1} (\tau_1) \rangle
+\langle \xi^{i_1} (\tau_1) \dots \xi^{i_n}(\tau_n)\rangle = \langle \xi^{i_1} (\tau_1) \xi^{i_2} (\tau_2) \rangle \dots \langle \xi^{i_{n-1}} (\tau_{n-1}) \xi^{i_n} (\tau_n) \rangle + \dots \quad (4)
 $$
 
+Consider the first factor of the first term in (4), inserting it into the time integral we get:
+
 $$
-\int_0^t d \tau_1 d\tau_2 \frac{\partial}{\partial q_{\nu_1} 
+\int_0^t d \tau_1 d\tau_2 \frac{\partial}{\partial q_{\nu_1}(\tau_1) }
 $$
 
 #### Reference
@@ -100,7 +102,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODUzNjA5OTIsODI5Mjk5NzcxLC0xMj
-IxMDI2ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0
-MjYsMTAwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbMTE1MDM3MDU4MCw4MjkyOTk3NzEsLTEyMj
+EwMjY4MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQy
+NiwxMDA3MDYxMTM1XX0=
 -->
