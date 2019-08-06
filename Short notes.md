@@ -1,8 +1,10 @@
 ## Nice mathsy derivation of the Fokker-Planck equation
 
-Consider the Langevin equation
+Consider the Langevin equation of a system with macroscopic variables $q^\nu$.
 
+$$ \dot q^\nu = f^\nu(q) + g_i^\nu \xi^i (t) $$
 
+We have that Greek indices $\nu=1, \dots, n$ number the macroscopic variables, and $i=
 
 #### Reference
 
@@ -53,6 +55,6 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4MDAzMjY2LC0xMzc4MTIyNDQ1LDg1MD
-g2NDI2LDEwMDcwNjExMzVdfQ==
+eyJoaXN0b3J5IjpbLTQxOTkwOTY5OCwtMTM3ODEyMjQ0NSw4NT
+A4NjQyNiwxMDA3MDYxMTM1XX0=
 -->
