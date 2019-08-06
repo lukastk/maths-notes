@@ -2,9 +2,13 @@
 
 Consider the Langevin equation of a system with macroscopic variables $q^\nu$.
 
-$$ \dot q^\nu = f^\nu(q) + g_i^\nu \xi^i (t) $$
+$$ \dot q^\nu = f^\nu(q) + g_i^\nu \xi^i (t)  \quad (1)$$
 
-We have that Greek indices $\nu=1, \dots, n$ number the macroscopic variables, and $i=
+We have that Greek indices $\nu=1, \dots, n$ number the macroscopic variables, and $i=1, \dots, m$ number the fluctuating forces.
+
+For every path-realisation of the noise $\xi$ we have a probability density $P_\xi(q,t)$, satisfying the continuity equation
+
+$$ \frac{\partial P_\xi}{\partial t} + \fr $$
 
 #### Reference
 
@@ -55,6 +59,6 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTkwOTY5OCwtMTM3ODEyMjQ0NSw4NT
+eyJoaXN0b3J5IjpbMTI1NzE1NTc1MiwtMTM3ODEyMjQ0NSw4NT
 A4NjQyNiwxMDA3MDYxMTM1XX0=
 -->
