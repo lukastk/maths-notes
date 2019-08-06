@@ -8,7 +8,11 @@ We have that Greek indices $\nu=1, \dots, n$ number the macroscopic variables, a
 
 For every path-realisation of the noise $\xi$ we have a probability density $P_\xi(q,t)$, satisfying the continuity equation
 
-$$ \frac{\partial P_\xi}{\partial t} + \fr $$
+$$\frac{\partial P_\xi}{\partial t} + \frac{\partial}{\partial q^\nu} \dot q^\nu P_\xi = 0 \quad (2) $$
+
+where $\dot q^\nu$ is given by (1).
+
+The formal solution to 
 
 #### Reference
 
@@ -59,6 +63,6 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzE1NTc1MiwtMTM3ODEyMjQ0NSw4NT
-A4NjQyNiwxMDA3MDYxMTM1XX0=
+eyJoaXN0b3J5IjpbLTE4MDg3NTI1MDYsLTEzNzgxMjI0NDUsOD
+UwODY0MjYsMTAwNzA2MTEzNV19
 -->
