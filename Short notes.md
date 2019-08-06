@@ -30,9 +30,14 @@ Now (3) can be averaged over all possible path-realisation of the noise $\xi$. W
 
 **Theorem:** (Isserlis) If $(X_1, \dots, X_{2n})$ is a zero-mean multivariate normal random vector, then
 
-$$\mathbb{E}[ X_1 X_2 \dots X_{2n} ] = \sum \prod \mathbb{E} [X_i X_j] = \sum \prod \text{Cov}(X_i, X_j) $$
+$$\begin{aligned}
+\mathbb{E}[ X_1 X_2 \dots X_{2n} ] & = \sum \prod \mathbb{E} [X_i X_j] = \sum \prod \text{Cov}(X_i, X_j) \\
+\mathbb{E}[X_1 X_2 \dots X_{2n-1}] & = 0
+\end{aligned}$$
 
-where $\prod \sum$ means summing over distinct ways of partitioning $X_1 \dots X_{2n}$ into pairs $X_i X_j$, and each summand is the product of the $n$ pairs. This yields $(2n)! / (
+where $\prod \sum$ means summing over distinct ways of partitioning $X_1 \dots X_{2n}$ into pairs $X_i X_j$, and each summand is the product of the $n$ pairs. This yields $(2n)! / (2^n n!) = (2n - 1)!!$ terms in the sum.
+
+Now, 
 
 #### Reference
 
@@ -83,7 +88,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjM0Mzc4MTIsLTEyMjEwMjY4MjIsMT
-I2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQyNiwxMDA3MDYx
-MTM1XX0=
+eyJoaXN0b3J5IjpbMTI3NjE5MTAxNCwtMTIyMTAyNjgyMiwxMj
+YzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjEx
+MzVdfQ==
 -->
