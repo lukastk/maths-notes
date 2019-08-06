@@ -70,6 +70,12 @@ P(q,t) & = T \bigg\{ \exp\left[ \int_0^t d\tau \left( - \frac{\partial}{\partial
 & \times P(q,0)
 \end{aligned}$$
 
+which can be resummed to
+
+$$
+P(q,t) = T \left\{ \exp \left[ \int_0^t d\tau \left( - \frac{\partial}{\partial q^\nu)\tau)} f^\nu(q(\tau)) + \frac{1}{2} \delta^{ik} \right) \right] \right\}
+$$
+
 #### Reference
 
 See the introduction (Section 1) of *Covariant Formulation of Non-Equilibrium Statistical Thermodynamics* by *Robert Graham*.
@@ -119,7 +125,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMT
-AyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2
-LDEwMDcwNjExMzVdfQ==
+eyJoaXN0b3J5IjpbMTMzMDcyOTY1Niw4OTcwMDY5MDgsODI5Mj
+k5NzcxLC0xMjIxMDI2ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0
+NDUsODUwODY0MjYsMTAwNzA2MTEzNV19
 -->
