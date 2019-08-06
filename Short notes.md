@@ -57,7 +57,10 @@ $$ \begin{aligned}
 
 So regardless of the pairing, we get the same result. Thus the sum in $\prod \sum$ will only lead to a factor of the total number of possible combinations $\frac{n!}{(n/2)! 2^{n/2}} = (n-1)!!$. Only the even terms will survive the mean, so let $m=n/2$, then
 
-$$\int_0^t d\tau_1 \dots d\tau_n \frac{\partial}{\partial q^{\nu_1} (\tau_1)} g_{i_1}^{\nu_1}  \dots \frac{\partial}{\partial q^{\nu_n} (\tau_n) } g_{i_n}^{\nu_n} \xi^{i_1}(\tau_1) \dots \xi^{i_n}(\tau_n) = (n-1)!! $$
+$$\begin{aligned}
+& \int_0^t d\tau_1 \dots d\tau_{2m} \frac{\partial}{\partial q^{\nu_1} (\tau_1)} g_{i_1}^{\nu_1}  \dots \frac{\partial}{\partial q^{\nu_{2m}} (\tau_{2m}) } g_{i_{2m}}^{\nu_{2m}} \xi^{i_1}(\tau_1) \dots \xi^{i_{2m}}(\tau_{2m}) \\
+& =  (2m-1)!! \int_0^t d\tau_1 \dots d\tau_m 
+ \end{aligned}$$
 
 #### Reference
 
@@ -108,7 +111,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzA4ODY0NDEsODI5Mjk5NzcxLC0xMj
-IxMDI2ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0
-MjYsMTAwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbMTAzNTA5OTQxOSw4MjkyOTk3NzEsLTEyMj
+EwMjY4MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQy
+NiwxMDA3MDYxMTM1XX0=
 -->
