@@ -54,7 +54,7 @@ $$ \begin{aligned}
 & = \int_0^t d\tau_a \frac{\partial}{\partial q_{\mu}(\tau_a) } g_{i}^{\mu} \frac{\partial}{\partial q_{\nu}(\tau_a) } g_{j}^{\nu} \delta^{ij}
 \end{aligned} $$
 
-So regardless of the pairing, the 
+So regardless of the pairing, we get the same result. Thus the sum in $\prod \sum$ will only lead to a factor of the total number of possible combinations 
 
 #### Reference
 
@@ -105,7 +105,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Mzg4ODY1LDgyOTI5OTc3MSwtMTIyMT
-AyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2
-LDEwMDcwNjExMzVdfQ==
+eyJoaXN0b3J5IjpbLTE0NDg1MjMxMjMsODI5Mjk5NzcxLC0xMj
+IxMDI2ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0
+MjYsMTAwNzA2MTEzNV19
 -->
