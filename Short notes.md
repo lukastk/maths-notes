@@ -62,6 +62,12 @@ $$\begin{aligned}
 & =  \frac{(2m)!}{2^m m!} \prod_{i=1}^m \int_0^t d\tau_i \frac{\partial}{\partial q_{\mu}(\tau_i) } g_{i}^{\mu} \frac{\partial}{\partial q_{\nu}(\tau_i) } g_{j}^{\nu} \delta^{ij}
  \end{aligned}$$
 
+So the probability becomes
+
+$$ \begin{aligned}
+P(q,t) & = T \left[ \exp \left\{ - \int_{0}^t d\tau L^\dagger \right\} \right] P(q, 0) \\
+& = T \left[ \exp\left\{ \int_0^t d\tau \left( - \frac{\partial}{\partial q^\nu(\tau)} f^\nu (q(\tau)) \right) - \frac{\partial}{\partial q^\nu(\tau)} g_i^\nu(q(\tau)) \xi^i(\tau) \right\} \right] P(q,0) \end{aligned}$$
+
 #### Reference
 
 See the introduction (Section 1) of *Covariant Formulation of Non-Equilibrium Statistical Thermodynamics* by *Robert Graham*.
@@ -111,7 +117,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTIxMTc5Myw4MjkyOTk3NzEsLTEyMj
-EwMjY4MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQy
-NiwxMDA3MDYxMTM1XX0=
+eyJoaXN0b3J5IjpbLTE5MDI1MDMyNzIsODI5Mjk5NzcxLC0xMj
+IxMDI2ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0
+MjYsMTAwNzA2MTEzNV19
 -->
