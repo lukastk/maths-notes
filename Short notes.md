@@ -85,7 +85,8 @@ $$
 with
 
 $$\begin{aligned}
-
+K^\nu(q) & = f^\nu(q) + \frac{1}{2} \frac{\partial g_i^\nu(q)}{\partial q^\mu} g_k^\mu(q) \delta^{ik} \\
+Q^{\nu\mu}(q) & = g_i^\nu(q) g_k^\mu(q) \delta^{ik}
 \end{aligned}$$
 
 #### Reference
@@ -137,7 +138,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDY3MjMsODk3MDA2OTA4LDgyOTI5OT
-c3MSwtMTIyMTAyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1
-LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ==
+eyJoaXN0b3J5IjpbLTE3NTA3MDgxMDUsODk3MDA2OTA4LDgyOT
+I5OTc3MSwtMTIyMTAyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIy
+NDQ1LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ==
 -->
