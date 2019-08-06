@@ -28,16 +28,18 @@ $$ \begin{aligned}P_\xi(q,t) & = T \left\{ \exp\left[ \int_0^t d\tau \left( - \f
 
 Now (3) can be averaged over all possible path-realisation of the noise $\xi$. We get $\langle P_\xi (q, t) \rangle_\xi = P(q,t)$, the probability to observe $q$ at time $t$. Now recall Isserlis' theorem:
 
-**Theorem:** (Isserlis) If $(X_1, \dots, X_{2n})$ is a zero-mean multivariate normal random vector, then
+**Theorem:** <i>(Isserlis) If $(X_1, \dots, X_{2n})$ is a zero-mean multivariate normal random vector, then</i>
 
 $$\begin{aligned}
 \mathbb{E}[ X_1 X_2 \dots X_{2n} ] & = \sum \prod \mathbb{E} [X_i X_j] = \sum \prod \text{Cov}(X_i, X_j) \\
 \mathbb{E}[X_1 X_2 \dots X_{2n-1}] & = 0
 \end{aligned}$$
 
-where $\prod \sum$ means summing over distinct ways of partitioning $X_1 \dots X_{2n}$ into pairs $X_i X_j$, and each summand is the product of the $n$ pairs. This yields $(2n)! / (2^n n!) = (2n - 1)!!$ terms in the sum.
+<i>where $\prod \sum$ means summing over distinct ways of partitioning $X_1 \dots X_{2n}$ into pairs $X_i X_j$, and each summand is the product of the $n$ pairs. This yields $(2n)! / (2^n n!) = (2n - 1)!!$ terms in the sum.</i>
 
-Now, 
+Now we can safely assume that $\langle \xi^i \xi^j \rangle = 0$ for $i\neq j$, and we know that the self-correlation of the noise is a delta function. We have
+
+$$\langle \xi^i 
 
 #### Reference
 
@@ -88,7 +90,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NjE5MTAxNCwtMTIyMTAyNjgyMiwxMj
-YzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjEx
-MzVdfQ==
+eyJoaXN0b3J5IjpbNDE3MTE2NDAyLC0xMjIxMDI2ODIyLDEyNj
+MzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEz
+NV19
 -->
