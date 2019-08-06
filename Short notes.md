@@ -10,9 +10,16 @@ For every path-realisation of the noise $\xi$ we have a probability density $P_\
 
 $$\frac{\partial P_\xi}{\partial t} + \frac{\partial}{\partial q^\nu} \dot q^\nu P_\xi = 0 \quad (2) $$
 
-where $\dot q^\nu$ is given by (1).
+where $\dot q^\nu$ is given by (1). It can be rewritten as
 
-The formal solution to 
+$$\begin{aligned}
+\frac{\partial P_\xi}{\partial t}  & = L P_\xi \\
+L & = - \frac{\partial}{\partial q^\nu} \dot q^\nu 
+\end{aligned}$$
+
+The formal solution to (2) is
+
+$$ P_\xi(q,t) = T \left[ \exp \
 
 #### Reference
 
@@ -63,6 +70,6 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg3NTI1MDYsLTEzNzgxMjI0NDUsOD
+eyJoaXN0b3J5IjpbLTE3NTQyNDIyMDMsLTEzNzgxMjI0NDUsOD
 UwODY0MjYsMTAwNzA2MTEzNV19
 -->
