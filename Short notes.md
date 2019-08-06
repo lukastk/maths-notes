@@ -39,7 +39,13 @@ $$\begin{aligned}
 
 Now we can safely assume that $\langle \xi^i \xi^j \rangle = 0$ for $i\neq j$, and we know that the self-correlation of the noise is a delta function. We have
 
-$$\langle \xi^i 
+$$\langle \xi^i (t_1) \xi^j (t_2) \rangle = \delta^{ij} \delta(t_2 - t_1)$$
+
+So
+
+$$
+\langle \xi^{i_1} (\tau_1)
+$$
 
 #### Reference
 
@@ -90,7 +96,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE3MTE2NDAyLC0xMjIxMDI2ODIyLDEyNj
-MzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEz
-NV19
+eyJoaXN0b3J5IjpbLTE0NDg0ODQzMiwtMTIyMTAyNjgyMiwxMj
+YzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjEx
+MzVdfQ==
 -->
