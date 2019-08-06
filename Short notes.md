@@ -19,7 +19,7 @@ L & = - \frac{\partial}{\partial q^\nu} \dot q^\nu
 
 The formal solution to (2) is
 
-$$ P_\xi(q,t) = T \left[ \exp \
+$$ P_\xi(q,t) = T \left[ \exp \left\{ - \int_{0}^t d\tau L^\dagger \right\} \right] $$
 
 #### Reference
 
@@ -70,6 +70,6 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQyNDIyMDMsLTEzNzgxMjI0NDUsOD
-UwODY0MjYsMTAwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NT
+A4NjQyNiwxMDA3MDYxMTM1XX0=
 -->
