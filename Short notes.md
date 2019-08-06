@@ -79,8 +79,14 @@ $$
 Taking the time derivative of (5) gives us the Fokker-Planck equation
 
 $$
-\fra
+\frac{\partial P(q,t)}{\partial t} = \left\{ - \frac{\partial}{\partial q^\nu} K^\nu (q) + \frac{1}{2} \frac{\partial^2 }{\partial q^\nu \partial q^\mu} Q^{\nu \mu}(q)\right\} P(q,t)
 $$
+
+with
+
+$$\begin{aligned}
+
+\end{aligned}$$
 
 #### Reference
 
@@ -131,7 +137,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTU5MDI3OSw4OTcwMDY5MDgsODI5Mj
-k5NzcxLC0xMjIxMDI2ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0
-NDUsODUwODY0MjYsMTAwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbLTc5MDY3MjMsODk3MDA2OTA4LDgyOTI5OT
+c3MSwtMTIyMTAyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1
+LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ==
 -->
