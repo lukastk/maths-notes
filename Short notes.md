@@ -44,7 +44,11 @@ $$\langle \xi^i (t_1) \xi^j (t_2) \rangle = \delta^{ij} \delta(t_2 - t_1)$$
 So
 
 $$
-\langle \xi^{i_1} (\tau_1) \dots \xi^{i_n}(\tau_n)\rangle = \sum \prod \delta^{ij} \delta(t_2 - t_1)
+\langle \xi^{i_1} (\tau_1) \dots \xi^{i_n}(\tau_n)\rangle = \langle \xi^{i_1} (\tau_1) \xi^{i_1} (\tau_1) \rangle
+$$
+
+$$
+\int_0^t d \tau_1 d\tau_2 \frac{\partial}{\partial q_{\nu_1} 
 $$
 
 #### Reference
@@ -96,7 +100,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNj
-MzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEz
-NV19
+eyJoaXN0b3J5IjpbLTIwODUzNjA5OTIsODI5Mjk5NzcxLC0xMj
+IxMDI2ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0
+MjYsMTAwNzA2MTEzNV19
 -->
