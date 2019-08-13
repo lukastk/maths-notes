@@ -15,8 +15,15 @@ $$
 Eq. 2 will hold regardless of the form of $a$ and $\sigma$ (given that they satisfy certain regularity conditions). Consider the SDE for inertial Brownian motion on a sphere
 
 $$\begin{aligned}
-I \dot \omega = - \gamma \omega + T(p) + \sigma 
+I \dot \omega & = - \gamma \omega + T(p) + \sigma \dot{W} \\
+\dot{p} & = \omega \times p 
 \end{aligned}$$
+
+where $W$ is the Wiener process. Taking the overdamped limit, we get
+
+$$
+\dot{p} = 
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzYwNDAzNCwzMjE5MjIyMThdfQ==
+eyJoaXN0b3J5IjpbNzI1OTc3OTQwLDMyMTkyMjIxOF19
 -->
