@@ -33,8 +33,9 @@ Consider the first term in (2):
 
 $$\begin{aligned}
 \nabla_i [ a_i(x, t)P(x,t) ] & = \frac{1}{\gamma} \nabla_i [ \epsilon_{ijk} T_j p_k P ] \\
-& = \frac{1}{\gamma
+& = \frac{1}{\gamma} \epsilon_{ijk} T_j p_k \nabla_i P + \frac{1}{\gamma} \epsilon_{ijk} \nabla_iT_j p_k P \\
+& = a \cdot \nabla P
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4MDM4MjQyLDMyMTkyMjIxOF19
+eyJoaXN0b3J5IjpbMjA1Mjk0MDA2NCwzMjE5MjIyMThdfQ==
 -->
