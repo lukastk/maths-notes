@@ -44,11 +44,15 @@ $$\begin{aligned}
 = \frac{1}{2 \gamma^2} & \bigg[ 
 \cancel{\nabla_i \nabla_j [p_\times]_{ia} [p_\times]_{cj} B_{ac}} + \nabla_j [p_\times]_{ia} \nabla_i [p_\times]_{cj} B_{ac} + \nabla_j [p_\times]_{ia} [p_\times]_{cj} \nabla_i B_{ac} \\
 &+ \cancel{ \nabla_i [p_\times]_{ia} \nabla_j [p_\times]_{cj} B_{ac}} + \cancel{[p_\times]_{ia} \nabla_i \nabla_j [p_\times]_{cj} B_{ac}} + \cancel{[p_\times]_{ia} \nabla_j [p_\times]_{cj} \nabla_i B_{ac} }\\
-& + \cancel{\nabla_i [p_\times]_{ia} [p_\times]_{cj} \nabla_j B_{ac}} + [p_\times]_{ia} \nabla_i [p_\times]_{cj} \nabla_j B_{ac} + [p_\times]_{ia} [p_\times]_{cj} \nabla_i \nabla_j B_{ac} \bigg] \\
+& + \cancel{\nabla_i [p_\times]_{ia} [p_\times]_{cj} \nabla_j B_{ac}} + [p_\times]_{ia} \nabla_i [p_\times]_{cj} \nabla_j B_{ac} + [p_\times]_{ia} [p_\times]_{cj} \nabla_i \nabla_j B_{ac} \bigg]
 \end{aligned}$$
 
-where some terms cancel due to $\nabla_i [p_\times]_{ij} = 0$.
+where some terms cancel due to $\nabla_i [p_\times]_{ij} = 0$. We now consider each term separately.
+
+$$
+
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTAxNDYwOSwtOTE0MzgxNDkwLDMyMT
-kyMjIxOF19
+eyJoaXN0b3J5IjpbMjg3NTg4ODA1LC05MTQzODE0OTAsMzIxOT
+IyMjE4XX0=
 -->
