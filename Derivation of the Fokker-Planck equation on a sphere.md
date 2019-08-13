@@ -64,9 +64,11 @@ $$ \begin{aligned}
 
 Finally, let $\mathcal{R} = p \times \nabla$, then
 $$
-[p_\times]_{ia} [p_\times]_{cj} \nabla_i \nabla_j B_{ac} 
+[p_\times]_{ia} [p_\times]_{cj} \nabla_i \nabla_j B_{ac} = \mathcal{R} \cdot (\sigma \sigma^T P) \cdot \overset{\leftarrow}{\mathcal{R}} 
 $$
+
+where $\overset{\leftarrow}{\mathcal{R}}$ is the left-acting operator.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzU2MTQ5LC05MTQzODE0OTAsMzIxOT
-IyMjE4XX0=
+eyJoaXN0b3J5IjpbLTI4NDg3OTEyMSwtOTE0MzgxNDkwLDMyMT
+kyMjIxOF19
 -->
