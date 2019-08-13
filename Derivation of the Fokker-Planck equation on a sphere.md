@@ -40,9 +40,11 @@ $$\begin{aligned}
 Define $B_{ab} = \sigma \sigma^T P$, and consider the 2nd term in (2):
 
 $$\begin{aligned}
-\nabla_i \nabla_j (D_{ij} P) = \nabla_i \nabla_j \left[ \frac{1}{2 \gamma^2} ([p_\times]\sigma \sigma^T [p_\times]^T)_{ij} P \right] = 
+\nabla_i \nabla_j (D_{ij} P) & = \nabla_i \nabla_j \left[ \frac{1}{2 \gamma^2} ([p_\times]\sigma \sigma^T [p_\times]^T)_{ij} P \right] = \frac{1}{2 \gamma^2} \nabla_i \nabla_j \left( [p_\times]_{ia} [p_\times]_{cj} B_{ab} \right) \\
+& = \frac{1}{2 \gamma^2} \bigg[ \\
+& \bigg]
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDIwMTg1MCwtOTE0MzgxNDkwLDMyMT
-kyMjIxOF19
+eyJoaXN0b3J5IjpbNzQxNzUyNTE1LC05MTQzODE0OTAsMzIxOT
+IyMjE4XX0=
 -->
