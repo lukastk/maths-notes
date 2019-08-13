@@ -40,11 +40,12 @@ $$\begin{aligned}
 Define $B_{ab} = \sigma \sigma^T P$, and consider the 2nd term in (2):
 
 $$\begin{aligned}
-\nabla_i \nabla_j (D_{ij} P) & = & \nabla_i \nabla_j \left[ \frac{1}{2 \gamma^2} ([p_\times]\sigma \sigma^T [p_\times]^T)_{ij} P \right] = \frac{1}{2 \gamma^2} \nabla_i \nabla_j \left( [p_\times]_{ia} [p_\times]_{cj} B_{ab} \right) \\
-& = & \frac{1}{2 \gamma^2} \bigg[ \nabla_i \nabla_j [p_\times]_{ia} [p_\times]_{cj} B_{ac} + \nabla_j [p_\times]_{ia} \nabla_i [p_\times]_{cj} B_{ac} + \nabla_j [p_\times]_{ia} [p_\times]_{cj} \nabla_i   \\
-& & \bigg]
+\nabla_i \nabla_j (D_{ij} P) & = \nabla_i \nabla_j \left[ \frac{1}{2 \gamma^2} ([p_\times]\sigma \sigma^T [p_\times]^T)_{ij} P \right] = \frac{1}{2 \gamma^2} \nabla_i \nabla_j \left( [p_\times]_{ia} [p_\times]_{cj} B_{ab} \right) \\
+= \frac{1}{2 \gamma^2} \bigg[  & \nabla_i \nabla_j [p_\times]_{ia} [p_\times]_{cj} B_{ac} + \nabla_j [p_\times]_{ia} \nabla_i [p_\times]_{cj} B_{ac} + \nabla_j [p_\times]_{ia} [p_\times]_{cj} \nabla_i B_{ac} \\
+&  \nabla_i [p_\times]_{ia} \nabla_j [p_\times]_{cj}  \\
+& \bigg]
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDgzMDY3MDEsLTkxNDM4MTQ5MCwzMj
-E5MjIyMThdfQ==
+eyJoaXN0b3J5IjpbMjA2NDcxMTYyOCwtOTE0MzgxNDkwLDMyMT
+kyMjIxOF19
 -->
