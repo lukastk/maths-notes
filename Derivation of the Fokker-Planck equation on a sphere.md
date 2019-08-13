@@ -55,8 +55,13 @@ $$ \begin{aligned}
 & = 2 \text{Tr} [B] = 2 P\text{Tr}[\sigma \sigma^T]
 \end{aligned}$$
 
+$$ \begin{aligned}
+[p_\times]_{ia} \nabla_i [p_\times]_{cj} \nabla_j B_{ac} & = \epsilon_{ika} \epsilon_{cij} p_k \nabla_j B_{ac} \\
+& = (\delta_{kj} \delta_{ac} - \delta_{kc} \delta_{aj} ) p_k \nabla_j B_{ac} \\
+& = p_j \nabla_j B_{aa} - p_c \nabla_a B_{ac} \\
 
+\end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjg0MTE2MDEsLTkxNDM4MTQ5MCwzMj
+eyJoaXN0b3J5IjpbLTExNDg0ODA3NjEsLTkxNDM4MTQ5MCwzMj
 E5MjIyMThdfQ==
 -->
