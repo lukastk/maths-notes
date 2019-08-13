@@ -27,7 +27,9 @@ $$
 
 where $[p_\times]$ is the matrix-version of the cross-product. Let $a=\frac{1}{\gamma} T \times p$ and $\Sigma = -\frac{1}{\gamma} [p_\times] \sigma$. Eq. (3) has the conserved quantity $|p| =  1$, which in geometric terms means that the system is defined on the 2-sphere. On the other hand, the explicit manifold we are working in is $\mathbb{R}^3$, so we are clearly working with an embedding of $S^2$ in Euclidean space. In the language of [Van Kampen](https://link.springer.com/content/pdf/10.1007/BF01010902.pdf), we have an *implicit* mathematical constraint.
 
-Complications arise when trying to go from the coordinate system in the embedded space, into local coordinates on the manifold itself. Instead, we can simply work with the Fokker-Planck (2) as we know it, working in Euclidean space.
+Complications arise when trying to go from the coordinate system in the embedded space, into local coordinates on the manifold itself. Instead of doing that, we remain in the Euclidean space, and simply work with the Fokker-Planck (2) as we know it.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDkxMjAzMCwzMjE5MjIyMThdfQ==
+eyJoaXN0b3J5IjpbLTU3NTYzOTE2LDMyMTkyMjIxOF19
 -->
