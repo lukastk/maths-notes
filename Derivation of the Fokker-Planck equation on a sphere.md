@@ -59,9 +59,14 @@ $$ \begin{aligned}
 [p_\times]_{ia} \nabla_i [p_\times]_{cj} \nabla_j B_{ac} & = \epsilon_{ika} \epsilon_{cij} p_k \nabla_j B_{ac} \\
 & = (\delta_{kj} \delta_{ac} - \delta_{kc} \delta_{aj} ) p_k \nabla_j B_{ac} \\
 & = p_j \nabla_j B_{aa} - p_c \nabla_a B_{ac} \\
-
+& = (p \cdot \nabla) ( \text{Tr}[\sigma \sigma^T] P) - p \cdot (\nabla \cdot (\sigma \sigma^T P ))
 \end{aligned}$$
+
+Finally, let $\mathcal{R} = p \times \nabla$, then
+$$
+[p_\times]_{ia} [p_\times]_{cj} \nabla_i \nabla_j B_{ac} 
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDg0ODA3NjEsLTkxNDM4MTQ5MCwzMj
-E5MjIyMThdfQ==
+eyJoaXN0b3J5IjpbMTI5NzU2MTQ5LC05MTQzODE0OTAsMzIxOT
+IyMjE4XX0=
 -->
