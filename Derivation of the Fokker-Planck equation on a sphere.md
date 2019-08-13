@@ -42,13 +42,13 @@ Define $B_{ab} = \sigma \sigma^T P$, and consider the 2nd term in (2):
 $$\begin{aligned}
 \nabla_i \nabla_j (D_{ij} P) & = \nabla_i \nabla_j \left[ \frac{1}{2 \gamma^2} ([p_\times]\sigma \sigma^T [p_\times]^T)_{ij} P \right] = \frac{1}{2 \gamma^2} \nabla_i \nabla_j \left( [p_\times]_{ia} [p_\times]_{cj} B_{ab} \right) \\
 = \frac{1}{2 \gamma^2} & \bigg[ 
-\cancel{\nabla_i \nabla_j [p_\times]_{ia} [p_\times]_{cj} B_{ac}} + \nabla_j [p_\times]_{ia} \nabla_i [p_\times]_{cj} B_{ac} + \cancel{\nabla_j [p_\times]_{ia} [p_\times]_{cj} \nabla_i B_{ac} }\\
-&+  \nabla_i [p_\times]_{ia} \nabla_j [p_\times]_{cj} B_{ac} + \cancel{[p_\times]_{ia} \nabla_i \nabla_j [p_\times]_{cj} B_{ac}} + \cancel{[p_\times]_{ia} \nabla_j [p_\times]_{cj} \nabla_i B_{ac} }\\
-& + \cancel{\nabla_i [p_\times]_{ia} [p_\times]_{cj} \nabla_j B_{ac}} + [p_\times]_{ia} \nabla_i [p_\times]_{cj} \nabla_j B_{ac} + [p_\times]_{ia} [p_\times]_{cj} \nabla_i \nabla_j B_{ac} \bigg]
+\cancel{\nabla_i \nabla_j [p_\times]_{ia} [p_\times]_{cj} B_{ac}} + \nabla_j [p_\times]_{ia} \nabla_i [p_\times]_{cj} B_{ac} + \nabla_j [p_\times]_{ia} [p_\times]_{cj} \nabla_i B_{ac} \\
+&+ \cancel{ \nabla_i [p_\times]_{ia} \nabla_j [p_\times]_{cj} B_{ac}} + \cancel{[p_\times]_{ia} \nabla_i \nabla_j [p_\times]_{cj} B_{ac}} + \cancel{[p_\times]_{ia} \nabla_j [p_\times]_{cj} \nabla_i B_{ac} }\\
+& + \cancel{\nabla_i [p_\times]_{ia} [p_\times]_{cj} \nabla_j B_{ac}} + [p_\times]_{ia} \nabla_i [p_\times]_{cj} \nabla_j B_{ac} + [p_\times]_{ia} [p_\times]_{cj} \nabla_i \nabla_j B_{ac} \bigg] \\
 \end{aligned}$$
 
 where some terms cancel due to $\nabla_i [p_\times]_{ij} = 0$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY4MjU4NTMsLTkxNDM4MTQ5MCwzMj
-E5MjIyMThdfQ==
+eyJoaXN0b3J5IjpbMTAxOTAxNDYwOSwtOTE0MzgxNDkwLDMyMT
+kyMjIxOF19
 -->
