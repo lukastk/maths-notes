@@ -30,7 +30,7 @@ where $[p_\times]$ is the matrix-version of the cross-product. Let $a=\frac{1}{\
 Complications arise when trying to go from the coordinate system in the embedded space, into local coordinates on the manifold itself. Instead of doing that, we remain in the Euclidean space, and simply work with the Fokker-Planck (2) as we know it.
 
 Consider the first term in (2):
-$$\cancel{cancel}$$
+
 $$\begin{aligned}
 \nabla_i [ a_i(x, t)P(x,t) ] & = \frac{1}{\gamma} \nabla_i [ \epsilon_{ijk} T_j p_k P ] \\
 & = \frac{1}{\gamma} \epsilon_{ijk} T_j p_k \nabla_i P + \frac{1}{\gamma} \epsilon_{ijk} (\nabla_i T_j) p_k P \\
@@ -41,11 +41,14 @@ Define $B_{ab} = \sigma \sigma^T P$, and consider the 2nd term in (2):
 
 $$\begin{aligned}
 \nabla_i \nabla_j (D_{ij} P) & = \nabla_i \nabla_j \left[ \frac{1}{2 \gamma^2} ([p_\times]\sigma \sigma^T [p_\times]^T)_{ij} P \right] = \frac{1}{2 \gamma^2} \nabla_i \nabla_j \left( [p_\times]_{ia} [p_\times]_{cj} B_{ab} \right) \\
-= \frac{1}{2 \gamma^2} & \bigg[  \nabla_i \nabla_j [p_\times]_{ia} [p_\times]_{cj} B_{ac} + \nabla_j [p_\times]_{ia} \nabla_i [p_\times]_{cj} B_{ac} + \nabla_j [p_\times]_{ia} [p_\times]_{cj} \nabla_i B_{ac} \\
-&+  \nabla_i [p_\times]_{ia} \nabla_j [p_\times]_{cj} B_{ac} + [p_\times]_{ia} \nabla_i \nabla_j [p_\times]_{cj} B_{ac} + [p_\times]_{ia} \nabla_j [p_\times]_{cj} \nabla_i B_{ac} \\
-& + \nabla_i [p_\times]_{ia} [p_\times]_{cj} \nabla_j B_{ac} + [p_\times]_{ia} \nabla_i [p_\times]_{cj} \nabla_j B_{ac} + [p_\times]_{ia} [p_\times]_{cj} \nabla_i \nabla_j B_{ac} \bigg]
+= \frac{1}{2 \gamma^2} & \bigg[ 
+\cancel{\nabla_i \nabla_j [p_\times]_{ia} [p_\times]_{cj} B_{ac}} + \nabla_j [p_\times]_{ia} \nabla_i [p_\times]_{cj} B_{ac} + \cancel{\nabla_j [p_\times]_{ia} [p_\times]_{cj} \nabla_i B_{ac} }\\
+&+  \nabla_i [p_\times]_{ia} \nabla_j [p_\times]_{cj} B_{ac} + \cancel{[p_\times]_{ia} \nabla_i \nabla_j [p_\times]_{cj} B_{ac}} + \cancel{[p_\times]_{ia} \nabla_j [p_\times]_{cj} \nabla_i B_{ac} }\\
+& + \cancel{\nabla_i [p_\times]_{ia} [p_\times]_{cj} \nabla_j B_{ac}} + [p_\times]_{ia} \nabla_i [p_\times]_{cj} \nabla_j B_{ac} + [p_\times]_{ia} [p_\times]_{cj} \nabla_i \nabla_j B_{ac} \bigg]
 \end{aligned}$$
+
+where some terms cancel due to $\nabla_i [p_\times]_{ij} = 0$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4Njg1ODk4LC05MTQzODE0OTAsMzIxOT
-IyMjE4XX0=
+eyJoaXN0b3J5IjpbLTEzOTY4MjU4NTMsLTkxNDM4MTQ5MCwzMj
+E5MjIyMThdfQ==
 -->
