@@ -29,7 +29,11 @@ where $[p_\times]$ is the matrix-version of the cross-product. Let $a=\frac{1}{\
 
 Complications arise when trying to go from the coordinate system in the embedded space, into local coordinates on the manifold itself. Instead of doing that, we remain in the Euclidean space, and simply work with the Fokker-Planck (2) as we know it.
 
+Consider the first term in (2):
 
+$$\begin{aligned}
+\nabla_i [ a_i(x, t)p(x,t) ] & = \nabla_i [ \epsilon_{ ]
+\end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTYzOTE2LDMyMTkyMjIxOF19
+eyJoaXN0b3J5IjpbLTE2MTA4MTc4OTYsMzIxOTIyMjE4XX0=
 -->
