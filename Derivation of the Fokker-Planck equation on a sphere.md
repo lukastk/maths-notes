@@ -9,8 +9,8 @@ $$
 we have the corresponding Fokker-Planck equation
 
 $$
-\frac{\partial p}{\partial t} = - \nabla_i 
+\frac{\partial p(x, t)}{\partial t} = - \nabla_i [ a_i(x)p(x,t) ] + \nabla_i \nabla_j [D_{ij}(x,t)p(x,t)]
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODE5ODQxMl19
+eyJoaXN0b3J5IjpbMzIxOTIyMjE4XX0=
 -->
