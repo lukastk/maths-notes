@@ -49,10 +49,11 @@ $$\begin{aligned}
 
 where some terms cancel due to $\nabla_i [p_\times]_{ij} = 0$. We now consider each term separately.
 
-$$
-
-$$
+$$ \begin{aligned}
+\nabla_j [p_\times]_{ia} \nabla_i [p_\times]_{cj} B_{ac}  & = (\nabla_j \epsilon_{ika} p_k)(\nabla_i \epsilon_{c lj} p_l) B_{ac} \\
+& = \epsilon_{aij} \epsilon_{
+\end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg3NTg4ODA1LC05MTQzODE0OTAsMzIxOT
+eyJoaXN0b3J5IjpbMzMxOTQ0OTI2LC05MTQzODE0OTAsMzIxOT
 IyMjE4XX0=
 -->
