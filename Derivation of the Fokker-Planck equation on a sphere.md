@@ -12,7 +12,11 @@ $$
 \frac{\partial p(x, t)}{\partial t} = - \nabla_i [ a_i(x, t)p(x,t) ] + \nabla_i \nabla_j [D_{ij}(x,t)p(x,t)] .\quad (2)
 $$
 
-Eq. 2 will hold regardless of the form of $a$ and $\sigma$ (given that they satisfy certain regularity conditions). 
+Eq. 2 will hold regardless of the form of $a$ and $\sigma$ (given that they satisfy certain regularity conditions). Consider the SDE for inertial Brownian motion on a sphere
+
+$$\begin{aligned}
+I \dot \omega = - \gamma \omega + T(p) + \sigma 
+\end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE3OTEzNDMsMzIxOTIyMjE4XX0=
+eyJoaXN0b3J5IjpbMTM3MzYwNDAzNCwzMjE5MjIyMThdfQ==
 -->
