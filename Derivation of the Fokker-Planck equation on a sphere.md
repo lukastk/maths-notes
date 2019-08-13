@@ -25,7 +25,7 @@ $$
 \dot{p} = \frac{1}{\gamma} T \times p - \frac{1}{\gamma}[p_\times]\sigma \dot{W} \quad (3)
 $$
 
-where $[p_\times]$ is the matrix-version of the cross-product. Let $a=\frac{1}{\gamma} T \times p$ and $\Sigma = -\frac{1}{\gamma} [p_\times] \sigma$. Eq. (3) has the conserved quantity $|p| =  1$, which in geometric terms means that the system is defined over the 2-sphere. This is an *implicit(*
+where $[p_\times]$ is the matrix-version of the cross-product. Let $a=\frac{1}{\gamma} T \times p$ and $\Sigma = -\frac{1}{\gamma} [p_\times] \sigma$. Eq. (3) has the conserved quantity $|p| =  1$, which in geometric terms means that the system is defined over the 2-sphere. This is an *implicit* mathematical constraints (in the language of [Van Kampen](https://link.springer.com/content/pdf/10.1007/BF01010902.pdf)), which means that 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwNzM5MTUyLDMyMTkyMjIxOF19
+eyJoaXN0b3J5IjpbLTExMDEyODkwNDksMzIxOTIyMjE4XX0=
 -->
