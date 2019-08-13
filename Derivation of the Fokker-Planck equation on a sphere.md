@@ -22,10 +22,10 @@ I \dot \omega & = - \gamma \omega + T(p) + \sigma \dot{W} \\
 where $W$ is the Wiener process. Taking the overdamped limit, we get
 
 $$
-\dot{p} = \frac{1}{\gamma} T \times p - \frac{1}{\gamma}[p_\times]\sigma \dot{W} 
+\dot{p} = \frac{1}{\gamma} T \times p - \frac{1}{\gamma}[p_\times]\sigma \dot{W} \quad (3)
 $$
 
-where $[p_\times]$ is the matrix-version of the cross-product. Let $a=\frac{1}{\gamma} T \times p$ and $\Sigma = -\frac{1}{\gamma} [p_\times] \sigma$. 
+where $[p_\times]$ is the matrix-version of the cross-product. Let $a=\frac{1}{\gamma} T \times p$ and $\Sigma = -\frac{1}{\gamma} [p_\times] \sigma$. Eq. (3) has the conserved quantity $|p| =  1$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTcyNjQwNjksMzIxOTIyMjE4XX0=
+eyJoaXN0b3J5IjpbMTYxODYxMTU3MSwzMjE5MjIyMThdfQ==
 -->
