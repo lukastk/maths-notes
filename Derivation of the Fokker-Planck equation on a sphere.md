@@ -9,7 +9,7 @@ $$
 we have the corresponding Fokker-Planck equation
 
 $$
-\frac{\partial p(x, t)}{\partial t} = - \nabla_i [ a_i(x, t)p(x,t) ] + \nabla_i \nabla_j [D_{ij}(x,t)p(x,t)] .\quad (2)
+\frac{\partial P(x, t)}{\partial t} = - \nabla_i [ a_i(x, t)P(x,t) ] + \nabla_i \nabla_j [D_{ij}(x,t)P(x,t)] .\quad (2)
 $$
 
 Eq. 2 will hold regardless of the form of $a$ and $\sigma$ (given that they satisfy certain regularity conditions). Consider the SDE for inertial Brownian motion on a sphere
@@ -32,8 +32,9 @@ Complications arise when trying to go from the coordinate system in the embedded
 Consider the first term in (2):
 
 $$\begin{aligned}
-\nabla_i [ a_i(x, t)p(x,t) ] & = \nabla_i [ \epsilon_{ ]
+\nabla_i [ a_i(x, t)P(x,t) ] & = \frac{1}{\gamma} \nabla_i [ \epsilon_{ijk} T_j p_k P ] \\
+& = \frac{1}{\gamma
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTA4MTc4OTYsMzIxOTIyMjE4XX0=
+eyJoaXN0b3J5IjpbNjk4MDM4MjQyLDMyMTkyMjIxOF19
 -->
