@@ -43,10 +43,9 @@ $$\begin{aligned}
 \nabla_i \nabla_j (D_{ij} P) & = \nabla_i \nabla_j \left[ \frac{1}{2 \gamma^2} ([p_\times]\sigma \sigma^T [p_\times]^T)_{ij} P \right] = \frac{1}{2 \gamma^2} \nabla_i \nabla_j \left( [p_\times]_{ia} [p_\times]_{cj} B_{ab} \right) \\
 = \frac{1}{2 \gamma^2} & \bigg[  \nabla_i \nabla_j [p_\times]_{ia} [p_\times]_{cj} B_{ac} + \nabla_j [p_\times]_{ia} \nabla_i [p_\times]_{cj} B_{ac} + \nabla_j [p_\times]_{ia} [p_\times]_{cj} \nabla_i B_{ac} \\
 &+  \nabla_i [p_\times]_{ia} \nabla_j [p_\times]_{cj} B_{ac} + [p_\times]_{ia} \nabla_i \nabla_j [p_\times]_{cj} B_{ac} + [p_\times]_{ia} \nabla_j [p_\times]_{cj} \nabla_i B_{ac} \\
-& + \nabla_i [p_\times]_{ia} [p_\times]_{cj} \nabla_j B_{ac} + [p_\times]_{ia} \nabla_i [p_\times]_{cj}   \\
-& \bigg]
+& + \nabla_i [p_\times]_{ia} [p_\times]_{cj} \nabla_j B_{ac} + [p_\times]_{ia} \nabla_i [p_\times]_{cj} \nabla_j B_{ac} + [p_\times]_{ia} [p_\times]_{cj} \nabla_i \nabla_j B_{ac} \bigg]
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzA4NzUxODYsLTkxNDM4MTQ5MCwzMj
+eyJoaXN0b3J5IjpbLTEyMzIxOTUzNDgsLTkxNDM4MTQ5MCwzMj
 E5MjIyMThdfQ==
 -->
