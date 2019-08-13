@@ -22,8 +22,8 @@ I \dot \omega & = - \gamma \omega + T(p) + \sigma \dot{W} \\
 where $W$ is the Wiener process. Taking the overdamped limit, we get
 
 $$
-\dot{p} = 
+\dot{p} = \frac{1}{\gamma} T \times p - \frac{1}{\gamma}[p_\times]
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1OTc3OTQwLDMyMTkyMjIxOF19
+eyJoaXN0b3J5IjpbLTE2MjE2NTY0MjAsMzIxOTIyMjE4XX0=
 -->
