@@ -37,12 +37,12 @@ $$\begin{aligned}
 & = a \cdot \nabla P + \frac{1}{\gamma} \epsilon_{ijk} (\nabla_i T_j) p_k P
 \end{aligned}$$
 
-Define $B_{ab} = \frac{1}{2} \s \Sigma^T P$, and consider the 2nd term in (2):
+Define $B_{ab} = \sigma \sigma^T P$, and consider the 2nd term in (2):
 
 $$\begin{aligned}
-\nabla_i \nabla_j [B_{ij}] = 
+\nabla_i \nabla_j (D_{ij} P) = \nabla_i \nabla_j \left[ \frac{1}{2 \gamma^2} ([p_\times]\sigma \sigma^T [p_\times]^T)_{ij} P \right] = 
 \end{aligned}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTc1MTMwNTIsLTkxNDM4MTQ5MCwzMj
-E5MjIyMThdfQ==
+eyJoaXN0b3J5IjpbLTc2MDIwMTg1MCwtOTE0MzgxNDkwLDMyMT
+kyMjIxOF19
 -->
