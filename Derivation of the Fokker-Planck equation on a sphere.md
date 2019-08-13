@@ -12,7 +12,7 @@ $$
 \frac{\partial P(x, t)}{\partial t} = - \nabla_i [ a_i(x, t)P(x,t) ] + \nabla_i \nabla_j [D_{ij}(x,t)P(x,t)] .\quad (2)
 $$
 
-Eq. 2 will hold regardless of the form of $a$ and $\sigma$ (given that they satisfy certain regularity conditions). Consider the SDE for inertial Brownian motion on a sphere
+where $D = \frac{1}{2} \sigma \sigma^T$. Eq. 2 will hold regardless of the form of $a$ and $\sigma$ (given that they satisfy certain regularity conditions). Consider the SDE for inertial Brownian motion on a sphere
 
 $$\begin{aligned}
 I \dot \omega & = - \gamma \omega + T(p) + \sigma \dot{W} \\
@@ -34,8 +34,13 @@ Consider the first term in (2):
 $$\begin{aligned}
 \nabla_i [ a_i(x, t)P(x,t) ] & = \frac{1}{\gamma} \nabla_i [ \epsilon_{ijk} T_j p_k P ] \\
 & = \frac{1}{\gamma} \epsilon_{ijk} T_j p_k \nabla_i P + \frac{1}{\gamma} \epsilon_{ijk} (\nabla_i T_j) p_k P \\
-& = a \cdot \nabla P + 
+& = a \cdot \nabla P + \frac{1}{\gamma} \epsilon_{ijk} (\nabla_i T_j) p_k P
 \end{aligned}$$
+
+Define $B_{ab} = \frac{1}{2} \Sigma \Sigma^T P$, and consider the 2nd term in (2):
+
+$$\nabla_i \nabla_j [D_{ij}(x,t)P(x,t)] $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDM4MTQ5MCwzMjE5MjIyMThdfQ==
+eyJoaXN0b3J5IjpbNTM3MzgwMTQ3LC05MTQzODE0OTAsMzIxOT
+IyMjE4XX0=
 -->
