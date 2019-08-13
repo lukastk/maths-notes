@@ -51,9 +51,12 @@ where some terms cancel due to $\nabla_i [p_\times]_{ij} = 0$. We now consider e
 
 $$ \begin{aligned}
 \nabla_j [p_\times]_{ia} \nabla_i [p_\times]_{cj} B_{ac}  & = (\nabla_j \epsilon_{ika} p_k)(\nabla_i \epsilon_{c lj} p_l) B_{ac} \\
-& = \epsilon_{aij} \epsilon_{
+& = \epsilon_{aij} \epsilon_{cij} B_{ac} = 2 \delta_{ac} B_{ac} \\
+& = 2 \text{Tr} [B] = 2 P\text{Tr}[\sigma \sigma^T]
 \end{aligned}$$
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxOTQ0OTI2LC05MTQzODE0OTAsMzIxOT
-IyMjE4XX0=
+eyJoaXN0b3J5IjpbLTE5Mjg0MTE2MDEsLTkxNDM4MTQ5MCwzMj
+E5MjIyMThdfQ==
 -->
