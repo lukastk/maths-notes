@@ -14,7 +14,7 @@ with a hyperbolic fixed point $f(p) = 0$. We denote $W^s(p)$ as the stable set a
 - $W^u(p)$ is a smooth manifold and its tangent space has the same dimension as $E^u(p)$.</i>
 
 
-If 
+If we have 
 
 ## Multiple-scale analysis
 
@@ -59,7 +59,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTU5MjQ0NDcsLTEzNzgxMjI0NDUsOD
+eyJoaXN0b3J5IjpbLTE1Mzg5ODQ1NjksLTEzNzgxMjI0NDUsOD
 k3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMjYzMzU2
 NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ
 ==
