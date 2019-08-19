@@ -31,6 +31,7 @@ where $x \oplus y \oplus z \in \mathbb{R}^n$ and $B$ and $C$ are the Jacobian ma
 
 ===
 
+So the centre manifold consists of orbits whose behaviour
 
 
 ## Multiple-scale analysis
@@ -76,8 +77,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDk4ODQ5MCwyMDkyMTM4Mjg5LC0xMz
-c4MTIyNDQ1LDg5NzAwNjkwOCw4MjkyOTk3NzEsLTEyMjEwMjY4
-MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQyNiwxMD
-A3MDYxMTM1XX0=
+eyJoaXN0b3J5IjpbLTc2MjQ4OTEsMjA5MjEzODI4OSwtMTM3OD
+EyMjQ0NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIy
+LDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNz
+A2MTEzNV19
 -->
