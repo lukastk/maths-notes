@@ -1,3 +1,11 @@
+## Center manifolds, and slow manifolds
+
+**Theorem (Stable manifold theorem)** Let
+
+$$f : U \subset \mathbb{R}^n \to \mathbb{R}^n$$
+
+be a smooth map with hyperbolic fixed point at 
+
 ## Multiple-scale analysis
 
 Standard perturbation techniques involve expanding the solution of an equation in a power series in some "small parameter". So for the Duffing equation
@@ -41,7 +49,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzgxMjI0NDUsODk3MDA2OTA4LDgyOT
-I5OTc3MSwtMTIyMTAyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIy
-NDQ1LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ==
+eyJoaXN0b3J5IjpbMTQ3NDU0MzQ4OSwtMTM3ODEyMjQ0NSw4OT
+cwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNjMzNTY3
+ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEzNV19
 -->
