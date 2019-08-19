@@ -43,7 +43,7 @@ $$
 \dot{x} = - xy, \quad \dot{y} = - y + x^2 - 2 y^2
 $$
 
-which has the exact slow manifold $y=x^2
+which has the exact slow manifold $y=x^2$, on which the evolution is $\dot{x} = - x^3$. Apart from exponentially decaying transients, this slow manifold and its evolution captures all solutions that are in the neighbourhood of the origin.
 
 
 
@@ -90,7 +90,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjY0MzA4MCwyMDkyMTM4Mjg5LC0xMz
+eyJoaXN0b3J5IjpbMjAzNDg3MzQ3NiwyMDkyMTM4Mjg5LC0xMz
 c4MTIyNDQ1LDg5NzAwNjkwOCw4MjkyOTk3NzEsLTEyMjEwMjY4
 MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQyNiwxMD
 A3MDYxMTM1XX0=
