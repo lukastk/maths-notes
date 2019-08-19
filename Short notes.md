@@ -35,7 +35,9 @@ So the centre manifold consists of orbits whose behaviour around the equilibrium
 
 In multi-scale mathematics, we often have that long-time dynamics are attracted to a relatively simple center manifolds.
 
-If eigenvalues are precisely zero (so $\text{Im}(\lambda)=0$ as well), then we 
+The subset of eigenvalues that are precisely zero (so $\text{Im}(\lambda)=0$ as well) comprise the *slow* manifold. They are slow in the sense that the dynamics on these manifolds are sub-exponential in nature, as opposed to the stable/unstable manifolds.
+
+
 
 ## Multiple-scale analysis
 
@@ -80,7 +82,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjAyNTc5MywyMDkyMTM4Mjg5LC0xMz
+eyJoaXN0b3J5IjpbLTQzMDc4NjQ0NSwyMDkyMTM4Mjg5LC0xMz
 c4MTIyNDQ1LDg5NzAwNjkwOCw4MjkyOTk3NzEsLTEyMjEwMjY4
 MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQyNiwxMD
 A3MDYxMTM1XX0=
