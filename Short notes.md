@@ -31,7 +31,9 @@ where $x \oplus y \oplus z \in \mathbb{R}^n$ and $B$ and $C$ are the Jacobian ma
 
 ===
 
-So the centre manifold consists of orbits whose behaviour
+So the centre manifold consists of orbits whose behaviour around the equilibrium point is not controlled by the exponential behaviour of the stable or unstable manifolds. It is often the case that 
+
+In multi-scale mathematics, we often have that long-time dynamics are attracted to a relatively simple center manifolds.
 
 
 ## Multiple-scale analysis
@@ -77,8 +79,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MjQ4OTEsMjA5MjEzODI4OSwtMTM3OD
-EyMjQ0NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIy
-LDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNz
-A2MTEzNV19
+eyJoaXN0b3J5IjpbLTE5OTE0NDk2MjcsMjA5MjEzODI4OSwtMT
+M3ODEyMjQ0NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2
+ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMT
+AwNzA2MTEzNV19
 -->
