@@ -21,7 +21,13 @@ If we have non-hyperbolic points the situation is complicated. Non-hyperbolic po
 
 So in general, locally $\mathbb{R}^n = W^c \oplus W^u \oplus W^s$ with the approximate governing equations on each manifold
 
-$$
+$$\begin{aligned}
+\dot{x} & = g(x) & \text{on } W^c \\
+\dot{y} & = B y & \text{on } W^s \\
+\dot{z} & = C z & \text{on } W^u
+\end{aligned}$$
+
+where $x \oplus y \oplus z \in \mathbb{R}^n$ and $B$ and $C$ are the eigenspaces 
 
 ===
 
@@ -68,8 +74,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDIzNTg0LDIwOTIxMzgyODksLTEzNz
-gxMjI0NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgy
-MiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMD
-cwNjExMzVdfQ==
+eyJoaXN0b3J5IjpbLTEwMjI4NjYzMTcsMjA5MjEzODI4OSwtMT
+M3ODEyMjQ0NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2
+ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMT
+AwNzA2MTEzNV19
 -->
