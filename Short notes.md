@@ -13,11 +13,17 @@ with a hyperbolic fixed point $f(p) = 0$. We denote $W^s(p)$ as the stable set a
 - $W^s(p)$ is a smooth manifold and its tangent space has the same dimension as $E^s(p)$.
 - $W^u(p)$ is a smooth manifold and its tangent space has the same dimension as $E^u(p)$.
 
-
+===
 
 If we have non-hyperbolic points the situation is complicated. Non-hyperbolic points arise when there are eigenvalues of the linearised system with zero-real parts (i.e. fully imaginary eigenvalues). 
 
-**Theorem (Centre Manifold Theorem):** Let $p$ be a non-hyperbolic fixed point of $f$ defined above. Suppose the Jacobian matrix $Df(0)$ has eigenvalues in sets $\sigma_u$ with $\text{Re}(\lambda) > 0$, $\sigma_s$ with $\text{Re}(\lambda) < 0$ and $\sigma_c$ with $\text{Re}(\lambda) = 0$. Then there exist unstable and stable manifolds $W^u$, $W^u$ of the same dimenson as $E^u$ and $^s$ and tangential to $E^s$ and $E^u$ at $x=0$ respectively; and an invariant centre manifold $W^c$ tangential to $E^
+**Theorem (Centre Manifold Theorem):** Let $p$ be a non-hyperbolic fixed point of $f$ defined above. Suppose the Jacobian matrix $Df(0)$ has eigenvalues in sets $\sigma_u$ with $\text{Re}(\lambda) > 0$, $\sigma_s$ with $\text{Re}(\lambda) < 0$ and $\sigma_c$ with $\text{Re}(\lambda) = 0$. Then there exist unstable and stable manifolds $W^u$, $W^u$ of the same dimenson as $E^u$ and $^s$ and tangential to $E^s$ and $E^u$ at $x=0$ respectively; and an invariant centre manifold $W^c$ tangential to $E^c$ at $x=0$.
+
+So in general, locally $\mathbb{R}^n = W^c \oplus W^u \oplus W^s$ with the approximate governing equations on each manifold
+
+$$
+
+===
 
 ## Multiple-scale analysis
 
@@ -62,8 +68,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzE5OTgyODIsMjA5MjEzODI4OSwtMT
-M3ODEyMjQ0NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2
-ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMT
-AwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbLTE4NDIzNTg0LDIwOTIxMzgyODksLTEzNz
+gxMjI0NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgy
+MiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMD
+cwNjExMzVdfQ==
 -->
