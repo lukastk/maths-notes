@@ -1,6 +1,6 @@
 ## Center manifolds, and slow manifolds
 
-**Theorem (Stable manifold theorem)** Let
+**Theorem (Stable manifold theorem)**  Let
 
 $$f : U \subset \mathbb{R}^n \to \mathbb{R}^n$$
 
@@ -11,7 +11,7 @@ $$\dot{x}  = f(x)$$
 with a hyperbolic fixed point $f(p) = 0$. We denote $W^s(p)$ as the stable set and $W^u(p)$ as the unstable set of $p$. Let $E^s(p)$ and $E^u(p)$ be the stable and unstable sets of the linearised system around $p$. Then 
 
 - $W^s(p)$ is a smooth manifold and its tangent space has the same dimension as $E^s(p)$.
-- $W^u(p)$ is a smooth manifold and its tangent space has the same dimension as $E^u(p)$.</i>
+- $W^u(p)$ is a smooth manifold and its tangent space has the same dimension as $E^u(p)$.
 
 
 If we have non-hyperbolic points the situation is complicated. Non-hyperbolic points arise when there are eigenvalues of the linearised system with zero-real parts (i.e. fully imaginary eigenvalues). 
@@ -59,7 +59,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI1MjQzODMsLTEzNzgxMjI0NDUsODk3MD
-A2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMjYzMzU2Nzgw
-LC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ==
+eyJoaXN0b3J5IjpbMjA5MjEzODI4OSwtMTM3ODEyMjQ0NSw4OT
+cwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNjMzNTY3
+ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEzNV19
 -->
