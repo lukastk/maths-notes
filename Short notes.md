@@ -27,9 +27,11 @@ $$\begin{aligned}
 \dot{z} & = C z & \text{on } W^u
 \end{aligned}$$
 
-where $x \oplus y \oplus z \in \mathbb{R}^n$ and $B$ and $C$ are the Jacobian matrices of the stable and unstable directions respectively.
+where $x \oplus y \oplus z \in \mathbb{R}^n$ and $B$ and $C$ are the Jacobian matrices of the stable and unstable directions respectively; and $g(x)$ is some quadratic (or higher order) function in $x$. All eigenvalues of $B$ have negative real parts, and all eigenvalues of $C$ have positive real parts.
 
 ===
+
+
 
 ## Multiple-scale analysis
 
@@ -74,8 +76,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODI5NDQ5MTQsMjA5MjEzODI4OSwtMT
-M3ODEyMjQ0NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2
-ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMT
-AwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbLTI2MDk4ODQ5MCwyMDkyMTM4Mjg5LC0xMz
+c4MTIyNDQ1LDg5NzAwNjkwOCw4MjkyOTk3NzEsLTEyMjEwMjY4
+MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQyNiwxMD
+A3MDYxMTM1XX0=
 -->
