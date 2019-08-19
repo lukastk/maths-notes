@@ -17,6 +17,8 @@ with a hyperbolic fixed point $f(p) = 0$. We denote $W^s(p)$ as the stable set a
 
 If we have non-hyperbolic points the situation is complicated. Non-hyperbolic points arise when there are eigenvalues of the linearised system with zero-real parts (i.e. fully imaginary eigenvalues). 
 
+**Theorem (Centre Manifold Theorem):** Let $p$ be a non-hyperbolic fixed point of $f$ defined above. Suppose the Jacobian matrix $Df(0)$ has eigenvalues in sets $\sigma_u$ with $\text{Re}(\lambda) > 0$, $\sigma_u$ with $\text{Re}(\lambda) > 0$ 
+
 ## Multiple-scale analysis
 
 Standard perturbation techniques involve expanding the solution of an equation in a power series in some "small parameter". So for the Duffing equation
@@ -60,8 +62,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU4MzkxMDEsMjA5MjEzODI4OSwtMT
-M3ODEyMjQ0NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2
-ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMT
-AwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbLTYwNzI2ODQ5LDIwOTIxMzgyODksLTEzNz
+gxMjI0NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgy
+MiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMD
+cwNjExMzVdfQ==
 -->
