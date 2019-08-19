@@ -4,7 +4,11 @@
 
 $$f : U \subset \mathbb{R}^n \to \mathbb{R}^n$$
 
-be a smooth map with hyperbolic fixed point at 
+be a smooth map, and consider the dynamical system
+
+$$\dot{x}  = f(x)$$
+
+with a hyperbolic fixed point $f(p) = 0$. We denote $W^s(p)$ as the stable set and $W^u(p)$ as the unstable set of $p$. Let $E^s(p)$ and $E^u(p)$ be the stable and unstable set 
 
 ## Multiple-scale analysis
 
@@ -49,7 +53,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDU0MzQ4OSwtMTM3ODEyMjQ0NSw4OT
-cwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNjMzNTY3
-ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbLTE4MzA4NjI0NTIsLTEzNzgxMjI0NDUsOD
+k3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMjYzMzU2
+NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ
+==
 -->
