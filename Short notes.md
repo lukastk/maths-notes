@@ -14,6 +14,7 @@ with a hyperbolic fixed point $f(p) = 0$. We denote $W^s(p)$ as the stable set a
 - $W^u(p)$ is a smooth manifold and its tangent space has the same dimension as $E^u(p)$.
 
 
+
 If we have non-hyperbolic points the situation is complicated. Non-hyperbolic points arise when there are eigenvalues of the linearised system with zero-real parts (i.e. fully imaginary eigenvalues). 
 
 ## Multiple-scale analysis
@@ -59,7 +60,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjEzODI4OSwtMTM3ODEyMjQ0NSw4OT
-cwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNjMzNTY3
-ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbLTEyNDU4MzkxMDEsMjA5MjEzODI4OSwtMT
+M3ODEyMjQ0NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2
+ODIyLDEyNjMzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMT
+AwNzA2MTEzNV19
 -->
