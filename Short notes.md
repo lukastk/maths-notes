@@ -14,6 +14,8 @@ and the semi-discrete Fourier transform is defined as
 
 $$\hat{v} = h \sum_{j=-\infty}^\infty e^{-ik x_j} v_j, \quad k \in [-\pi/h, \pi/h]$$
 
+![enter image description here](http://i.imgur.com/Fhym8hj.png)
+
 ## Center manifolds, and slow manifolds
 
 **Theorem (Stable manifold theorem)**  Let
@@ -106,8 +108,9 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5MDYwNzIyLC03NjQ4OTU0NDksMjAzND
-g3MzQ3NiwyMDkyMTM4Mjg5LC0xMzc4MTIyNDQ1LDg5NzAwNjkw
-OCw4MjkyOTk3NzEsLTEyMjEwMjY4MjIsMTI2MzM1Njc4MCwtMT
-M3ODEyMjQ0NSw4NTA4NjQyNiwxMDA3MDYxMTM1XX0=
+eyJoaXN0b3J5IjpbMTQ3NDg4MzQxMyw4MDkwNjA3MjIsLTc2ND
+g5NTQ0OSwyMDM0ODczNDc2LDIwOTIxMzgyODksLTEzNzgxMjI0
+NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMj
+YzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjEx
+MzVdfQ==
 -->
