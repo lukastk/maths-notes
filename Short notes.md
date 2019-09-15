@@ -4,7 +4,7 @@ Consider a function $u : \mathbb{R} \to \mathbb{R}$, and its discretisation on $
 
 $$v_j = u(x_j), \quad x_j = jh, \quad j \in \mathbb{Z}.$$
 
-We will consider the relationship between the Fourier transform $\hat{u}(k)$ and the semi-discrete Fourier transform $\hat{v}(k)$. Since $v$ is a discrete function, Fourier space is bounded and $k \in [-\pi / h, \pi / h]$, and because it is unbounded we have that $k$ is continuous.
+We will consider the difference between the Fourier transform $\hat{u}(k)$ and the semi-discrete Fourier transform $\hat{v}(k)$. Since $v$ is a discrete function, Fourier space is bounded and $k \in [-\pi / h, \pi / h]$, and because it is unbounded we have that $k$ is continuous.
 
 The Fourier transform is defined as
 
@@ -18,7 +18,11 @@ The reason why $\hat{v}$ is defined on a bound domain is due to *aliasing*. Cons
 
 ![Aliasing](http://i.imgur.com/Fhym8hj.png)
 
-For any complex exponential $e^{ikx}$, there are infinitely many other complex exponentials that match it on the grid $h \mathbb{Z}$ ("aliases"). Consequently, it suffices to measure wave-numbers for the grid in an interval 
+For any complex exponential $e^{ikx}$, there are infinitely many other complex exponentials that match it on the grid $h \mathbb{Z}$ ("aliases"). Consequently, it suffices to measure wave-numbers for the grid in an interval of length $2 \pi / h$.
+
+For completeness, the inverse semi-discrete Fourier transform is
+
+$$ v_j = \frac{1}{2 \pi} \int_{-\pi / h}^{\pi / h} e^{ikx_j} \hat{v}(k) dk
 
 ## Center manifolds, and slow manifolds
 
@@ -112,9 +116,9 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0ODk5MTI3LDgwOTA2MDcyMiwtNzY0OD
-k1NDQ5LDIwMzQ4NzM0NzYsMjA5MjEzODI4OSwtMTM3ODEyMjQ0
-NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNj
-MzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEz
-NV19
+eyJoaXN0b3J5IjpbNjQ2OTQ0MDIsODA5MDYwNzIyLC03NjQ4OT
+U0NDksMjAzNDg3MzQ3NiwyMDkyMTM4Mjg5LC0xMzc4MTIyNDQ1
+LDg5NzAwNjkwOCw4MjkyOTk3NzEsLTEyMjEwMjY4MjIsMTI2Mz
+M1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQyNiwxMDA3MDYxMTM1
+XX0=
 -->
