@@ -32,7 +32,9 @@ So we see that the semi-discrete Fourier transform (2) approximates the Fourier 
 
 For the relationship between $\hat{u}$ and $\hat{v}$, we have the following theorem:
 
-**Theorem (Aliasing formula):** Let $u \in L^2 (\mathbb{R})$ have a first derivative of bounded variation, and let $v$ be its associated grid function on $h \mathbb{Z}$. Then for all $k \in [-\pi/h, \pi
+**Theorem (Aliasing formula):** Let $u \in L^2 (\mathbb{R})$ have a first derivative of bounded variation, and let $v$ be its associated grid function on $h \mathbb{Z}$. Then for all $k \in [-\pi/h, \pi / h]$,
+
+$$\hat{v}(k) = \sum_{-\infty}^\infty \hat{u}(k + 2 \pi j / h).$$
 
 ## Center manifolds, and slow manifolds
 
@@ -126,9 +128,9 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2ODU4NDMwMCwyMzI2MjI2MjUsODA5MD
-YwNzIyLC03NjQ4OTU0NDksMjAzNDg3MzQ3NiwyMDkyMTM4Mjg5
-LC0xMzc4MTIyNDQ1LDg5NzAwNjkwOCw4MjkyOTk3NzEsLTEyMj
-EwMjY4MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQy
-NiwxMDA3MDYxMTM1XX0=
+eyJoaXN0b3J5IjpbNTQ3Mzc5MjE4LDIzMjYyMjYyNSw4MDkwNj
+A3MjIsLTc2NDg5NTQ0OSwyMDM0ODczNDc2LDIwOTIxMzgyODks
+LTEzNzgxMjI0NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMT
+AyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2
+LDEwMDcwNjExMzVdfQ==
 -->
