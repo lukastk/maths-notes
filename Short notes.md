@@ -14,11 +14,11 @@ and the semi-discrete Fourier transform is defined as
 
 $$\hat{v} = h \sum_{j=-\infty}^\infty e^{-ik x_j} v_j, \quad k \in [-\pi/h, \pi/h].$$
 
-The reason why $\hat{v}$ is defined on a bound domain is due to *aliasing*Now consider the following figure:
+The reason why $\hat{v}$ is defined on a bound domain is due to *aliasing*. Consider the figure below. It shows that, on the grid $\frac{1}{4} \mathbb{Z}$, the functions $\sin(\pi x)$ and $\sin(9 \pi x)$ are identical.
 
 ![Aliasing](http://i.imgur.com/Fhym8hj.png)
 
-It shows that, on the grid $\frac{1}{4} \mathbb{Z}$, the functions $\sin(\pi x)$ and $\sin(9 \pi x)$.
+For any complex exponential $e^{ikx}$, there are infinitely many other complex exponentials that match it on the grid $h \mathbb{Z}$ ("aliases"). Consequently, it suffices to measure wave-numbers for the grid in an interval 
 
 ## Center manifolds, and slow manifolds
 
@@ -112,9 +112,9 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDg5MDY5NCw4MDkwNjA3MjIsLTc2ND
-g5NTQ0OSwyMDM0ODczNDc2LDIwOTIxMzgyODksLTEzNzgxMjI0
-NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMj
-YzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjEx
-MzVdfQ==
+eyJoaXN0b3J5IjpbNTI0ODk5MTI3LDgwOTA2MDcyMiwtNzY0OD
+k1NDQ5LDIwMzQ4NzM0NzYsMjA5MjEzODI4OSwtMTM3ODEyMjQ0
+NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNj
+MzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEz
+NV19
 -->
