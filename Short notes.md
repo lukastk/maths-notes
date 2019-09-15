@@ -8,11 +8,11 @@ We will consider the difference between the Fourier transform $\hat{u}(k)$ and t
 
 The Fourier transform is defined as
 
-$$\hat{u}(k) = \int_{-\infty}^\infty e^{-ikx} u(x) dx, \quad k \in \mathbb{R}$$
+$$\hat{u}(k) = \int_{-\infty}^\infty e^{-ikx} u(x) dx, \quad k \in \mathbb{R} \quad(1)$$
 
 and the semi-discrete Fourier transform is defined as
 
-$$\hat{v} = h \sum_{j=-\infty}^\infty e^{-ik x_j} v_j, \quad k \in [-\pi/h, \pi/h].$$
+$$\hat{v} = h \sum_{j=-\infty}^\infty e^{-ik x_j} v_j, \quad k \in [-\pi/h, \pi/h]. \quad (2)$$
 
 The reason why $\hat{v}$ is defined on a bound domain is due to *aliasing*. Consider the figure below. It shows that, on the grid $\frac{1}{4} \mathbb{Z}$, the functions $\sin(\pi x)$ and $\sin(9 \pi x)$ are identical.
 
@@ -22,7 +22,9 @@ For any complex exponential $e^{ikx}$, there are infinitely many other complex e
 
 For completeness, the inverse semi-discrete Fourier transform is
 
-$$ v_j = \frac{1}{2 \pi} \int_{-\pi / h}^{\pi / h} e^{ikx_j} \hat{v}(k) dk
+$$ v_j = \frac{1}{2 \pi} \int_{-\pi / h}^{\pi / h} e^{ikx_j} \hat{v}(k) dk, \quad j \in \mathbb{Z} \quad (3)$$
+
+So we see that the semi-discrete Fourier transform (2) approximates the Fourier transform (1) by a trapezoid rule, and the inverse semi-discrete Fourier transform
 
 ## Center manifolds, and slow manifolds
 
@@ -116,9 +118,9 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ2OTQ0MDIsODA5MDYwNzIyLC03NjQ4OT
-U0NDksMjAzNDg3MzQ3NiwyMDkyMTM4Mjg5LC0xMzc4MTIyNDQ1
-LDg5NzAwNjkwOCw4MjkyOTk3NzEsLTEyMjEwMjY4MjIsMTI2Mz
-M1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQyNiwxMDA3MDYxMTM1
-XX0=
+eyJoaXN0b3J5IjpbMTI5MDE2NTQzMCw4MDkwNjA3MjIsLTc2ND
+g5NTQ0OSwyMDM0ODczNDc2LDIwOTIxMzgyODksLTEzNzgxMjI0
+NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMj
+YzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjEx
+MzVdfQ==
 -->
