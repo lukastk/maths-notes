@@ -12,9 +12,13 @@ $$\hat{u}(k) = \int_{-\infty}^\infty e^{-ikx} u(x) dx, \quad k \in \mathbb{R}$$
 
 and the semi-discrete Fourier transform is defined as
 
-$$\hat{v} = h \sum_{j=-\infty}^\infty e^{-ik x_j} v_j, \quad k \in [-\pi/h, \pi/h]$$
+$$\hat{v} = h \sum_{j=-\infty}^\infty e^{-ik x_j} v_j, \quad k \in [-\pi/h, \pi/h].$$
 
-![enter image description here](http://i.imgur.com/Fhym8hj.png)
+The reason why $\hat{v}$ is defined on a bound domain is due to *aliasing*Now consider the following figure:
+
+![Aliasing](http://i.imgur.com/Fhym8hj.png)
+
+It shows that, on the grid $\frac{1}{4} \mathbb{Z}$, the functions $\sin(\pi x)$ and $\sin(9 \pi x)$.
 
 ## Center manifolds, and slow manifolds
 
@@ -108,7 +112,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NDg4MzQxMyw4MDkwNjA3MjIsLTc2ND
+eyJoaXN0b3J5IjpbMTEzMDg5MDY5NCw4MDkwNjA3MjIsLTc2ND
 g5NTQ0OSwyMDM0ODczNDc2LDIwOTIxMzgyODksLTEzNzgxMjI0
 NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMj
 YzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjEx
