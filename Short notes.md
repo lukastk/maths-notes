@@ -1,6 +1,6 @@
 ## Aliasing in the semi-discrete Fourier transforms
 
-Consider a function $u : \mathbb{R} \to \mathbb{R}$, and its discretisation 
+Consider a function $u : \mathbb{R} \to \mathbb{R}$, and its discretisation on $h \mathbb
 
 ## Center manifolds, and slow manifolds
 
@@ -94,8 +94,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjQ5MDQzMywtNzY0ODk1NDQ5LDIwMz
-Q4NzM0NzYsMjA5MjEzODI4OSwtMTM3ODEyMjQ0NSw4OTcwMDY5
-MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNjMzNTY3ODAsLT
-EzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEzNV19
+eyJoaXN0b3J5IjpbLTE5NjM0MjE4NTQsLTc2NDg5NTQ0OSwyMD
+M0ODczNDc2LDIwOTIxMzgyODksLTEzNzgxMjI0NDUsODk3MDA2
+OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMjYzMzU2NzgwLC
+0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ==
 -->
