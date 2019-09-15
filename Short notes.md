@@ -1,4 +1,4 @@
-## Aliasing in discrete Fourier transforms
+## Aliasing in the semi-discrete Fourier transforms
 
 ## Center manifolds, and slow manifolds
 
@@ -92,7 +92,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjMyODU2OSwyMDM0ODczNDc2LDIwOT
+eyJoaXN0b3J5IjpbLTc2NDg5NTQ0OSwyMDM0ODczNDc2LDIwOT
 IxMzgyODksLTEzNzgxMjI0NDUsODk3MDA2OTA4LDgyOTI5OTc3
 MSwtMTIyMTAyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LD
 g1MDg2NDI2LDEwMDcwNjExMzVdfQ==
