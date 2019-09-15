@@ -4,7 +4,11 @@ Consider a function $u : \mathbb{R} \to \mathbb{R}$, and its discretisation on $
 
 $$v_j = u(x_j), \quad x_j = jh, \quad j \in \mathbb{Z}.$$
 
-We will consider the relationship between the Fourier transform $\hat{u}(k)$ and the semi-discrete Fourier transform $\hat{v}(k)$/
+We will consider the relationship between the Fourier transform $\hat{u}(k)$ and the semi-discrete Fourier transform $\hat{v}(k)$. Since $v$ is a discrete function, Fourier space is bounded and $k \in [-\pi / h, \pi / h]$, and because it is unbounded we have that $k$ is continuous.
+
+The Fourier transform is defined as
+
+
 
 ## Center manifolds, and slow manifolds
 
@@ -98,7 +102,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjAzNzEyMjcsLTc2NDg5NTQ0OSwyMD
+eyJoaXN0b3J5IjpbLTE3MDYwNTAyNDYsLTc2NDg5NTQ0OSwyMD
 M0ODczNDc2LDIwOTIxMzgyODksLTEzNzgxMjI0NDUsODk3MDA2
 OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMjYzMzU2NzgwLC
 0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ==
