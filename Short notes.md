@@ -4,7 +4,7 @@ Consider a function $u : \mathbb{R} \to \mathbb{R}$, and its discretisation on $
 
 $$v_j = u(x_j), \quad x_j = jh, \quad j \in \mathbb{Z}.$$
 
-We will consider the difference between the Fourier transform $\hat{u}(k)$ and the semi-discrete Fourier transform $\hat{v}(k)$. Since $v$ is a discrete function, Fourier space is bounded and $k \in [-\pi / h, \pi / h]$, and because it is unbounded we have that $k$ is continuous.
+We will consider the relationship between the Fourier transform $\hat{u}(k)$ and the semi-discrete Fourier transform $\hat{v}(k)$. Since $v$ is a discrete function, Fourier space is bounded and $k \in [-\pi / h, \pi / h]$, and because it is unbounded we have that $k$ is continuous.
 
 The Fourier transform is defined as
 
@@ -29,6 +29,10 @@ and the inverse semi-discrete Fourier transform is
 $$ v_j = \frac{1}{2 \pi} \int_{-\pi / h}^{\pi / h} e^{ikx_j} \hat{v}(k) dk, \quad j \in \mathbb{Z} \quad (4)$$
 
 So we see that the semi-discrete Fourier transform (2) approximates the Fourier transform (1) by a trapezoid rule, and the inverse semi-discrete Fourier transform (4) approximates the inverse Fourier transform (3) by truncating $\mathbb{R}$ to $[-\pi/h, \pi/h]$. As $h \to 0$, the two pairs of formulas converge.
+
+For the relationship between $\hat{u}$ and $\hat{v}$, we have the following theorem:
+
+**Theorem (Aliasing formula):** Let $u \in L^2 (\mathbb{R})$ have a first derivative of bounded variation, and let $v$ be its associated grid function on $h \mathbb{Z}$. Then for all $k \in [-\pi/h, \pi
 
 ## Center manifolds, and slow manifolds
 
@@ -122,9 +126,9 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNjIyNjI1LDgwOTA2MDcyMiwtNzY0OD
-k1NDQ5LDIwMzQ4NzM0NzYsMjA5MjEzODI4OSwtMTM3ODEyMjQ0
-NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNj
-MzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEz
-NV19
+eyJoaXN0b3J5IjpbLTQ2ODU4NDMwMCwyMzI2MjI2MjUsODA5MD
+YwNzIyLC03NjQ4OTU0NDksMjAzNDg3MzQ3NiwyMDkyMTM4Mjg5
+LC0xMzc4MTIyNDQ1LDg5NzAwNjkwOCw4MjkyOTk3NzEsLTEyMj
+EwMjY4MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQy
+NiwxMDA3MDYxMTM1XX0=
 -->
