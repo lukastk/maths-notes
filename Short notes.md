@@ -8,7 +8,11 @@ We will consider the relationship between the Fourier transform $\hat{u}(k)$ and
 
 The Fourier transform is defined as
 
+$$\hat{u}(k) = \int_{-\infty}^\infty e^{-ikx} u(x) dx, \quad k \in \mathbb{R}$$
 
+and the semi-discrete Fourier transform is defined as
+
+$$\hat{v} = h \sum_{j=-\infty}^\infty e^{-ik x_j} v_j, \quad k \in [-\pi/h, \pi/h]$$
 
 ## Center manifolds, and slow manifolds
 
@@ -102,8 +106,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDYwNTAyNDYsLTc2NDg5NTQ0OSwyMD
-M0ODczNDc2LDIwOTIxMzgyODksLTEzNzgxMjI0NDUsODk3MDA2
-OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMjYzMzU2NzgwLC
-0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjExMzVdfQ==
+eyJoaXN0b3J5IjpbODA5MDYwNzIyLC03NjQ4OTU0NDksMjAzND
+g3MzQ3NiwyMDkyMTM4Mjg5LC0xMzc4MTIyNDQ1LDg5NzAwNjkw
+OCw4MjkyOTk3NzEsLTEyMjEwMjY4MjIsMTI2MzM1Njc4MCwtMT
+M3ODEyMjQ0NSw4NTA4NjQyNiwxMDA3MDYxMTM1XX0=
 -->
