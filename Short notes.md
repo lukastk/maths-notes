@@ -1,3 +1,5 @@
+## Aliasing in discrete Fourier transforms
+
 ## Center manifolds, and slow manifolds
 
 **Theorem (Stable manifold theorem)**  Let
@@ -90,8 +92,8 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNDg3MzQ3NiwyMDkyMTM4Mjg5LC0xMz
-c4MTIyNDQ1LDg5NzAwNjkwOCw4MjkyOTk3NzEsLTEyMjEwMjY4
-MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0NSw4NTA4NjQyNiwxMD
-A3MDYxMTM1XX0=
+eyJoaXN0b3J5IjpbMTYwNjMyODU2OSwyMDM0ODczNDc2LDIwOT
+IxMzgyODksLTEzNzgxMjI0NDUsODk3MDA2OTA4LDgyOTI5OTc3
+MSwtMTIyMTAyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LD
+g1MDg2NDI2LDEwMDcwNjExMzVdfQ==
 -->
