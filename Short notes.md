@@ -28,7 +28,7 @@ and the inverse semi-discrete Fourier transform is
 
 $$ v_j = \frac{1}{2 \pi} \int_{-\pi / h}^{\pi / h} e^{ikx_j} \hat{v}(k) dk, \quad j \in \mathbb{Z} \quad (4)$$
 
-So we see that the semi-discrete Fourier transform (2) approximates the Fourier transform (1) by a trapezoid rule, and the inverse semi-discrete Fourier transform approximates 
+So we see that the semi-discrete Fourier transform (2) approximates the Fourier transform (1) by a trapezoid rule, and the inverse semi-discrete Fourier transform (4) approximates the inverse Fourier transform (3) by truncating $\mathbb{R}$ to $[-\pi/h, \pi/h]$. As $h \to 0$, the two pairs of formulas converge.
 
 ## Center manifolds, and slow manifolds
 
@@ -122,9 +122,9 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTA1NjU4NSw4MDkwNjA3MjIsLTc2ND
-g5NTQ0OSwyMDM0ODczNDc2LDIwOTIxMzgyODksLTEzNzgxMjI0
-NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMj
-YzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjEx
-MzVdfQ==
+eyJoaXN0b3J5IjpbMjMyNjIyNjI1LDgwOTA2MDcyMiwtNzY0OD
+k1NDQ5LDIwMzQ4NzM0NzYsMjA5MjEzODI4OSwtMTM3ODEyMjQ0
+NSw4OTcwMDY5MDgsODI5Mjk5NzcxLC0xMjIxMDI2ODIyLDEyNj
+MzNTY3ODAsLTEzNzgxMjI0NDUsODUwODY0MjYsMTAwNzA2MTEz
+NV19
 -->
