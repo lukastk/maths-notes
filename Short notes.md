@@ -20,11 +20,15 @@ The reason why $\hat{v}$ is defined on a bound domain is due to *aliasing*. Cons
 
 For any complex exponential $e^{ikx}$, there are infinitely many other complex exponentials that match it on the grid $h \mathbb{Z}$ ("aliases"). Consequently, it suffices to measure wave-numbers for the grid in an interval of length $2 \pi / h$.
 
-For completeness, the inverse semi-discrete Fourier transform is
+For completeness, the inverse Fourier transform is
 
-$$ v_j = \frac{1}{2 \pi} \int_{-\pi / h}^{\pi / h} e^{ikx_j} \hat{v}(k) dk, \quad j \in \mathbb{Z} \quad (3)$$
+$$ u(x) = \frac{1}{2 \pi} \int_{-\infty}^{\infty} e^{ikx} \hat{u}(k) dk, \quad x \in \mathbb{R}\ \quad (3) $$
 
-So we see that the semi-discrete Fourier transform (2) approximates the Fourier transform (1) by a trapezoid rule, and the inverse semi-discrete Fourier transform
+and the inverse semi-discrete Fourier transform is
+
+$$ v_j = \frac{1}{2 \pi} \int_{-\pi / h}^{\pi / h} e^{ikx_j} \hat{v}(k) dk, \quad j \in \mathbb{Z} \quad (4)$$
+
+So we see that the semi-discrete Fourier transform (2) approximates the Fourier transform (1) by a trapezoid rule, and the inverse semi-discrete Fourier transform approximates 
 
 ## Center manifolds, and slow manifolds
 
@@ -118,7 +122,7 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDE2NTQzMCw4MDkwNjA3MjIsLTc2ND
+eyJoaXN0b3J5IjpbLTIxOTA1NjU4NSw4MDkwNjA3MjIsLTc2ND
 g5NTQ0OSwyMDM0ODczNDc2LDIwOTIxMzgyODksLTEzNzgxMjI0
 NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMTAyNjgyMiwxMj
 YzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2LDEwMDcwNjEx
