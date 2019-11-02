@@ -55,7 +55,7 @@ with a hyperbolic fixed point $f(p) = 0$. We denote $W^s(p)$ as the stable set a
 
 If we have non-hyperbolic points the situation is complicated. Non-hyperbolic points arise when there are eigenvalues of the linearised system with zero-real parts (i.e. fully imaginary eigenvalues). 
 
-**Theorem (Centre Manifold Theorem):** Let $p$ be a non-hyperbolic fixed point of $f$ defined above. Suppose the Jacobian matrix $Df(0)$ has eigenvalues in sets $\sigma_u$ with $\text{Re}(\lambda) > 0$, $\sigma_s$ with $\text{Re}(\lambda) < 0$ and $\sigma_c$ with $\text{Re}(\lambda) = 0$. Then there exist unstable and stable manifolds $W^u$, $W^u$ of the same dimenson as $E^u$ and $^s$ and tangential to $E^s$ and $E^u$ at $x=0$ respectively; and an invariant centre manifold $W^c$ tangential to $E^c$ at $x=0$.
+**Theorem (Centre Manifold Theorem):** Let $p$ be a non-hyperbolic fixed point of $f$ defined above. Suppose the Jacobian matrix $Df(0)$ has eigenvalues in sets $\sigma_u$ with $\text{Re}(\lambda) > 0$, $\sigma_s$ with $\text{Re}(\lambda) < 0$ and $\sigma_c$ with $\text{Re}(\lambda) = 0$. Then there exist unstable and stable manifolds $W^u$, $W^u$ of the same dimenson as $E^u$ and $E^s$ and tangential to $E^s$ and $E^u$ at $x=0$ respectively; and an invariant centre manifold $W^c$ tangential to $E^c$ at $x=0$.
 
 So in general, locally $\mathbb{R}^n = W^c \oplus W^u \oplus W^s$ with the approximate governing equations on each manifold
 
@@ -128,9 +128,9 @@ The third term is a secular term. In general, the appearance of a secular term s
 - Advanced Mathematical Methods for Scientists and Engineers I - C. Bender and S. A. Orszag
 - [https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5](https://en.wikipedia.org/wiki/Multiple-scale_analysis#cite_note-5)- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3Mzc5MjE4LDIzMjYyMjYyNSw4MDkwNj
-A3MjIsLTc2NDg5NTQ0OSwyMDM0ODczNDc2LDIwOTIxMzgyODks
-LTEzNzgxMjI0NDUsODk3MDA2OTA4LDgyOTI5OTc3MSwtMTIyMT
-AyNjgyMiwxMjYzMzU2NzgwLC0xMzc4MTIyNDQ1LDg1MDg2NDI2
-LDEwMDcwNjExMzVdfQ==
+eyJoaXN0b3J5IjpbOTA3MTA3NjM1LDU0NzM3OTIxOCwyMzI2Mj
+I2MjUsODA5MDYwNzIyLC03NjQ4OTU0NDksMjAzNDg3MzQ3Niwy
+MDkyMTM4Mjg5LC0xMzc4MTIyNDQ1LDg5NzAwNjkwOCw4MjkyOT
+k3NzEsLTEyMjEwMjY4MjIsMTI2MzM1Njc4MCwtMTM3ODEyMjQ0
+NSw4NTA4NjQyNiwxMDA3MDYxMTM1XX0=
 -->
