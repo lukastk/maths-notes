@@ -129,10 +129,10 @@ $$
 n(x) = \sum_k P_k(x) = NP_1(x)
 $$
 
-where we use the fact that all $P_k(x)$ are the same, and where $N$ is the total number of particles. Now $n(x)$ has units of particles per unit length (i.e. $\int_a^b n(x) dx$ .  The number density of the system is then
+where we use the fact that all $P_k(x)$ are the same, and where $N$ is the total number of particles. Now $n(x)$ has units of particles per unit length (i.e. $\int_a^b n(x) dx$ gives the average total number of particles between $a$ and $b$).  The number density of the system is then
 
 $$
-\rho(x) = \frac{1}{V} N(x) = 2 N_0 \sqrt{ \frac{\alpha}{2 \pi T}} e^{-\beta \frac{1}{2} \alpha x_i}
+\rho(x) = \frac{1}{A} n(x) = 2 N_0 \sqrt{ \frac{\alpha}{2 \pi T}} e^{-\beta \frac{1}{2} \alpha x_i}
 $$
 
 where $N_0$ is the number of atoms per unit area.
@@ -192,6 +192,6 @@ $$
 from which we find that $T_0 \approx 17^o$.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjMyNzI1LC0xMDkxNzMzNDEyLC0xNj
-U1MzgzNDQ3XX0=
+eyJoaXN0b3J5IjpbLTQ1NTA2NDAwOCwtMTA5MTczMzQxMiwtMT
+Y1NTM4MzQ0N119
 -->
