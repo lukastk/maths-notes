@@ -39,7 +39,7 @@ Let's look at the first term.
 - When $x \to 0$, we have that $x^{-3/n} \to \infty$, but $(1 - e^{-x}) = 0$. The limit still vanishes overall:
 
 $$
-\lim_{x \to 0} \frac{1 - e^{-x}}{x^{-3/n}} = \lim_{x \to 0} \frac{x - \frac{1}{2} x^2 + O(x^3)}{x^{-3/n}} = \lim_{x \to 0}\ \left(x^{1 - 3/n}-\frac{1}{2} x^{2-3/n} + O(x^{3 - 3/n}) \right) = 0
+\lim_{x \to 0} \frac{1 - e^{-x}}{x^{3/n}} = \lim_{x \to 0} \frac{x - \frac{1}{2} x^2 + O(x^3)}{x^{3/n}} = \lim_{x \to 0}\ \left(x^{1 - 3/n}-\frac{1}{2} x^{2-3/n} + O(x^{3 - 3/n}) \right) = 0
 $$
 
 as $n > 3$.
@@ -80,7 +80,7 @@ $$
 P \approx \frac{NT}{A} \left( 1 + \frac{N}{A} \left( \frac{1}{2} \pi r_0^2 \right) \right)
 $$
 
-I made a silly mistake in my solution.
+I made a silly mistake in my previous solution.
 
 ### 5. (first part)
 
@@ -122,7 +122,11 @@ $$
 P_k(x) = \int \prod_{j \neq k} dx_j P(\{x_i\}) = 2 \sqrt{ \frac{\alpha}{2 \pi T}} e^{-\beta \frac{1}{2} \alpha x_i}
 $$
 
-note that the units of $P_k(x)$ is $[L^{-1}]$. And the probability of finding $N(x)$ particles with a certain $x$-coordinate is
+note that the units of $P_k(x)$ is $[L^{-1}]$. 
+
+
+
+And the probability of finding $N(x)$ particles with a certain $x$-coordinate is
 
 $$
 N(x) = \sum_k P_k(x) = NP_1(x)
@@ -191,5 +195,5 @@ $$
 from which we find that $T_0 \approx 17^o$.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTUzODM0NDddfQ==
+eyJoaXN0b3J5IjpbMTM5ODgxNTMyMiwtMTY1NTM4MzQ0N119
 -->
