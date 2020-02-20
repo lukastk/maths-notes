@@ -146,7 +146,7 @@ We are considering black-body radiation that is both *homogenous* (radiation occ
 
 We thus have that light is radiating from each point in space. At each point, within the frequency range $(\omega, \omega + d\omega)$, light of energy $e(\omega)$ is radiating. $e(\omega)$ is of course proportional to the number of photons being emitted.
 
-Consider the angular distribution $n(\theta, \phi)$ of photons hitting a certain point $\mathbf{x}$ in space. Because the radiation is homogenous and isotropic, the choice of $\mathbf{x}$ and the incoming angle should not matter. So we must have that $n(\theta, \phi)$ is a uniform distribution. We set $n(\theta, \phi) = 0$ and demand
+Consider the angular distribution $n(\theta, \phi)$ of photons hitting a certain point $\mathbf{x}$ in space. Because the radiation is homogenous and isotropic, the choice of $\mathbf{x}$ and the incoming angle should not matter. So we must have that $n(\theta, \phi)$ is a uniform distribution. We set $n(\theta, \phi) = n$ and demand
 
 $$
 \int_0^{\pi} \int_0^{2\pi} n\ \sin \theta\ d\phi d\theta = 1
@@ -195,5 +195,6 @@ $$
 from which we find that $T_0 \approx 17^o$.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODgxNTMyMiwtMTY1NTM4MzQ0N119
+eyJoaXN0b3J5IjpbLTEwOTE3MzM0MTIsLTE2NTUzODM0NDddfQ
+==
 -->
