@@ -124,12 +124,12 @@ $$
 
 note that the units of $P_k(x)$ is $[L^{-1}]$. 
 
-Since $P_k(x)$ gives the probability to find a particle at a certain $x$-coordinate, the average number of particles at $x$ would be (regardless of t
+Since $P_k(x)$ gives the probability to find a particle at a certain $x$-coordinate, the average number of particles at $x$ would be (regardless of whether particles are independent or not)
 $$
-N(x) = \sum_k P_k(x) = NP_1(x)
+n(x) = \sum_k P_k(x) = NP_1(x)
 $$
 
-where we use the fact that all $P_k(x)$ are the same, and where $N$ is the total number of particles. The number density of the system is then
+where we use the fact that all $P_k(x)$ are the same, and where $N$ is the total number of particles. Now $n(x)$ has units of particles per unit length (i.e. $\int_a^b n(x) dx$ .  The number density of the system is then
 
 $$
 \rho(x) = \frac{1}{V} N(x) = 2 N_0 \sqrt{ \frac{\alpha}{2 \pi T}} e^{-\beta \frac{1}{2} \alpha x_i}
@@ -192,6 +192,6 @@ $$
 from which we find that $T_0 \approx 17^o$.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODc4Njg5OSwtMTA5MTczMzQxMiwtMT
-Y1NTM4MzQ0N119
+eyJoaXN0b3J5IjpbMTQxNjMyNzI1LC0xMDkxNzMzNDEyLC0xNj
+U1MzgzNDQ3XX0=
 -->
