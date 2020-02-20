@@ -124,10 +124,7 @@ $$
 
 note that the units of $P_k(x)$ is $[L^{-1}]$. 
 
-
-
-And the probability of finding $N(x)$ particles with a certain $x$-coordinate is
-
+Since $P_k(x)$ gives the probability to find a particle at a certain $x$-coordinate, the average number of particles at $x$ would be (regardless of t
 $$
 N(x) = \sum_k P_k(x) = NP_1(x)
 $$
@@ -195,6 +192,6 @@ $$
 from which we find that $T_0 \approx 17^o$.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTE3MzM0MTIsLTE2NTUzODM0NDddfQ
-==
+eyJoaXN0b3J5IjpbLTc1ODc4Njg5OSwtMTA5MTczMzQxMiwtMT
+Y1NTM4MzQ0N119
 -->
