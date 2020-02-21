@@ -3,8 +3,8 @@ $$
 $$
 
 $$
-1 - P(x \in \text{well}) = P(\text{escaped})
+1 - P(x \in \text{well}, t | x_0, t_0) = P(\text{escaped}, t)
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTYzMjk4NDldfQ==
+eyJoaXN0b3J5IjpbOTYwNDYwMjI3XX0=
 -->
