@@ -19,7 +19,13 @@ $$
 
 where $R_0 = \beta/\gamma$.
 
-Now in the $t\to\infty$ limit, we expect $I
+Now in the $t\to\infty$ limit, we expect $I=0$ and $S(\infty) = N - R(\infty)$. We have
+
+$$
+S(\infty) = N -R(\infty) = S(0) e^{ -R_0( R(\infty) - R(0) )  / N}
+$$
+
+This is a transcendental equation for $R(\infty)$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjM2ODAwMF19
+eyJoaXN0b3J5IjpbMTIxOTEzNzA1MF19
 -->
