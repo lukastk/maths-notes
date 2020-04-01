@@ -14,10 +14,10 @@ $$
 we get
 
 $$
-S(t) = \frac{1}{N} S
+S(t) = S(0) \exp \left( -R_0( R( ) \right)
 $$
 
 where $R_0 = \beta/\gamma$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxODgyOTgxNl19
+eyJoaXN0b3J5IjpbLTU2MzgyNjI1Nl19
 -->
