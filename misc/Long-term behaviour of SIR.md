@@ -25,11 +25,11 @@ $$
 S(\infty) = N -R(\infty) = S(0) e^{ -R_0( R(\infty) - R(0) )  / N}
 $$
 
-This is a transcendental equation for $R(\infty)$, and note that $R(\infty) = N$ is not in general a solution. The solution can be found via the Lamber W function:
+This is a transcendental equation for $R(\infty)$, and note that $R(\infty) = N$ is not in general a solution. The solution can be found via the Lambert W function:
 
 $$
-S(\infty) = N - R(\infty) = - R_0^{-1} W(-S(0)
+S(\infty) = N - R(\infty) = - R_0^{-1} W \left( - \frac{S(0) R_0}{N} e^{-R_0(N - R(0)/N} \right) 
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTk3OTA5NTRdfQ==
+eyJoaXN0b3J5IjpbNzA0MDQzOTU3XX0=
 -->
