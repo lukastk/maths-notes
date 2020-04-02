@@ -15,8 +15,9 @@ defined to be the proportion of susceptible household members
 infected by a single infectious individual
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTk0NzcyNSwyMTIzNTczNDY0LDUyOD
-k5MTAzNCw0OTc1NDQ4NjcsMTc4Njc5ODc1MSwxMjk4NDQ1OTkx
-XX0=
+eyJoaXN0b3J5IjpbLTcwOTU0MTMxNywyMDYxOTQ3NzI1LDIxMj
+M1NzM0NjQsNTI4OTkxMDM0LDQ5NzU0NDg2NywxNzg2Nzk4NzUx
+LDEyOTg0NDU5OTFdfQ==
 -->
