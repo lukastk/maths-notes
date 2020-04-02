@@ -21,10 +21,12 @@ Agent-based model of disease progression and transmission in a population of $N$
 The structure of the model allowed for transmission in three settings: household, peer-group network, and community. During any period of time $\Delta t$ the probability that individual $i$ in disease state $k_i$ infected individual $j$ in disease state $k_j = 0$ was defined as follows:
 
 $$
-P_\text{inf}(i,k_i,j) = I_{HH}
+P_\text{inf}(i,k_i,j) = I_{HH}(i,j) (1 - e^{-\beta h_k h_{h/w} \Delta t} ) + I_{PGN}(i,j) (1 - e^{-\beta h_k \Delta t}) + b(i, j, \Delta t) h_k \kappa_{NT} (| \mathbf{r}_i - \mathbf{r}_j|) \quad (1)
 $$
+
+The first two terms of (1) correspond to household and peer-group network transmission respectively.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDgzMjA1LDE3NTExODgyMDcsLTEyNj
-U2ODE1MDIsMjA2MTk0NzcyNSwyMTIzNTczNDY0LDUyODk5MTAz
-NCw0OTc1NDQ4NjcsMTc4Njc5ODc1MSwxMjk4NDQ1OTkxXX0=
+eyJoaXN0b3J5IjpbLTU0OTMzODQ5NywxNzUxMTg4MjA3LC0xMj
+Y1NjgxNTAyLDIwNjE5NDc3MjUsMjEyMzU3MzQ2NCw1Mjg5OTEw
+MzQsNDk3NTQ0ODY3LDE3ODY3OTg3NTEsMTI5ODQ0NTk5MV19
 -->
