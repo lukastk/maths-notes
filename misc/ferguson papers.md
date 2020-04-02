@@ -1,11 +1,7 @@
-## Strategies for mitigating an influenza pandemic
-
-"Influenza prevention and containment strategies can be con-
-sidered under the broad categories of antiviral, vaccine and non-
-pharmaceutical (case isolation, household quarantine, school or
-workplace closure, restrictions on travel) measures"
+## Smallpox transmission and control: Spatial dynamics in Great Britain
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Njc5ODc1MSwxMjk4NDQ1OTkxXX0=
+eyJoaXN0b3J5IjpbNDk3NTQ0ODY3LDE3ODY3OTg3NTEsMTI5OD
+Q0NTk5MV19
 -->
