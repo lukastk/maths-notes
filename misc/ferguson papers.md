@@ -18,11 +18,13 @@ infected by a single infectious individual
 
 Agent-based model of disease progression and transmission in a population of $N$ individuals. $k_i$ is the disease state of the $i$th individual, where $i$ ranges from 1 to $N$. (see fig 1)
 
-The structure of the model allowed for transmission in three settings: household, peer-group network, and community.
+The structure of the model allowed for transmission in three settings: household, peer-group network, and community. During any period of time $\Delta t$ the probability that individual $i$ in disease state $k_i$ infected individual $j$ in disease state $k_j = 0$ was defined as follows:
 
-The 
+$$
+P_\text{inf}(i,k_i,j) = I_{HH}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTE4ODIwNywtMTI2NTY4MTUwMiwyMD
-YxOTQ3NzI1LDIxMjM1NzM0NjQsNTI4OTkxMDM0LDQ5NzU0NDg2
-NywxNzg2Nzk4NzUxLDEyOTg0NDU5OTFdfQ==
+eyJoaXN0b3J5IjpbMTY0NDgzMjA1LDE3NTExODgyMDcsLTEyNj
+U2ODE1MDIsMjA2MTk0NzcyNSwyMTIzNTczNDY0LDUyODk5MTAz
+NCw0OTc1NDQ4NjcsMTc4Njc5ODc1MSwxMjk4NDQ1OTkxXX0=
 -->
