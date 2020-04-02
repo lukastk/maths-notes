@@ -14,10 +14,13 @@ $a$ -  the household attack rate, which we
 defined to be the proportion of susceptible household members
 infected by a single infectious individual
 
+#### Model
 
+Agent-based model of disease progression and transmission in a population of $N$ individuals. $k_i$ is the disease state of the $i$th individual, where $i$ ranges from 1 to $N$. (see fig 1)
 
+The structure of the model allowed for transmission in three settings: household, peer-group network 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTU0MTMxNywyMDYxOTQ3NzI1LDIxMj
-M1NzM0NjQsNTI4OTkxMDM0LDQ5NzU0NDg2NywxNzg2Nzk4NzUx
-LDEyOTg0NDU5OTFdfQ==
+eyJoaXN0b3J5IjpbLTUxNDYxNDg4LDIwNjE5NDc3MjUsMjEyMz
+U3MzQ2NCw1Mjg5OTEwMzQsNDk3NTQ0ODY3LDE3ODY3OTg3NTEs
+MTI5ODQ0NTk5MV19
 -->
