@@ -24,10 +24,14 @@ $$
 P_\text{inf}(i,k_i,j) = I_{HH}(i,j) (1 - e^{-\beta h_k h_{h/w} \Delta t} ) + I_{PGN}(i,j) (1 - e^{-\beta h_k \Delta t}) + b(i, j, \Delta t) h_k \kappa_{NT} (| \mathbf{r}_i - \mathbf{r}_j|) \quad (1)
 $$
 
-The first two terms of (1) correspond to household and peer-group network transmission respectively. $I_{HH}$ 
+The first two terms of (1) correspond to household and peer-group network transmission respectively. 
+
+- $I_{HH}$ is an indicator function, equal to 1 only if $i$ and $j$ share a household, and is equal to 0 otherwise.
+- $I_{PGN}(i,j)$ is the indicator function for $i$ and $j$ sharing a peer-group network link.
+- $\beta$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5MzUwMzc1LC01NDkzMzg0OTcsMTc1MT
-E4ODIwNywtMTI2NTY4MTUwMiwyMDYxOTQ3NzI1LDIxMjM1NzM0
-NjQsNTI4OTkxMDM0LDQ5NzU0NDg2NywxNzg2Nzk4NzUxLDEyOT
-g0NDU5OTFdfQ==
+eyJoaXN0b3J5IjpbLTE3MDc1MzAyMTMsLTU0OTMzODQ5NywxNz
+UxMTg4MjA3LC0xMjY1NjgxNTAyLDIwNjE5NDc3MjUsMjEyMzU3
+MzQ2NCw1Mjg5OTEwMzQsNDk3NTQ0ODY3LDE3ODY3OTg3NTEsMT
+I5ODQ0NTk5MV19
 -->
