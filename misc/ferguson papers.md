@@ -38,6 +38,10 @@ The first two terms of (1) correspond to household and peer-group network transm
 Households were of average size $s_h$ and their sizes are distributed as $1 + P(s_h - 1)$ where $P(\mu)$ is the Poission distribution with mean $\mu$. Each household had a location
 consistent with the 1991 GB census (www.statistics.gov.uk), chosen by using a simple accept-reject algorithm with a 1-km 2 resolution.
 
+#### Community transmission
+
+
+
 #### Generating the peer-group network
 
 A peer-group is a spatial location where individuals spend a substantial proportion of their time outside the home, and where they tended, on average, to meet the same people. Note that peer groups did not necessarily correspond to distinct commercial addresses. The location of peer groups was chosen by using a simple accept-reject algorithm, to be consistent with the destination portion of the journey-to-work section
@@ -45,9 +49,9 @@ of the census data.
 
 The number of peer groups is equal to $N/ s_{PG}$, where $s_{PG}$ is the average size of a peer group. Initially, individual are assigned to peer groups at random. An MCMC algorithm is then used to match the allocation of individuals to peer groups with census data (more details in the paper about this).
 
-Transmission does not occur uniformly between all members of a peer group. The generation of the actual contact network, defined by the indicator function $I_{PGN}(i,j)$, was itself a random process based on peer-group membership. The probability of 
+Transmission does not occur uniformly between all members of a peer group. The generation of the actual contact network, defined by the indicator function $I_{PGN}(i,j)$, was itself a random process based on peer-group membership. The probability that individual $i$ was a peer-group member to $j$ was equal to $p_{WP}$ if they shared a peer group, and 0 otherwise. $n_{PG}$ is the per person average number of peer-group contacts.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI0OTk2NTgsLTQ1ODI5MDc5NCwzNz
+eyJoaXN0b3J5IjpbLTE0NTU0MjA5NjYsLTQ1ODI5MDc5NCwzNz
 c2NDE0MDcsLTEzNDU1MTMyNzAsLTU0OTMzODQ5NywxNzUxMTg4
 MjA3LC0xMjY1NjgxNTAyLDIwNjE5NDc3MjUsMjEyMzU3MzQ2NC
 w1Mjg5OTEwMzQsNDk3NTQ0ODY3LDE3ODY3OTg3NTEsMTI5ODQ0
