@@ -28,10 +28,11 @@ The first two terms of (1) correspond to household and peer-group network transm
 
 - $I_{HH}$ is an indicator function, equal to 1 only if $i$ and $j$ share a household, and is equal to 0 otherwise.
 - $I_{PGN}(i,j)$ is the indicator function for $i$ and $j$ sharing a peer-group network link.
-- $\beta$ is the underlying hazard of infection for transmission within the household and across the peer-group network during the fever stage
+- $\beta$ is the underlying hazard of infection for transmission within the household and across the peer-group network during the fever stage ($k_i=2$).
+- $h_k$ is a stage specific relative hazard of infection and is equal to 1 when individual $i$ is in the fever stage ($k_i=2$) and equal to $h_{r
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU1MTMyNzAsLTU0OTMzODQ5NywxNz
-UxMTg4MjA3LC0xMjY1NjgxNTAyLDIwNjE5NDc3MjUsMjEyMzU3
-MzQ2NCw1Mjg5OTEwMzQsNDk3NTQ0ODY3LDE3ODY3OTg3NTEsMT
-I5ODQ0NTk5MV19
+eyJoaXN0b3J5IjpbLTgzODgyMDU4OSwtMTM0NTUxMzI3MCwtNT
+Q5MzM4NDk3LDE3NTExODgyMDcsLTEyNjU2ODE1MDIsMjA2MTk0
+NzcyNSwyMTIzNTczNDY0LDUyODk5MTAzNCw0OTc1NDQ4NjcsMT
+c4Njc5ODc1MSwxMjk4NDQ1OTkxXX0=
 -->
