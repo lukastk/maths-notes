@@ -31,9 +31,12 @@ The first two terms of (1) correspond to household and peer-group network transm
 - $\beta$ is the underlying hazard of infection for transmission within the household and across the peer-group network during the fever stage ($k_i=2$).
 - $h_k$ is a stage specific relative hazard of infection and is equal to 1 when individual $i$ is in the fever stage ($k_i=2$) and equal to $h_{r/f}$ when in either rash stages ($k_i=3$ or 4), and equal to 0 otherwise.
 
-Households were of average size $s_h$ and their sizes are distributed as $1 + P(s_h - 1)$ where $P(\mu)$ is the Poission distribution with mean $\mu$.
+Households were of average size $s_h$ and their sizes are distributed as $1 + P(s_h - 1)$ where $P(\mu)$ is the Poission distribution with mean $\mu$. Each household had a location
+consistent with the 1991 GB census (www.statistics.gov.uk), chosen by using a simple accept-reject algorithm with a 1-km 2 resolution.
+
+A peer-group is a spatial location where individuals spend a substantial proportion of their time outside the home, and where they tended, on average, to meet the same people.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTg4MDcwOCwtMTM0NTUxMzI3MCwtNT
+eyJoaXN0b3J5IjpbLTI4MzcwODAzNywtMTM0NTUxMzI3MCwtNT
 Q5MzM4NDk3LDE3NTExODgyMDcsLTEyNjU2ODE1MDIsMjA2MTk0
 NzcyNSwyMTIzNTczNDY0LDUyODk5MTAzNCw0OTc1NDQ4NjcsMT
 c4Njc5ODc1MSwxMjk4NDQ1OTkxXX0=
