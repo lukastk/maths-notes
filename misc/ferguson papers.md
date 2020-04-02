@@ -26,19 +26,27 @@ $$
 
 The first two terms of (1) correspond to household and peer-group network transmission respectively. 
 
+#### Household and Peer-Group Network transmission
+
 - $I_{HH}$ is an indicator function, equal to 1 only if $i$ and $j$ share a household, and is equal to 0 otherwise.
 - $I_{PGN}(i,j)$ is the indicator function for $i$ and $j$ sharing a peer-group network link.
 - $\beta$ is the underlying hazard of infection for transmission within the household and across the peer-group network during the fever stage ($k_i=2$).
 - $h_k$ is a stage specific relative hazard of infection and is equal to 1 when individual $i$ is in the fever stage ($k_i=2$) and equal to $h_{r/f}$ when in either rash stages ($k_i=3$ or 4), and equal to 0 otherwise.
 
+#### Generating households
+
 Households were of average size $s_h$ and their sizes are distributed as $1 + P(s_h - 1)$ where $P(\mu)$ is the Poission distribution with mean $\mu$. Each household had a location
 consistent with the 1991 GB census (www.statistics.gov.uk), chosen by using a simple accept-reject algorithm with a 1-km 2 resolution.
+
+#### Generating the peer-group network
+
+
 
 A peer-group is a spatial location where individuals spend a substantial proportion of their time outside the home, and where they tended, on average, to meet the same people. Note that peer groups did not necessarily correspond to distinct commercial addresses. The location of peer groups was chosen by using a simple accept-reject algorithm, to be consistent with the destination portion of the journey-to-work section
 of the census data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3NjQxNDA3LC0xMzQ1NTEzMjcwLC01ND
-kzMzg0OTcsMTc1MTE4ODIwNywtMTI2NTY4MTUwMiwyMDYxOTQ3
-NzI1LDIxMjM1NzM0NjQsNTI4OTkxMDM0LDQ5NzU0NDg2NywxNz
-g2Nzk4NzUxLDEyOTg0NDU5OTFdfQ==
+eyJoaXN0b3J5IjpbLTQ1ODI5MDc5NCwzNzc2NDE0MDcsLTEzND
+U1MTMyNzAsLTU0OTMzODQ5NywxNzUxMTg4MjA3LC0xMjY1Njgx
+NTAyLDIwNjE5NDc3MjUsMjEyMzU3MzQ2NCw1Mjg5OTEwMzQsND
+k3NTQ0ODY3LDE3ODY3OTg3NTEsMTI5ODQ0NTk5MV19
 -->
