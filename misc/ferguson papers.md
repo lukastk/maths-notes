@@ -34,10 +34,11 @@ The first two terms of (1) correspond to household and peer-group network transm
 Households were of average size $s_h$ and their sizes are distributed as $1 + P(s_h - 1)$ where $P(\mu)$ is the Poission distribution with mean $\mu$. Each household had a location
 consistent with the 1991 GB census (www.statistics.gov.uk), chosen by using a simple accept-reject algorithm with a 1-km 2 resolution.
 
-A peer-group is a spatial location where individuals spend a substantial proportion of their time outside the home, and where they tended, on average, to meet the same people.
+A peer-group is a spatial location where individuals spend a substantial proportion of their time outside the home, and where they tended, on average, to meet the same people. Note that peer groups did not necessarily correspond to distinct commercial addresses. The location of peer groups was chosen by using a simple accept-reject algorithm, to be consistent with the destination portion of the journey-to-work section
+of the census data.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzcwODAzNywtMTM0NTUxMzI3MCwtNT
-Q5MzM4NDk3LDE3NTExODgyMDcsLTEyNjU2ODE1MDIsMjA2MTk0
-NzcyNSwyMTIzNTczNDY0LDUyODk5MTAzNCw0OTc1NDQ4NjcsMT
-c4Njc5ODc1MSwxMjk4NDQ1OTkxXX0=
+eyJoaXN0b3J5IjpbMzc3NjQxNDA3LC0xMzQ1NTEzMjcwLC01ND
+kzMzg0OTcsMTc1MTE4ODIwNywtMTI2NTY4MTUwMiwyMDYxOTQ3
+NzI1LDIxMjM1NzM0NjQsNTI4OTkxMDM0LDQ5NzU0NDg2NywxNz
+g2Nzk4NzUxLDEyOTg0NDU5OTFdfQ==
 -->
