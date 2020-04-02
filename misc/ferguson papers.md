@@ -45,11 +45,11 @@ of the census data.
 
 The number of peer groups is equal to $N/ s_{PG}$, where $s_{PG}$ is the average size of a peer group. Initially, individual are assigned to peer groups at random. An MCMC algorithm is then used to match the allocation of individuals to peer groups with census data (more details in the paper about this).
 
-Transmission does not occur uniformly between all members of a peer group. The generation
+Transmission does not occur uniformly between all members of a peer group. The generation of the actual contact network, defined by the indicator function $I_{PGN}(i,j)$, was itself a random process based on peer-group membership. The probability of 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDc4MzIzMywtNDU4MjkwNzk0LDM3Nz
-Y0MTQwNywtMTM0NTUxMzI3MCwtNTQ5MzM4NDk3LDE3NTExODgy
-MDcsLTEyNjU2ODE1MDIsMjA2MTk0NzcyNSwyMTIzNTczNDY0LD
-UyODk5MTAzNCw0OTc1NDQ4NjcsMTc4Njc5ODc1MSwxMjk4NDQ1
-OTkxXX0=
+eyJoaXN0b3J5IjpbLTE5NjI0OTk2NTgsLTQ1ODI5MDc5NCwzNz
+c2NDE0MDcsLTEzNDU1MTMyNzAsLTU0OTMzODQ5NywxNzUxMTg4
+MjA3LC0xMjY1NjgxNTAyLDIwNjE5NDc3MjUsMjEyMzU3MzQ2NC
+w1Mjg5OTEwMzQsNDk3NTQ0ODY3LDE3ODY3OTg3NTEsMTI5ODQ0
+NTk5MV19
 -->
