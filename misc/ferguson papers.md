@@ -40,13 +40,14 @@ consistent with the 1991 GB census (www.statistics.gov.uk), chosen by using a si
 
 #### Generating the peer-group network
 
-
-
 A peer-group is a spatial location where individuals spend a substantial proportion of their time outside the home, and where they tended, on average, to meet the same people. Note that peer groups did not necessarily correspond to distinct commercial addresses. The location of peer groups was chosen by using a simple accept-reject algorithm, to be consistent with the destination portion of the journey-to-work section
 of the census data.
+
+The number of peer groups is equal to $N/ s_{PG}$, where $s_{PG}$ is the average size of a peer group. Initially, individual are assigned to peer groups at random. An MCMC algorithm is then used to match the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODI5MDc5NCwzNzc2NDE0MDcsLTEzND
-U1MTMyNzAsLTU0OTMzODQ5NywxNzUxMTg4MjA3LC0xMjY1Njgx
-NTAyLDIwNjE5NDc3MjUsMjEyMzU3MzQ2NCw1Mjg5OTEwMzQsND
-k3NTQ0ODY3LDE3ODY3OTg3NTEsMTI5ODQ0NTk5MV19
+eyJoaXN0b3J5IjpbMTg4MjAzMjUwLC00NTgyOTA3OTQsMzc3Nj
+QxNDA3LC0xMzQ1NTEzMjcwLC01NDkzMzg0OTcsMTc1MTE4ODIw
+NywtMTI2NTY4MTUwMiwyMDYxOTQ3NzI1LDIxMjM1NzM0NjQsNT
+I4OTkxMDM0LDQ5NzU0NDg2NywxNzg2Nzk4NzUxLDEyOTg0NDU5
+OTFdfQ==
 -->
