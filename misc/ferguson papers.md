@@ -24,9 +24,10 @@ $$
 P_\text{inf}(i,k_i,j) = I_{HH}(i,j) (1 - e^{-\beta h_k h_{h/w} \Delta t} ) + I_{PGN}(i,j) (1 - e^{-\beta h_k \Delta t}) + b(i, j, \Delta t) h_k \kappa_{NT} (| \mathbf{r}_i - \mathbf{r}_j|) \quad (1)
 $$
 
-The first two terms of (1) correspond to household and peer-group network transmission respectively.
+The first two terms of (1) correspond to household and peer-group network transmission respectively. $I_{HH}$ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTMzODQ5NywxNzUxMTg4MjA3LC0xMj
-Y1NjgxNTAyLDIwNjE5NDc3MjUsMjEyMzU3MzQ2NCw1Mjg5OTEw
-MzQsNDk3NTQ0ODY3LDE3ODY3OTg3NTEsMTI5ODQ0NTk5MV19
+eyJoaXN0b3J5IjpbMzc5MzUwMzc1LC01NDkzMzg0OTcsMTc1MT
+E4ODIwNywtMTI2NTY4MTUwMiwyMDYxOTQ3NzI1LDIxMjM1NzM0
+NjQsNTI4OTkxMDM0LDQ5NzU0NDg2NywxNzg2Nzk4NzUxLDEyOT
+g0NDU5OTFdfQ==
 -->
