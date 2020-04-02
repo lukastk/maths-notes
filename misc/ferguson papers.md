@@ -18,9 +18,9 @@ infected by a single infectious individual
 
 Agent-based model of disease progression and transmission in a population of $N$ individuals. $k_i$ is the disease state of the $i$th individual, where $i$ ranges from 1 to $N$. (see fig 1)
 
-The structure of the model allowed for transmission in three settings: household, peer-group network 
+The structure of the model allowed for transmission in three settings: household, peer-group network, and community.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDYxNDg4LDIwNjE5NDc3MjUsMjEyMz
-U3MzQ2NCw1Mjg5OTEwMzQsNDk3NTQ0ODY3LDE3ODY3OTg3NTEs
-MTI5ODQ0NTk5MV19
+eyJoaXN0b3J5IjpbLTEyNjU2ODE1MDIsMjA2MTk0NzcyNSwyMT
+IzNTczNDY0LDUyODk5MTAzNCw0OTc1NDQ4NjcsMTc4Njc5ODc1
+MSwxMjk4NDQ1OTkxXX0=
 -->
