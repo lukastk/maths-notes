@@ -6,8 +6,8 @@ commuting class C
 
 Only S, E and A go to work, but all classes go back home from work.
 
-The S go into bo
+The S go into both S and E during their trips, based on some factor.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzcxNDEzNTMsLTU2MzIyMDg1OSwxMT
-Q2MDQ1MDU3XX0=
+eyJoaXN0b3J5IjpbMTQ5MDM5NTY5MCwtNTYzMjIwODU5LDExND
+YwNDUwNTddfQ==
 -->
