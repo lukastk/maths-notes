@@ -17,9 +17,9 @@ where $\mathbf{f}_\boldsymbol{\theta} (\cdot) = ( f_{1\boldsymbol{\theta}}(\cdot
 Observations:
 
 $$
-Y_{i,j} = f_{j \boldsymbol{\theta}}(x_i) + \epsilon_{i,j}, \quad i=
+Y_{i,j} = f_{j \boldsymbol{\theta}}(x_i) + \epsilon_{i,j}, \quad i=1,\dots,n,\ j=1,\dots,d
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTEwNDA4MTQsLTExNTM2NzE5MDMsLT
+eyJoaXN0b3J5IjpbLTIwNTA2MTQyMzMsLTExNTM2NzE5MDMsLT
 E0MTQwMDYzNDBdfQ==
 -->
