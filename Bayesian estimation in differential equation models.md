@@ -26,8 +26,8 @@ $$
 Y_{i,j} = f_{j 0}(x_i) + \epsilon_{i,j}, \quad i=1,\dots,n,\ j=1,\dots,d
 $$
 
-where $\mathbf{f}_0(\cdot)$ denotes the true mean, which does not necessarily lie in $\{ \mathbf{f}_{\boldsymbol{\theta}}\ :\ \boldsymbol{\theta} \in \boldsymbol{\Theta} \}$. We let $\epsilon_{i,j} \overset{s}{\sim}$ 
+where $\mathbf{f}_0(\cdot)$ denotes the true mean, which does not necessarily lie in $\{ \mathbf{f}_{\boldsymbol{\theta}}\ :\ \boldsymbol{\theta} \in \boldsymbol{\Theta} \}$. We let $\epsilon_{i,j} \overset{iid}{\sim} P_0$, which is the probability distribution with mean zero and finite variance $\sigma_0^2$. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NjMwNDY2MCwtMTE1MzY3MTkwMywtMT
+eyJoaXN0b3J5IjpbMTg2MDI4MTE0OSwtMTE1MzY3MTkwMywtMT
 QxNDAwNjM0MF19
 -->
