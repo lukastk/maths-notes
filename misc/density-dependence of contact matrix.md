@@ -19,7 +19,7 @@ where $N^\ell_i$ is the population of age class $i$ at $\ell$ and $N_i$ the tota
 Eq. 1 and 2 are compatible with each other iff
 
 $$
-\bar{\rho} = \frac{\rho^\ell}{L}
+\bar{\rho} = 
 $$
 
 so we set
@@ -28,6 +28,6 @@ $$
 C^\ell_{ij} = \frac{\rho^\ell}{L} C_{ij}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzk3NDY4MTgsNTcyNzY5Nzg3LDEwMj
-Q1NzMwMTJdfQ==
+eyJoaXN0b3J5IjpbLTI2NzEyNTY2OCwtMTM3OTc0NjgxOCw1Nz
+I3Njk3ODcsMTAyNDU3MzAxMl19
 -->
