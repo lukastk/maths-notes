@@ -1,4 +1,4 @@
-### Simple/simplistic method to estimate density-dependence of local contact matrices
+### Simple ad-hoc way to estimate the density-dependence of local contact matrices
 
 Let $C_{ij}$ be the national contact matrix for the UK. Let $\ell=1,\dots,L$ be an index over all geographical locations of the UK. We assume that at location $\ell$, the local contact matrix $C^\ell_{ij}$ scales as
 
@@ -19,15 +19,9 @@ where $N^\ell_i$ is the population of age class $i$ at $\ell$ and $N_i$ the tota
 Eq. 1 and 2 are compatible with each other iff
 
 $$
-\bar{\rho} = 
-$$
-
-so we set
-
-$$
-C^\ell_{ij} = \frac{\rho^\ell}{L} C_{ij}
+\bar{\rho}_i = \frac{1}{N_i} \sum_\ell N_i^\ell \rho_i^\ell
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNzc0NzgzNiwtMjY3MTI1NjY4LC0xMz
-c5NzQ2ODE4LDU3Mjc2OTc4NywxMDI0NTczMDEyXX0=
+eyJoaXN0b3J5IjpbODcyODI2ODUyLC0yNjcxMjU2NjgsLTEzNz
+k3NDY4MTgsNTcyNzY5Nzg3LDEwMjQ1NzMwMTJdfQ==
 -->
