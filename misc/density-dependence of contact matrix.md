@@ -8,7 +8,7 @@ $$
 
 where $\rho^\ell = N^\ell / A^\ell$ is the local population density and $\rho = N / A$ is the national population density.
 
-Recall that $C_{ij}$ is the *average* number of people from age class $j$ that people from $i$ meet during a day
+Recall that $C_{ij}$ is the *average* number of people from age class $j$ that people from $i$ meet during a day. Therefore $C_{ij}$ and $
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0NTk2Mjk4LDEwMjQ1NzMwMTJdfQ==
+eyJoaXN0b3J5IjpbLTUwMDU0OTcwMiwxMDI0NTczMDEyXX0=
 -->
