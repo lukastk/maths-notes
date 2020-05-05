@@ -19,9 +19,9 @@ where $N^\ell_i$ is the population of age class $i$ at $\ell$ and $N_i$ the tota
 Eq. 1 and 2 are compatible with each other if
 
 $$
-\sum_\ell 
+\sum_\ell \left( \rho^\ell - \bar{\rho} \right) = 0
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MzI5OTc0MCw1NzI3Njk3ODcsMTAyND
+eyJoaXN0b3J5IjpbLTI4Njk3MzA5Niw1NzI3Njk3ODcsMTAyND
 U3MzAxMl19
 -->
