@@ -1,12 +1,16 @@
 ### Simple ad-hoc way to estimate the density-dependence of local contact matrices
 
-Let $C_{ij}$ be the national contact matrix for the UK. Let $\ell=1,\dots,L$ be an index over all geographical locations of the UK. We assume that at location $\ell$, the local contact matrix $C^\ell_{ij}$ scales as
+Let $C_{ij}$ be the national contact matrix for the UK. Let $\ell=1,\dots,L$ be an index over all geographical locations of the UK.
+
+L
+
+We assume that at location $\ell$, the local contact matrix $C^\ell_{ij}$ scales as
 
 $$
 C^\ell_{ij} = \frac{\rho_i^\ell}{\bar{\rho}_i} C_{ij} \quad (1)
 $$
 
-where $\rho_i^\ell = N_i^\ell / A^\ell$ is the local population density of age group $i$ and $\bar{\rho}_i$ is a "characteristic" local density yet to be determined.
+where $\rho_i^\ell = N_i^\ell / A^\ell$ is the local population density of age group $i$ and $\bar{\rho}_i$ is a "characteristic" local density yet to be determined. We've made the assumption that the rate at which 
 
 Recall that $C_{ij}$ is the *average* number of people from age class $j$ that people from $i$ meet during a day. Therefore $C_{ij}$ and $C^\ell_{ij}$ should be related as
 
@@ -22,6 +26,7 @@ $$
 \bar{\rho}_i = \frac{1}{N_i} \sum_\ell N_i^\ell \rho_i^\ell
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyODI2ODUyLC0yNjcxMjU2NjgsLTEzNz
-k3NDY4MTgsNTcyNzY5Nzg3LDEwMjQ1NzMwMTJdfQ==
+eyJoaXN0b3J5IjpbLTE4NzMwMjEzMjMsODcyODI2ODUyLC0yNj
+cxMjU2NjgsLTEzNzk3NDY4MTgsNTcyNzY5Nzg3LDEwMjQ1NzMw
+MTJdfQ==
 -->
