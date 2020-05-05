@@ -8,15 +8,11 @@ $$
 C_i^\ell = \frac{\rho^\ell}{f_i} C_i
 $$
 
-where $\rho^\ell = N^\ell / A^\ell$ is the local population density and $f_i$ is a local density characteristic to $i$ yet to be determined. We
-
-We assume that at location $\ell$, the local contact matrix $C^\ell_{ij}$ scales as
+where $\rho^\ell = N^\ell / A^\ell$ is the local population density and $f_i$ is a local density characteristic to $i$ yet to be determined. We will now assume that this proportionality holds for the full local contact matrix
 
 $$
-C^\ell_{ij} = \frac{\rho_i^\ell}{\bar{\rho}_i} C_{ij} \quad (1)
+C_{ij}^\ell = \frac{\rho^\ell}{f_i} C_{ij}
 $$
-
-where $\rho_i^\ell = N_i^\ell / A^\ell$ is the local population density of age group $i$ and $\bar{\rho}_i$ is a "characteristic" local density yet to be determined. We've made the assumption that the rate at which 
 
 Recall that $C_{ij}$ is the *average* number of people from age class $j$ that people from $i$ meet during a day. Therefore $C_{ij}$ and $C^\ell_{ij}$ should be related as
 
@@ -32,7 +28,7 @@ $$
 \bar{\rho}_i = \frac{1}{N_i} \sum_\ell N_i^\ell \rho_i^\ell
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTUzMjc1MSw2ODAzMjE3ODIsODcyOD
+eyJoaXN0b3J5IjpbMTk0NDEwODIwNCw2ODAzMjE3ODIsODcyOD
 I2ODUyLC0yNjcxMjU2NjgsLTEzNzk3NDY4MTgsNTcyNzY5Nzg3
 LDEwMjQ1NzMwMTJdfQ==
 -->
