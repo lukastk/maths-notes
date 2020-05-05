@@ -31,10 +31,10 @@ $$
 We thus have a simple way to estimate the density-dependence of the local contact matrices:
 
 $$
-C_{ij}^\ell = \frac{\rho^\ell}{\frac{1}{N_i} \sum_\ell N_i^\ell \rho^\ell} C_{ij}
+C_{ij}^\ell = \frac{ N_i \rho^\ell}{ \sum_r N_i^r \rho^r} C_{ij}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTc0NzMxNyw2ODAzMjE3ODIsODcyOD
-I2ODUyLC0yNjcxMjU2NjgsLTEzNzk3NDY4MTgsNTcyNzY5Nzg3
-LDEwMjQ1NzMwMTJdfQ==
+eyJoaXN0b3J5IjpbLTEwNDM3NDI5NTEsNjgwMzIxNzgyLDg3Mj
+gyNjg1MiwtMjY3MTI1NjY4LC0xMzc5NzQ2ODE4LDU3Mjc2OTc4
+NywxMDI0NTczMDEyXX0=
 -->
