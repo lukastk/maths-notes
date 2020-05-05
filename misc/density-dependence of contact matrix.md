@@ -19,8 +19,9 @@ where $N^\ell_i$ is the population of age class $i$ at $\ell$ and $N_i$ the tota
 Eq. 1 and 2 are compatible with each other if
 
 $$
-\sum_\ell N_i^\ell 
+\sum_\ell 
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyNzY5Nzg3LDEwMjQ1NzMwMTJdfQ==
+eyJoaXN0b3J5IjpbMTQ0MzI5OTc0MCw1NzI3Njk3ODcsMTAyND
+U3MzAxMl19
 -->
