@@ -2,7 +2,7 @@
 
 Let $C_{ij}$ be the national contact matrix for the UK. Let $\ell=1,\dots,L$ be an index over all geographical locations of the UK.
 
-L
+Let $C_i$ be the total number of people that people of age-class $i$ meet of any other age-class per day. In other words $C_i = \sum_j C_{ij}$. Let us assume that this 
 
 We assume that at location $\ell$, the local contact matrix $C^\ell_{ij}$ scales as
 
@@ -26,7 +26,7 @@ $$
 \bar{\rho}_i = \frac{1}{N_i} \sum_\ell N_i^\ell \rho_i^\ell
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzMwMjEzMjMsODcyODI2ODUyLC0yNj
-cxMjU2NjgsLTEzNzk3NDY4MTgsNTcyNzY5Nzg3LDEwMjQ1NzMw
-MTJdfQ==
+eyJoaXN0b3J5IjpbNzA4MjYyMTgyLDg3MjgyNjg1MiwtMjY3MT
+I1NjY4LC0xMzc5NzQ2ODE4LDU3Mjc2OTc4NywxMDI0NTczMDEy
+XX0=
 -->
