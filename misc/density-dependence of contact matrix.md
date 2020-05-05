@@ -16,12 +16,12 @@ $$
 
 where $N^\ell_i$ is the population of age class $i$ at $\ell$ and $N_i$ the total UK population of age class $i$.
 
-Eq. 1 and 2 are compatible with each other if
+Eq. 1 and 2 are compatible with each other iff
 
 $$
 \sum_\ell \left( \rho^\ell - \bar{\rho} \right) = 0
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Njk3MzA5Niw1NzI3Njk3ODcsMTAyND
-U3MzAxMl19
+eyJoaXN0b3J5IjpbLTEyOTE2Mjk3MTIsNTcyNzY5Nzg3LDEwMj
+Q1NzMwMTJdfQ==
 -->
