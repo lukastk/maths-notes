@@ -3,10 +3,10 @@
 Let $C_{ij}$ be the national contact matrix for the UK. Let $\ell=1,\dots,L$ be an index over all geographical locations of the UK. We assume that at location $\ell$, the local contact matrix $C^\ell_{ij}$ scales as
 
 $$
-C^\ell_{ij} = \frac{\rho^\ell}{\bar{\rho}} C_{ij} \quad (1)
+C^\ell_{ij} = \frac{\rho_i^\ell}{\bar{\rho}_i} C_{ij} \quad (1)
 $$
 
-where $\rho^\ell = N^\ell / A^\ell$ is the local population density and $\bar{\rho}$ is a "characteristic" local density yet to be determined.
+where $\rho_i^\ell = N_i^\ell / A^\ell$ is the local population density of age group $i$ and $\bar{\rho}_i$ is a "characteristic" local density yet to be determined.
 
 Recall that $C_{ij}$ is the *average* number of people from age class $j$ that people from $i$ meet during a day. Therefore $C_{ij}$ and $C^\ell_{ij}$ should be related as
 
@@ -28,6 +28,6 @@ $$
 C^\ell_{ij} = \frac{\rho^\ell}{L} C_{ij}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NzEyNTY2OCwtMTM3OTc0NjgxOCw1Nz
-I3Njk3ODcsMTAyNDU3MzAxMl19
+eyJoaXN0b3J5IjpbMTIxNzc0NzgzNiwtMjY3MTI1NjY4LC0xMz
+c5NzQ2ODE4LDU3Mjc2OTc4NywxMDI0NTczMDEyXX0=
 -->
