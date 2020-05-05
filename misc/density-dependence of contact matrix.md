@@ -2,13 +2,13 @@
 
 Let $C_{ij}$ be the national contact matrix for the UK. Let $\ell=1,\dots,L$ be an index over all geographical locations of the UK, and let $C^\ell_{ij}$ be a local contact matrix.
 
-Let $C_i^\ell$ be the total number of people that people of age-class $i$ at location $\ell$ meet any other age-class per day. In other words $C^\ell_i = \sum_j C^\ell_{ij}$. Let us assume that this rate is proportional to the density of members of age-bracket $i$ at $\ell$, in other words
+Let $C_i^\ell$ be the total number of people that people of age-class $i$ at location $\ell$ meet any other age-class per day. In other words $C^\ell_i = \sum_j C^\ell_{ij}$. Let us assume that this rate is proportional to the population density of $\ell$, in other words
 
 $$
-C_i^\ell = \frac{\rho_i^\ell}{\bar{\rho}_i} C_i
+C_i^\ell = \frac{\rho^\ell}{f_i} C_i
 $$
 
-where $\rho_i^\ell = N_i^\ell / A^\ell$ is the local population density of age group $i$ and $\bar{\rho}_i$ is a "characteristic" local density yet to be determined.
+where $\rho^\ell = N^\ell / A^\ell$ is the local population density and $f_i$ is a local density characteristic to $i$ yet to be determined. We
 
 We assume that at location $\ell$, the local contact matrix $C^\ell_{ij}$ scales as
 
@@ -32,7 +32,7 @@ $$
 \bar{\rho}_i = \frac{1}{N_i} \sum_\ell N_i^\ell \rho_i^\ell
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgwMzIxNzgyLDg3MjgyNjg1MiwtMjY3MT
-I1NjY4LC0xMzc5NzQ2ODE4LDU3Mjc2OTc4NywxMDI0NTczMDEy
-XX0=
+eyJoaXN0b3J5IjpbMTE3MTUzMjc1MSw2ODAzMjE3ODIsODcyOD
+I2ODUyLC0yNjcxMjU2NjgsLTEzNzk3NDY4MTgsNTcyNzY5Nzg3
+LDEwMjQ1NzMwMTJdfQ==
 -->
