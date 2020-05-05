@@ -1,4 +1,4 @@
-### Simple method to estimate density-dependence of local contact matrices
+### Simple/simplistic method to estimate density-dependence of local contact matrices
 
 Let $C_{ij}$ be the national contact matrix for the UK. Let $\ell=1,\dots,L$ be an index over all geographical locations of the UK. We assume that at location $\ell$, the local contact matrix $C^\ell_{ij}$ scales as
 
@@ -21,7 +21,13 @@ Eq. 1 and 2 are compatible with each other iff
 $$
 \bar{\rho} = \frac{\rho^\ell}{L}
 $$
+
+so we set
+
+$$
+C^\ell_{ij} = \frac{\rho^\ell}{L} C_{ij}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2MzEwMzI2LDU3Mjc2OTc4NywxMDI0NT
-czMDEyXX0=
+eyJoaXN0b3J5IjpbLTEzNzk3NDY4MTgsNTcyNzY5Nzg3LDEwMj
+Q1NzMwMTJdfQ==
 -->
