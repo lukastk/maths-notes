@@ -11,7 +11,7 @@ $$
 where $\rho^\ell = N^\ell / A^\ell$ is the local population density and $f_i$ is a local density characteristic to $i$ yet to be determined. We will now assume that this proportionality holds for the full local contact matrix
 
 $$
-C_{ij}^\ell = \frac{\rho^\ell}{f_i} C_{ij}
+C_{ij}^\ell = \frac{\rho^\ell}{f_i} C_{ij} \quad (1)
 $$
 
 Recall that $C_{ij}$ is the *average* number of people from age class $j$ that people from $i$ meet during a day. Therefore $C_{ij}$ and $C^\ell_{ij}$ should be related as
@@ -25,10 +25,16 @@ where $N^\ell_i$ is the population of age class $i$ at $\ell$ and $N_i$ the tota
 Eq. 1 and 2 are compatible with each other iff
 
 $$
-\bar{\rho}_i = \frac{1}{N_i} \sum_\ell N_i^\ell \rho_i^\ell
+\bar{\rho}_i = \frac{1}{N_i} \sum_\ell N_i^\ell \rho^\ell
+$$
+
+We thus have a simple way to estimate the density-dependence of the local contact matrices:
+
+$$
+C_{ij}^\ell = \frac{\rho^\ell}{\frac{1}{N_i} \sum_\ell N_i^\ell \rho^\ell} C_{ij}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDEwODIwNCw2ODAzMjE3ODIsODcyOD
+eyJoaXN0b3J5IjpbMTUzMTc0NzMxNyw2ODAzMjE3ODIsODcyOD
 I2ODUyLC0yNjcxMjU2NjgsLTEzNzk3NDY4MTgsNTcyNzY5Nzg3
 LDEwMjQ1NzMwMTJdfQ==
 -->
