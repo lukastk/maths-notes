@@ -24,8 +24,8 @@ $$
 
 where $R_0$ is the basic reproductive ratio, which is the number of secondary infections produced by a typical case of an infection in a population where everyone is susceptible.
 
-As the basic reproductive ratio is both a function of the inherent infectivity of the pathogen, as well as the social contact structure of the susceptibles
+As the basic reproductive ratio is both a function of the inherent infectivity of the pathogen, as well as the social contact structure of the susceptibles, $R_0$ is a lower value during lockd
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5MDA5Njg2LC0yMzIyNDg5MzIsODI4MT
-g2MzExXX0=
+eyJoaXN0b3J5IjpbMTUzNjc3NjIwOCwtMjMyMjQ4OTMyLDgyOD
+E4NjMxMV19
 -->
