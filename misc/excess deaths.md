@@ -26,8 +26,8 @@ where $R_0$ is the basic reproductive ratio, which is the number of secondary in
 
 As the basic reproductive ratio is both a function of the inherent infectivity of the pathogen, as well as the social contact structure of the susceptibles, $R_0$ has a lower value during lock-down. This is why there is often talk about "keeping $R_0$ below $1$" in the media.
 
-Estimates for $R_0$ of the COVID-19 virus vary from $1.4$ to $5.7$, outside of a lock-down. Using these 
+Estimates for $R_0$ of the COVID-19 virus vary from $1.4$ to $5.7$, outside of a lock-down. Using the conservative estimate of $R_0 = 1.4$, we can estimate the herd immunity criterion to be $h \sim 0.29$. This would mean 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDczMDExMiwtMjMyMjQ4OTMyLDgyOD
+eyJoaXN0b3J5IjpbMTUxMjMxMDEzMiwtMjMyMjQ4OTMyLDgyOD
 E4NjMxMV19
 -->
