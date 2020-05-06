@@ -14,8 +14,10 @@ $$
 
 ---
 
-Herd immunity is reached when a large enough proportion of the population is immune (either recovered or vaccinated), where the immunized serve as a buffer for 
+Herd immunity is reached when a large enough proportion of the population is immune (either recovered or vaccinated), where the immunized serve as a buffer, lowering the probability of secondary infections.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjY1NDI3MiwtMjMyMjQ4OTMyLDgyOD
-E4NjMxMV19
+eyJoaXN0b3J5IjpbNjM2OTczMzAxLC0yMzIyNDg5MzIsODI4MT
+g2MzExXX0=
 -->
