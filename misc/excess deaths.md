@@ -14,8 +14,8 @@ $$
 
 ---
 
-Herd immunity is reached when a large enough proportion of the population is immune (either recovered or immunized), so that the disease becomes stable 
-
+Herd immunity is reached when a large enough proportion of the population is immune (either recovered or vaccinated), where the immunized serve as a buffer for 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjI0ODkzMiw4MjgxODYzMTFdfQ==
+eyJoaXN0b3J5IjpbLTQ5NjY1NDI3MiwtMjMyMjQ4OTMyLDgyOD
+E4NjMxMV19
 -->
