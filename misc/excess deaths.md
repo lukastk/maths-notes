@@ -26,14 +26,22 @@ where $R_0$ is the basic reproductive ratio, which is the number of secondary in
 
 As the basic reproductive ratio is both a function of the inherent infectivity of the pathogen, as well as the social contact structure of the susceptibles, $R_0$ has a lower value during lock-down. This is why there is often talk about "keeping $R_0$ below $1$" in the media.
 
-Estimates for $R_0$ of the COVID-19 virus vary from $1.4$ to $5.7$, outside of a lock-down. Using the conservative estimate of $R_0 = 1.4$, we can estimate the herd immunity criterion to be $h \sim 28.7\%$. This would mean approximately $19$ million of the UK's $66.65$ million inhabitants would have to be infected for herd immunity to be reached.
+Estimates for $R_0$ of the COVID-19 virus vary from $1.4$ to $5.7$ [Ref: 1-4], outside of a lock-down. Using the conservative estimate of $R_0 = 1.4$, we can estimate the herd immunity criterion to be $h \sim 28.7\%$. This would mean approximately $19$ million of the UK's $66.65$ million inhabitants would have to be infected for herd immunity to be reached.
 
 Current estimates 
 
 References:
 
-[1] - 
+[1] - https://www.nejm.org/doi/10.1056/NEJMoa2001316
+
+[2] - https://www.eurosurveillance.org/content/10.2807/1560-7917.ES.2020.25.4.2000058
+
+[3] - https://www.nature.com/articles/s41591-020-0822-7
+
+[4] - https://wwwnc.cdc.gov/eid/article/26/7/20-0282_article
+
+[5] - https://post.parliament.uk/analysis/models-of-covid-19-part-3/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY0NjYxNzA3LC0yMzIyNDg5MzIsODI4MT
-g2MzExXX0=
+eyJoaXN0b3J5IjpbLTgxMjE2MDg3NSwtMjMyMjQ4OTMyLDgyOD
+E4NjMxMV19
 -->
