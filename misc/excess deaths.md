@@ -16,8 +16,14 @@ $$
 
 Herd immunity is reached when a large enough proportion of the population is immune (either recovered or vaccinated), where the immunized serve as a buffer, lowering the probability of secondary infections.
 
+The herd immunity criterion is
 
+$$
+h = \frac{R_0 - 1}{R_0}
+$$
+
+where $R_0$ is the basic reproductive ratio, which is the number of secondary infections produced by a typical case of an infection in a population where ev
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2OTczMzAxLC0yMzIyNDg5MzIsODI4MT
-g2MzExXX0=
+eyJoaXN0b3J5IjpbMTQyNDk2MDg1NSwtMjMyMjQ4OTMyLDgyOD
+E4NjMxMV19
 -->
