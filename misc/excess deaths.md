@@ -11,6 +11,11 @@ and the standard deviation is
 $$
 \text{STD}[d_i] = \sqrt{ \frac{1}{n} \sum_{j=1}^n (d_j - \bar{d}_j)^2 }
 $$
+
+---
+
+Herd immunity is reached when a large enough proportion of the population is immune (either recovered or immunized), so that the disease becomes stable 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MTg2MzExXX0=
+eyJoaXN0b3J5IjpbLTIzMjI0ODkzMiw4MjgxODYzMTFdfQ==
 -->
