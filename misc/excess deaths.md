@@ -24,8 +24,11 @@ $$
 
 where $R_0$ is the basic reproductive ratio, which is the number of secondary infections produced by a typical case of an infection in a population where everyone is susceptible.
 
-As the basic reproductive ratio is both a function of the inherent infectivity of the pathogen, as well as the social contact structure of the susceptibles, $R_0$ is a lower value during lockd
+As the basic reproductive ratio is both a function of the inherent infectivity of the pathogen, as well as the social contact structure of the susceptibles, $R_0$ has a lower value during lock-down. This is why there is often talk about "keeping $R_0$ below 1" in the media.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjc3NjIwOCwtMjMyMjQ4OTMyLDgyOD
+eyJoaXN0b3J5IjpbMTM3MzA0MTU0NCwtMjMyMjQ4OTMyLDgyOD
 E4NjMxMV19
 -->
