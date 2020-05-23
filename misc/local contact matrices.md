@@ -51,7 +51,9 @@ $$
 C^\ell_{ij} = g(\rho^\ell) \frac{f_j^\ell}{f_j} C_{ij}
 $$
 
-If we assume a linear density-dependence, 
+
+
+If we assume a linear density-dependence $g
 
 $$
 C_{ij} = \frac{1}{N_i} \sum_\ell N^\ell_i C_{ij}^\ell \quad (2)
@@ -64,6 +66,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjYyNTA1MywtMjA1OTg2MzUzNiw3Mj
-kzMzMwNDddfQ==
+eyJoaXN0b3J5IjpbNjYxMzk2MTI0LC0yMTI2MjUwNTMsLTIwNT
+k4NjM1MzYsNzI5MzMzMDQ3XX0=
 -->
