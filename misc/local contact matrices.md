@@ -32,9 +32,14 @@ Eq. (2) is consistent with Eq. (1):
 
 $$
 \begin{aligned}
-N_i^\ell C^\ell_{ij} = \fr
+N_i^\ell C^\ell_{ij} & = N_j^\ell \frac{f^\ell_i}{f_i} C_{ji} \\
+& = N_j^\ell C_{ji}^\ell
 \end{aligned}
 $$
+
+where we used (1) and (2).
+
+Eq. 2 is quite easy to interpret. For example, there are 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTc3NzYzNl19
+eyJoaXN0b3J5IjpbLTczMzEwMTY4OF19
 -->
