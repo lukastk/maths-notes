@@ -47,7 +47,7 @@ Eq. 3 is easy to interpret. For example if the proportion of children in London 
 
 ### 2. Density-dependence of the contact matrix
 
-Let $g(\rho^\ell\ |\ \rho)$ be a function of the local population density $\rho^\ell = N^\ell / A^\ell$, where $\rho = N / A$ is the UK population density. From now on we will suppress the $\rho$ parameter in $g$.
+Let $g(\rho^\ell)$ be a function of the local population density $\rho^\ell = N^\ell / A^\ell$.
 
 We let all contacts scale with $g$:
 
@@ -73,6 +73,6 @@ $$
 a = \rho \left( \frac{1}{N_i^2} \sum_\ell {N_i^\ell}^2 \right)
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0OTQxMiwtMjEyNjI1MDUzLC0yMDU5OD
-YzNTM2LDcyOTMzMzA0N119
+eyJoaXN0b3J5IjpbLTE5NDY3NDk1MTksOTE0OTQxMiwtMjEyNj
+I1MDUzLC0yMDU5ODYzNTM2LDcyOTMzMzA0N119
 -->
