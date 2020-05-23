@@ -23,8 +23,18 @@ There are two things we want to consider in the construction of $C_{ij}^\ell$:
 We let
 
 $$
-C^\ell_{ij} = \frac{f_j^\ell}{f_j}
+C^\ell_{ij} = \frac{f_j^\ell}{f_j} C_{ij} \quad (2)
+$$
+
+where $f_j = N_j / N$ and $f_j^\ell = N^\ell_j / N$.
+
+Eq. (2) is consistent with Eq. (1):
+
+$$
+\begin{aligned}
+N_i^\ell C^\ell_{ij} = \fr
+\end{aligned}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0OTA5Nzc4XX0=
+eyJoaXN0b3J5IjpbMjEzMTc3NzYzNl19
 -->
