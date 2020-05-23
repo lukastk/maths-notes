@@ -17,10 +17,11 @@ $$
 C_{ij} = \frac{1}{N_i} \sum_\ell N^\ell_i C_{ij}^\ell \quad (2)
 $$
 
-There are two things we want to consider in the construction of $C_{ij}^\ell$:
+There are three things we want to consider in the construction of $C_{ij}^\ell$:
 
 1. Eq. 1 must hold for all $\ell$.
-2. Contact should scale with population density.
+2. 2.
+3. Contact should scale with population density.
 
 ### 1. Satisfying the local consistency relations
 
@@ -73,6 +74,6 @@ $$
 a = \rho \left( \frac{1}{N_i^2} \sum_\ell {N_i^\ell}^2 \right)
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY3NDk1MTksOTE0OTQxMiwtMjEyNj
-I1MDUzLC0yMDU5ODYzNTM2LDcyOTMzMzA0N119
+eyJoaXN0b3J5IjpbMTQwMDI0MzY1NCw5MTQ5NDEyLC0yMTI2Mj
+UwNTMsLTIwNTk4NjM1MzYsNzI5MzMzMDQ3XX0=
 -->
