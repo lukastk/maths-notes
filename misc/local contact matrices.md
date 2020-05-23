@@ -51,7 +51,13 @@ $$
 C^\ell_{ij} = g(\rho^\ell) C_{ij}
 $$
 
-From previous results, it seems reasonable to assume a l
+If we assume a linear density-dependence, then the only self-consistent choice of $g$ is
+
+$$
+g(\rho^\ell) = \frac{\rho^\ell}{\rho}
+$$
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MjU3ODE1XX0=
+eyJoaXN0b3J5IjpbNzI5MzMzMDQ3XX0=
 -->
