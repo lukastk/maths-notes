@@ -45,7 +45,13 @@ Eq. 2 is easy to interpret. For example if the proportion of children in London 
 
 Let $g(\rho^\ell\ |\ \rho)$ be a function of the local population density $\rho^\ell = N^\ell / A^\ell$, where $\rho = N / A$ is the UK population density. From now on we will suppress the $\rho$ parameter in $g$.
 
-We let the *total* amount of contacts scale with th
+We let all contacts scale with $g$:
+
+$$
+C^\ell_{ij} = g(\rho^\ell) C_{ij}
+$$
+
+From previous results, it seems reasonable to assume a l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzg3OTk4Ml19
+eyJoaXN0b3J5IjpbNzk2MjU3ODE1XX0=
 -->
