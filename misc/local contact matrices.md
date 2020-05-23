@@ -20,8 +20,8 @@ $$
 There are three things we want to consider in the construction of $C_{ij}^\ell$:
 
 1. Eq. 1 must hold for all $\ell$.
-2. 2.
-3. Contact should scale with population density.
+2. Eq. 2 must hold for $C_{ij}$.
+3. Contacts should scale with population density.
 
 ### 1. Satisfying the local consistency relations
 
@@ -73,7 +73,9 @@ We get
 $$
 a = \rho \left( \frac{1}{N_i^2} \sum_\ell {N_i^\ell}^2 \right)
 $$
+
+A fixed constant $g(\rho^\el
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDI0MzY1NCw5MTQ5NDEyLC0yMTI2Mj
+eyJoaXN0b3J5IjpbMjA2MDMxODc4Nyw5MTQ5NDEyLC0yMTI2Mj
 UwNTMsLTIwNTk4NjM1MzYsNzI5MzMzMDQ3XX0=
 -->
