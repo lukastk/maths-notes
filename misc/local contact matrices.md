@@ -41,7 +41,9 @@ where we used (1) and (2).
 
 Eq. 2 is easy to interpret. For example if the proportion of children in London is twice as many as in the UK overall, then Eq. 2 says that all age groups will have twice as many contacts with children in London.
 
-Eq. 2 is not quite enough to 
+### 2. Density-dependence of the contact matrix
+
+Let $g(\rho^\ell\ |\ \rho)$ be a function of the local population density $\rho^\ell = N^\ell / A^\ell$, where 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTg1ODE1MDVdfQ==
+eyJoaXN0b3J5IjpbLTk1Mjk1ODA1XX0=
 -->
