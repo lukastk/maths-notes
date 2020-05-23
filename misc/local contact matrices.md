@@ -63,10 +63,16 @@ $$
 \begin{aligned}
 & C_{ij} = \frac{1}{N_i} \sum_\ell N_i^\ell C_{ij}^\ell  = \frac{1}{N_i} \sum_\ell N_i^\ell \frac{\rho^\ell}{a} \frac{f_i^\ell}{f_i} C_{ij} \\
 \Rightarrow\ & \sum_{\ell} \left[ N_i^\ell \rho^\ell \frac{f_i^\ell}{f_i} - a N_i^\ell \right] = 0 \\
-\Rightarrow\ & a = \frac{1}{N_i} \sum
+\Rightarrow\ & a = \frac{1}{N_i} \sum_\ell  N_i^\ell  \rho^\ell \frac{f_i^\ell}{f_i}
 \end{aligned}
 $$
+
+We get
+
+$$
+a = \rho \left( \frac{1}{N_i^2} \sum_\ell {N_i^\ell}^2 \right)
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Mzc3NzMwOCwtMjEyNjI1MDUzLC0yMD
-U5ODYzNTM2LDcyOTMzMzA0N119
+eyJoaXN0b3J5IjpbOTE0OTQxMiwtMjEyNjI1MDUzLC0yMDU5OD
+YzNTM2LDcyOTMzMzA0N119
 -->
