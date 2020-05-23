@@ -57,17 +57,15 @@ $$
 
 as $g$ is a scalar, Eq. 1 remains satisfied. Although the scaling must be chosen such that Eq. 2 is satisfied as well.
 
-Let's assume a linear density-dependence $g(\rho^\ell) = \rho^\ell / a$, and u
-
-
-
+Let's assume a linear density-dependence $g(\rho^\ell) = \rho^\ell / a$, and use Eq. 2 to find $a$.
 
 $$
-g(\rho^\ell) = \frac{\rho^\ell}{\rho}
+\begin{aligned}
+C_{ij} & = \frac{1}{N_i} \sum_\ell N_i^\ell C_{ij}^\ell  = \frac{1}{N_i} \sum_\ell N_i^\ell \frac{\rho^\ell}{a} \frac{f_i^\ell}{f_i} C_{ij} \\
+\Rightarrow 
+\end{aligned}
 $$
-
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxNTU3NDk1LC0yMTI2MjUwNTMsLTIwNT
+eyJoaXN0b3J5IjpbNzk0NDIzNzU5LC0yMTI2MjUwNTMsLTIwNT
 k4NjM1MzYsNzI5MzMzMDQ3XX0=
 -->
