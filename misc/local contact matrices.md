@@ -31,7 +31,7 @@ $$
 C^\ell_{ij} = \frac{f_j^\ell}{f_j} C_{ij} \quad (3)
 $$
 
-where $f_j = N_j / N$ and $f_j^\ell = N^\ell_j / N$.
+where $f_j = N_j / N$ and $f_j^\ell = N^\ell_j / N^\ell$.
 
 Eq. (3) is consistent with Eq. (1):
 
@@ -76,6 +76,7 @@ $$
 
 An intercept constant $g(\rho^\ell) = \rho^\ell/a + k$ can be eliminated by demanding that $g(0)= 0$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTY2NzAxMiw5MTQ5NDEyLC0yMTI2Mj
-UwNTMsLTIwNTk4NjM1MzYsNzI5MzMzMDQ3XX0=
+eyJoaXN0b3J5IjpbMjc2OTQ5ODkxLC00OTk2NjcwMTIsOTE0OT
+QxMiwtMjEyNjI1MDUzLC0yMDU5ODYzNTM2LDcyOTMzMzA0N119
+
 -->
