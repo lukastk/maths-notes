@@ -61,11 +61,12 @@ Let's assume a linear density-dependence $g(\rho^\ell) = \rho^\ell / a$, and use
 
 $$
 \begin{aligned}
-C_{ij} & = \frac{1}{N_i} \sum_\ell N_i^\ell C_{ij}^\ell  = \frac{1}{N_i} \sum_\ell N_i^\ell \frac{\rho^\ell}{a} \frac{f_i^\ell}{f_i} C_{ij} \\
-\Rightarrow 
+& C_{ij} = \frac{1}{N_i} \sum_\ell N_i^\ell C_{ij}^\ell  = \frac{1}{N_i} \sum_\ell N_i^\ell \frac{\rho^\ell}{a} \frac{f_i^\ell}{f_i} C_{ij} \\
+\Rightarrow\ & \sum_{\ell} \left[ N_i^\ell \rho^\ell \frac{f_i^\ell}{f_i} - a N_i^\ell \right] = 0 \\
+\Rightarrow\ & a = \frac{1}{N_i} \sum
 \end{aligned}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk0NDIzNzU5LC0yMTI2MjUwNTMsLTIwNT
-k4NjM1MzYsNzI5MzMzMDQ3XX0=
+eyJoaXN0b3J5IjpbLTY3Mzc3NzMwOCwtMjEyNjI1MDUzLC0yMD
+U5ODYzNTM2LDcyOTMzMzA0N119
 -->
