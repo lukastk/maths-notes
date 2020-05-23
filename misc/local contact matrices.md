@@ -39,7 +39,9 @@ $$
 
 where we used (1) and (2).
 
-Eq. 2 is quite easy to interpret. For example if the proportion of children in London is twice as many as in the UK overall, then Eq. 2 says that all age groups will have twice as many contacts with children in London.
+Eq. 2 is easy to interpret. For example if the proportion of children in London is twice as many as in the UK overall, then Eq. 2 says that all age groups will have twice as many contacts with children in London.
+
+Eq. 2 is not quite enough to 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTUxODI4NV19
+eyJoaXN0b3J5IjpbLTE3MTg1ODE1MDVdfQ==
 -->
