@@ -55,9 +55,9 @@ $$
 C^\ell_{ij} = g(\rho^\ell) \frac{f_j^\ell}{f_j} C_{ij} \quad (4)
 $$
 
+as $g$ is a scalar, Eq. 1 remains satisfied. Although the scaling must be chosen such that Eq. 2 is satisfied as well.
 
-
-Let's assume a linear density-dependence $g(\rho^\ell) = \rho^\ell / a$.
+Let's assume a linear density-dependence $g(\rho^\ell) = \rho^\ell / a$, and u
 
 
 
@@ -68,6 +68,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTUxNDcyMSwtMjEyNjI1MDUzLC0yMD
-U5ODYzNTM2LDcyOTMzMzA0N119
+eyJoaXN0b3J5IjpbNzIxNTU3NDk1LC0yMTI2MjUwNTMsLTIwNT
+k4NjM1MzYsNzI5MzMzMDQ3XX0=
 -->
