@@ -48,7 +48,7 @@ Let $g(\rho^\ell\ |\ \rho)$ be a function of the local population density $\rho^
 We let all contacts scale with $g$:
 
 $$
-C^\ell_{ij} = g(\rho^\ell) C_{ij}
+C^\ell_{ij} = g(\rho^\ell) \frac{f_j^\ell}{f_j} C_{ij}
 $$
 
 If we assume a linear density-dependence, 
@@ -64,5 +64,6 @@ $$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk4NjM1MzYsNzI5MzMzMDQ3XX0=
+eyJoaXN0b3J5IjpbLTIxMjYyNTA1MywtMjA1OTg2MzUzNiw3Mj
+kzMzMwNDddfQ==
 -->
