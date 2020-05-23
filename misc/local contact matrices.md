@@ -74,8 +74,8 @@ $$
 a = \rho \left( \frac{1}{N_i^2} \sum_\ell {N_i^\ell}^2 \right)
 $$
 
-A fixed constant $g(\rho^\el
+An intercept constant $g(\rho^\ell) = \rho^\ell/a + k$ can be eliminated by demanding that $g(0)= 0$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDMxODc4Nyw5MTQ5NDEyLC0yMTI2Mj
+eyJoaXN0b3J5IjpbLTQ5OTY2NzAxMiw5MTQ5NDEyLC0yMTI2Mj
 UwNTMsLTIwNTk4NjM1MzYsNzI5MzMzMDQ3XX0=
 -->
