@@ -6,9 +6,20 @@ For both contact matrices the consistency relation
 
 $$
 \begin{aligned}
-N_{i}
+N_{i} C_{ij} & = N_j C_{ji} \\
+N_i^\ell C^\ell_{ij} & = N_j^\ell C_{ij}^\ell
 \end{aligned}
 $$
+
+must be satisfied.
+
+There are two c
+
+We let
+
+$$
+C^\ell_{ij} = \frac{f_j^\ell}{f_j}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzkxNTk5Ml19
+eyJoaXN0b3J5IjpbLTEzMTE0MjgxODZdfQ==
 -->
