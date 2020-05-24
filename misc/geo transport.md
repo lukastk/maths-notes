@@ -11,7 +11,8 @@ $$
 T^{S,\alpha}_{i,(k\to j)j} = \frac{S_{ij}^\alpha}{N_{ij}^\alpha} u_{i,(k\to j)j}(t)
 $$
 
-and 
+et cetera, and $u_{i,(k\to j)j}(t)$ is a pulse-function.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTc1MzEyNl19
+eyJoaXN0b3J5IjpbLTUzMzY5MzYxOV19
 -->
