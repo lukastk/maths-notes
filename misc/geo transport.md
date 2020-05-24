@@ -8,11 +8,14 @@ $$
 where
 
 $$
-T^{S,\alpha}_{i,(k\to j)j} = \frac{S_{ij}^\alpha}{N_{ij}^\alpha} u_{i,(k\to j)j}(t)
+\begin{aligned}
+T^{S,\alpha}_{i,(k\to j)j} & = \frac{S_{i,(k\to j)}^\alpha}{N_{i,(k\to j)}^\alpha} u_{i,(k\to j)j}(t) \\
+T_{i,j(j\to k)}^{S,\alpha} & = \frac{S_{ij}^\alpha}{N_{ij}^\alpha} u_{i,(k\to j)j}(t)
+\end{aligned}
 $$
 
 et cetera, and $u_{i,(k\to j)j}(t)$ is a pulse-function.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzY5MzYxOV19
+eyJoaXN0b3J5IjpbODU5NTg4NTUyLC01MzM2OTM2MTldfQ==
 -->
