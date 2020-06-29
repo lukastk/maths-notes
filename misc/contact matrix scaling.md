@@ -42,11 +42,13 @@ $$
 Reverting back to the normal contact matrix form, we get
 
 $$
-C^\ell_{ij} = \frac{1}{a_{ij} \rho^i_
+C^\ell_{ij} = \frac{1}{a_{ij}} (\rho^\ell_i \rho^\ell_j)^b \frac{N_i}{N^\ell_i} \tilde{C}_{ij} (4)
 $$
+
+In Eq. (4) we see two different scalings: The 
 
 It should be noted that the density scaling $(\rho_i^\ell \rho_j^\ell)^b$ could easily be replaced by another function.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTEyOTQzOF19
+eyJoaXN0b3J5IjpbMTI5OTE5NTczNl19
 -->
