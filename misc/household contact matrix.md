@@ -11,8 +11,9 @@ Algorithm:
 1. Generate $M$ households, indexed by $\mu = 1,\dots, M$. The number of people of age-group $i$ in household $\mu$ is given by $N^\mu_i$.
 	2. $M$ is given by: $M = N_i / \mu_i^F$.
 	3. The populations are taken from the distribution. $$ N^\mu_i = \mathcal{N}(\mu_i^F, \sigma_i^F)$$ 
-2. For each household $\mu$:
-	3. 
+2. Construct the household contact matrix $C_{ij}^{\mu \nu}$. For each household $\mu$:
+	3. For $\mu = \nu$, we set $C_{ij}^{\mu \mu}$ equal to the home contact matrix, adjusting the matrix elements such that consistency relations are satisfied.
+	4. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMzI1MzMxXX0=
+eyJoaXN0b3J5IjpbLTIwNTk1NzgxNTJdfQ==
 -->
