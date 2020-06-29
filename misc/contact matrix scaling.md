@@ -33,16 +33,20 @@ $$
 \tilde{C}^\ell_{ij} = \frac{1}{a_{ij}} (\rho_i^\ell \rho_j^\ell)^b \tilde{C}_{ij}
 $$
 
-where $\rho_i^\ell = \frac{N^\ell_i}{A_i}$ is the local population density of age-group $i$, and where $A_i$ is the area of location $\ell$. $b$ is a scaling factor that should be determined from inference. $a_ij$ is a normalisation matrix that is determined by Eq. (3):
+where $\rho_i^\ell = \frac{N^\ell_i}{A_i}$ is the local population density of age-group $i$, and where $A_i$ is the area of location $\ell$. $b$ is a scaling factor that should be determined from inference. $a_{ij}$ is a normalisation matrix that is determined by Eq. (3):
 
 $$
 a_{ij} = \sum_\ell (\rho_i^\ell \rho_j^\ell)^b
 $$
 
+Reverting back to the normal contact matrix form, we get
 
+$$
+C^\ell_{ij} = \frac{1}{a_{ij} \rho^i_
+$$
 
 It should be noted that the density scaling $(\rho_i^\ell \rho_j^\ell)^b$ could easily be replaced by another function.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTk5NjQwNl19
+eyJoaXN0b3J5IjpbMjA3OTEyOTQzOF19
 -->
