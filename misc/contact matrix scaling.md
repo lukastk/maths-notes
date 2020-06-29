@@ -1,6 +1,6 @@
 ## Scaling local contact matrices
 
-We have a contact matrix $C_{ij}$, which gives the number of reported contacts of age-group *j*, as reported by age-group, satisfying
+We have a contact matrix $C_{ij}$, which gives the number of reported contacts of age-group *j*, as reported by age-group *i*, satisfying
 
 $$
 N_i C_{ij} = N_j C_{ji} \quad (1)
@@ -41,5 +41,5 @@ $$
 
 In Eq. (4) we see two different scalings: The $(\rho^\ell_i \rho^\ell_j)^b$ factor that scales contacts according to local population density, and $\frac{N_i}{N^\ell_i}$ that scales the contacts such that the consistency relation (2) is maintained. It should be noted that the density scaling $(\rho_i^\ell \rho_j^\ell)^b$ could easily be replaced by another function $f(\rho_i^\ell \rho_j^\ell)$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTM0NjkzOSwtMTUwMjgyOTc4XX0=
+eyJoaXN0b3J5IjpbLTM2NjUzODg5NiwtMTUwMjgyOTc4XX0=
 -->
