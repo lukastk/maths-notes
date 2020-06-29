@@ -26,17 +26,20 @@ $$
 
 The interpretation of $\tilde{C}_{ij}$ is the *total* number of contacts between age-group *i* and *j*. Eq. (3) is the statement that the total local contacts must add up to the total national contacts.
 
-We now construct local contact matrices $\tilde{C}^\ell_{ij}$ such that (2) and (3) are satisfied. Note that (2) will remain satisfied as long as $\tilde{C}^\ell_{ij}$ is symmetric. We set
+We now construct local contact matrices $\tilde{C}^\ell_{ij}$ such that (2) and (3) are satisfied. How to do this is of course a matter of debate. We chose to make the ansatz that 
+
+Note that (2) will remain satisfied as long as $\tilde{C}^\ell_{ij}$ is symmetric. We set
 
 $$
-\tilde{C}^\ell_{ij} = \frac{1}{a_{ij}} (\rho_i^\ell \rho_j^\ell \tilde{C}_{ij}
+\tilde{C}^\ell_{ij} = \frac{1}{a_{ij}} (\rho_i^\ell \rho_j^\ell)^b \tilde{C}_{ij}
 $$
 
-where $\rho_i^\ell = \frac{N^\ell_i}{A_i}$ is the local population density of age-group $i$, and where $A_i$ is the area of location $\ell$. $a_ij$ is a normalisation matrix that is determined by Eq. (3):
+where $\rho_i^\ell = \frac{N^\ell_i}{A_i}$ is the local population density of age-group $i$, and where $A_i$ is the area of location $\ell$. $b$ is a scaling factor that should be determined from inference. $a_ij$ is a normalisation matrix that is determined by Eq. (3):
 
 $$
-a_{ij} = \sum_\ell \rho_i^\ell \rho_j^\ell
+a_{ij} = \sum_\ell (\rho_i^\ell \rho_j^\ell)^b
 $$
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MDc3OTQ1NF19
+eyJoaXN0b3J5IjpbMjA2OTE4Njk0OF19
 -->
