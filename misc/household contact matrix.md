@@ -12,8 +12,8 @@ Algorithm:
 	2. $M$ is given by: $M = N_i / \mu_i^F$.
 	3. The populations are taken from the distribution. $$ N^\mu_i = \mathcal{N}(\mu_i^F, \sigma_i^F)$$ 
 2. Construct the household contact matrix $C_{ij}^{\mu \nu}$. For each household $\mu$:
-	3. Decide the number of interactions of age-group $i$ in household $\mu$ between other households: Draw a number $n = \mathcal{N}(
+	3. Decide the number of interactions of age-group $i$ in household $\mu$ between age-group $j$ in other households: Draw a number $n = \mathcal{N}( (\tilde{C}_E)_{ij} - \tilde{C}, \sigma)$
 	4. For $\mu = \nu$, we set $C_{ij}^{\mu \mu}$ equal to the home contact matrix, adjusting the matrix elements such that consistency relations are satisfied.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjE5Nzk0MCwtMTk3OTg3NzE4Ml19
+eyJoaXN0b3J5IjpbLTI1NTc0NDQ0OCwtMTk3OTg3NzE4Ml19
 -->
