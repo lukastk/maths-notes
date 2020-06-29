@@ -14,9 +14,10 @@ Algorithm:
 2. Construct the household contact matrix $C_{ij}^{\mu \nu}$. For each household $\mu$:
 	1. Decide the number of interactions of age-group $i$ in household $\mu$ between age-group $j$ in other households:
 		- Draw a number $n = \mathcal{N}( (\tilde{C}_E)_{ij} - \sum_{\nu\neq\mu} \tilde{C}_{ij}^{\mu \nu}, \sigma)$.
-		- Randomly pick $n$ households $\{\nu_1, \dots \nu_n\}$ (duplicates are allowed). To promote social clustering, we can incre
+		- Randomly pick $n$ households $\{\nu_1, \dots \nu_n\}$ (duplicates are allowed). To promote social clustering, we can increase the probability that a household $\nu$ is chosen, if $\mu$ and $\nu$ have shared contacts already.
+		- Add 1 
 	4. For $\mu = \nu$, we set $C_{ij}^{\mu \mu}$ equal to the home contact matrix, adjusting the matrix elements such that consistency relations are satisfied.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTgyMjA0OCwtMTk3MjIzMjQzOCwtMT
+eyJoaXN0b3J5IjpbMjAwOTYwMzk4MSwtMTk3MjIzMjQzOCwtMT
 k3OTg3NzE4Ml19
 -->
