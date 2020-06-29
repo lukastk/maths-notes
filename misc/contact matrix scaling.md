@@ -9,7 +9,7 @@ $$
  from which we want to construct local contact matrices $C^\ell_{ij}$, which in turn must satisfy
 
 $$
-N_i^\mu C^\ell_{ij} = N_j^\ell C^\mu_{ji}, \quad (2)
+N_i^\ell C^\ell_{ij} = N_j^\ell C^\ell_{ji}, \quad (2)
 $$
 
 where $N^i_{\ell}$ is the population of age-group $i$ at location $\ell$. Furthermore, $C_{ij}$ and $C^\ell_{ij}$ must satisfy the consistency relation
@@ -28,7 +28,7 @@ $$
 
 The interpretation of $\tilde{C}_{ij}$ is the *total* number of contacts between age-group *i* and *j*. Eq. (3) is the statement that the total local contacts must add up to the total national contacts.
 
-We now construct local contact matrices $\tilde{C}^\ell_{ij}$ such that (2) and (3) are satisfied. Note that (2) will remain satisfied as long as $\tilde{C}^\ell_{ij}$ is symmetric. How to do construct $\tilde{C}^\ell_{ij}$  is of course a matter of debate. We chose to make the ansatz that local contacts scale with local population density.
+We now construct local contact matrices $\tilde{C}^\ell_{ij}$ such that (2) and (3) are satisfied. Note that (2) will remain satisfied as long as $\tilde{C}^\ell_{ij}$ is symmetric. How to construct $\tilde{C}^\ell_{ij}$  is of course a matter of debate. We chose to make the ansatz that local contacts scale with local population density.
  We set
 
 $$
@@ -51,5 +51,5 @@ In Eq. (4) we see two different scalings: The $(\rho^\ell_i \rho^\ell_j)^b$ fact
 
 It should be noted that the density scaling $(\rho_i^\ell \rho_j^\ell)^b$ could easily be replaced by another function $f(\rho_i^\ell \rho_j^\ell)$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTU5OTEwN119
+eyJoaXN0b3J5IjpbLTMzOTA5ODZdfQ==
 -->
