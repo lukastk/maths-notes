@@ -9,13 +9,14 @@ A tilde over a contact matrix signifies that we are using the symmetrised form: 
 Algorithm:
 
 1. Generate $M$ households, indexed by $\mu = 1,\dots, M$. The number of people of age-group $i$ in household $\mu$ is given by $N^\mu_i$.
-	2. $M$ is given by: $M = N_i / \mu_i^F$.
-	3. The populations are taken from the distribution. $$ N^\mu_i = \mathcal{N}(\mu_i^F, \sigma_i^F)$$ 
+	1. $M$ is given by: $M = N_i / \mu_i^F$.
+	2. The populations are taken from the distribution. $$ N^\mu_i = \mathcal{N}(\mu_i^F, \sigma_i^F)$$ 
 2. Construct the household contact matrix $C_{ij}^{\mu \nu}$. For each household $\mu$:
-	3. Decide the number of interactions of age-group $i$ in household $\mu$ between age-group $j$ in other households:
-		4. Draw a number $n = \mathcal{N}( (\tilde{C}_E)_{ij} - \sum_{\nu\neq\mu} \tilde{C}_{ij}^{\mu \nu}, \sigma)$.
+	1. Decide the number of interactions of age-group $i$ in household $\mu$ between age-group $j$ in other households:
+		- Draw a number $n = \mathcal{N}( (\tilde{C}_E)_{ij} - \sum_{\nu\neq\mu} \tilde{C}_{ij}^{\mu \nu}, \sigma)$.
+		- Randomly pick $n$ households $\{\nu_1, \dots \nu_n\}$ (duplicates are allowed). To promote social clustering, we can incre
 	4. For $\mu = \nu$, we set $C_{ij}^{\mu \mu}$ equal to the home contact matrix, adjusting the matrix elements such that consistency relations are satisfied.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzMwOTE4NiwtMTk3MjIzMjQzOCwtMT
+eyJoaXN0b3J5IjpbMTk0NTgyMjA0OCwtMTk3MjIzMjQzOCwtMT
 k3OTg3NzE4Ml19
 -->
