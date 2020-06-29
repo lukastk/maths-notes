@@ -16,7 +16,9 @@ $$
 C_{ij} = \frac{1}{N_i} \sum_\ell N_i^\ell C_{ij}^\ell. \quad (3)
 $$
 
-In other words, the local contacts $C^\ell_{ij}$ must add up to the national contacts $C_{ij}$. Let's define the symmetric contact matrix as $\tilde{C}_{ij} = N_i C_{ij}$, and $\tilde{C
+In other words, the local contacts $C^\ell_{ij}$ must add up to the national contacts $C_{ij}$.
+
+Let's define the symmetric contact matrix as $\tilde{C}_{ij} = N_i C_{ij}$, and $\tilde{C}^\ell_{ij} = N^\ell_i C^\ell_{ij}$, in which case (1) and (2) simply becomes symmetry conditions $\tilde{C}_{ij} = \tilde{C}_{ji}$ and $\tilde{C}^\ell_{ij} = \tilde{C}^\ell_{ji}$, and 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MjYzMDAzMV19
+eyJoaXN0b3J5IjpbMTg4OTk2Nzg1M119
 -->
