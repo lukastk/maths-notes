@@ -17,9 +17,9 @@ Algorithm:
 		- Draw a number $n = \mathcal{N}( m, \sigma)$.
 		- Randomly pick $n$ households $\{\nu_1, \dots \nu_n\}$ (duplicates are allowed). To promote social clustering, we can increase the probability that a household $\nu$ is chosen, if $\mu$ and $\nu$ have shared contacts already.
 		 - Generate the random probability vector $\mathbf{p}$ of length $n$, which satisfies $\sum_k p_{\nu_k} = 1$ and where each element is picked from a uniform distribution over $[0,1]$.
-		 - Update $\tilde{C}^{\mu \nu}_{ij}$ as follows: $$ \tilde{C}_{ij}^{\mu \nu_k} := \tilde{C}_{ij}^{\mu \nu_k}+ p_{\nu_k}  $$ 
+		 - Update $\tilde{C}^{\mu \nu}_{ij}$ as follows: $$ \tilde{C}_{ij}^{\mu \nu_k} := \tilde{C}_{ij}^{\mu \nu_k}+ m p_{\nu_k}  $$ 
 	2. For $\mu = \nu$, we set $C_{ij}^{\mu \mu}$ equal to the home contact matrix, adjusting the matrix elements such that consistency relations are satisfied.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjY2NTAxMTYsLTE2NTcyMjI4MDQsLT
-E5NzIyMzI0MzgsLTE5Nzk4NzcxODJdfQ==
+eyJoaXN0b3J5IjpbLTkzNDM1OTUzNywtMTY1NzIyMjgwNCwtMT
+k3MjIzMjQzOCwtMTk3OTg3NzE4Ml19
 -->
