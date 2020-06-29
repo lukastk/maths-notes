@@ -29,10 +29,14 @@ The interpretation of $\tilde{C}_{ij}$ is the *total* number of contacts between
 We now construct local contact matrices $\tilde{C}^\ell_{ij}$ such that (2) and (3) are satisfied. Note that (2) will remain satisfied as long as $\tilde{C}^\ell_{ij}$ is symmetric. We set
 
 $$
-\tilde{C}^\ell_{ij} = \frac{1}{a_{ij}} \rho_i^\ell \rho_j^\ell \tilde{C}_{ij}
+\tilde{C}^\ell_{ij} = \frac{1}{a_{ij}} (\rho_i^\ell \rho_j^\ell \tilde{C}_{ij}
 $$
 
+where $\rho_i^\ell = \frac{N^\ell_i}{A_i}$ is the local population density of age-group $i$, and where $A_i$ is the area of location $\ell$. $a_ij$ is a normalisation matrix that is determined by Eq. (3):
 
+$$
+a_{ij} = \sum_\ell \rho_i^\ell \rho_j^\ell
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYwODExNTU2XX0=
+eyJoaXN0b3J5IjpbLTM4MDc3OTQ1NF19
 -->
