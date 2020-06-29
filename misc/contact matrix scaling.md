@@ -26,9 +26,9 @@ $$
 
 The interpretation of $\tilde{C}_{ij}$ is the *total* number of contacts between age-group *i* and *j*. Eq. (3) is the statement that the total local contacts must add up to the total national contacts.
 
-We now construct local contact matrices $\tilde{C}^\ell_{ij}$ such that (2) and (3) are satisfied. 
+We now construct local contact matrices $\tilde{C}^\ell_{ij}$ such that (2) and (3) are satisfied. (2) will remain satisfied as long as 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5Nzg1ODU0XX0=
+eyJoaXN0b3J5IjpbMzI4MTk3NTE1XX0=
 -->
