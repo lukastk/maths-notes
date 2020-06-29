@@ -26,7 +26,7 @@ $$
 
 The interpretation of $\tilde{C}_{ij}$ is the *total* number of contacts between age-group *i* and *j*. Eq. (3) is the statement that the total local contacts must add up to the total national contacts.
 
-We now construct local contact matrices $\tilde{C}^\ell_{ij}$ such that (2) and (3) are satisfied. Note that (2) will remain satisfied as long as $\tilde{C}^\ell_{ij}$ is symmetric. How to do  is of course a matter of debate. We chose to make the ansatz that local contacts scale with local population density.
+We now construct local contact matrices $\tilde{C}^\ell_{ij}$ such that (2) and (3) are satisfied. Note that (2) will remain satisfied as long as $\tilde{C}^\ell_{ij}$ is symmetric. How to do construct $\tilde{C}^\ell_{ij}$  is of course a matter of debate. We chose to make the ansatz that local contacts scale with local population density.
  We set
 
 $$
@@ -39,8 +39,10 @@ $$
 a_{ij} = \sum_\ell (\rho_i^\ell \rho_j^\ell)^b
 $$
 
+
+
 It should be noted that the density scaling $(\rho_i^\ell \rho_j^\ell)^b$ could easily be replaced by another function.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTg1MTM1OTddfQ==
+eyJoaXN0b3J5IjpbLTk4NTk5NjQwNl19
 -->
