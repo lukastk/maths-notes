@@ -11,7 +11,8 @@ Algorithm:
 1. Generate $M$ households, indexed by $\mu = 1,\dots, M$. The number of people of age-group $i$ in household $\mu$ is given by $N^\mu_i$.
 	2. $M$ is given by: $M = N_i / \mu_i^F$.
 	3. The populations are taken from the distribution. $$ N^\mu_i = \mathcal{N}(\mu_i^F, \sigma_i^F)$$ 
-2. FOr
+2. For each household $\mu$:
+	3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTg1MDE1Nl19
+eyJoaXN0b3J5IjpbMjEwMzI1MzMxXX0=
 -->
