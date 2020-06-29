@@ -16,9 +16,9 @@ Algorithm:
 		- Let $m =  (\tilde{C}_E)_{ij} - \sum_{\nu\neq\mu} \tilde{C}_{ij}^{\mu \nu}$, which is the number of contacts that age-group $i$ in household $\mu$ have with people in age-group $j$ in other households. 
 		- Draw a number $n = \mathcal{N}( m, \sigma)$.
 		- Randomly pick $n$ households $\{\nu_1, \dots \nu_n\}$ (duplicates are allowed). To promote social clustering, we can increase the probability that a household $\nu$ is chosen, if $\mu$ and $\nu$ have shared contacts already.
-		 - Generate the random Gaussian vector $\mathbf{x} = \mathcal{N}($
+		 - Generate the random Gaussian vector $\mathbf{x}$ of length $n$, 
 	2. For $\mu = \nu$, we set $C_{ij}^{\mu \mu}$ equal to the home contact matrix, adjusting the matrix elements such that consistency relations are satisfied.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzkwNTgzNzgsLTE5NzIyMzI0MzgsLT
-E5Nzk4NzcxODJdfQ==
+eyJoaXN0b3J5IjpbLTY4NTMxODI4MCwtMTk3MjIzMjQzOCwtMT
+k3OTg3NzE4Ml19
 -->
