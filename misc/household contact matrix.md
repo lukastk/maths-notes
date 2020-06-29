@@ -4,7 +4,7 @@
 - $(C_H)_{ij} \sim$ the home contact matrix
 - $(C_E)_{ij} = C_{ij} - (C_H)_{ij} = (C_W)_{ij} + (C_S)_{ij} + (C_O)_{ij} \sim$ non-home contact matrix.
 
-A tilde over a contact matrix signifies that we are using the symmetrised form: $\tilde{C}_{ij} = N_i C_{ij}$. 
+A tilde over a contact matrix signifies that we are using the symmetrised form: $\tLilde{C}_{ij} = N_i C_{ij}$. 
 
 Algorithm:
 
@@ -20,6 +20,6 @@ Algorithm:
 		 - Update $\tilde{C}^{\mu \nu}_{ij}$ as follows: $$ \tilde{C}_{ij}^{\mu \nu_k} := \tilde{C}_{ij}^{\mu \nu_k}+ m p_{\nu_k}  $$ 
 	2. For $\mu = \nu$, we set $C_{ij}^{\mu \mu}$ equal to the home contact matrix, adjusting the matrix elements such that consistency relations are satisfied.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDM1OTUzNywtMTY1NzIyMjgwNCwtMT
-k3MjIzMjQzOCwtMTk3OTg3NzE4Ml19
+eyJoaXN0b3J5IjpbLTgzMDY2MjYxOSwtOTM0MzU5NTM3LC0xNj
+U3MjIyODA0LC0xOTcyMjMyNDM4LC0xOTc5ODc3MTgyXX0=
 -->
