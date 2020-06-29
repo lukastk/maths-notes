@@ -1,3 +1,5 @@
+## Scaling local contact matrices
+
 We have a contact matrix $C_{ij}$, satisfying
 
 $$
@@ -47,7 +49,7 @@ $$
 
 In Eq. (4) we see two different scalings: The $(\rho^\ell_i \rho^\ell_j)^b$ factor that scales contacts according to local population density, and $\frac{N_i}{N^\ell_i}$ that scales the contacts such that the consistency relation (2) is maintained.
 
-It should be noted that the density scaling $(\rho_i^\ell \rho_j^\ell)^b$ could easily be replaced by another function. The same goes for 
+It should be noted that the density scaling $(\rho_i^\ell \rho_j^\ell)^b$ could easily be replaced by another function $f(\rho_i^\ell \rho_j^\ell)$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzI1OTcyMV19
+eyJoaXN0b3J5IjpbLTE0MTU5OTEwN119
 -->
