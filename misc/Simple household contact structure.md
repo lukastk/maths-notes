@@ -64,8 +64,8 @@ $$
 
 we get exactly the usual expression.
 
-Why do we get this? This exercise shows us that the over-estimation of home-contacts come from 
+Why do we get this? This exercise shows us that the over-estimation of home-contacts stem from the mean-field approximation. By saying that all households progress according to the mean household, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODAyODM5OSwxMTA3MTM1NTkzLDE5MD
-IxODIxXX0=
+eyJoaXN0b3J5IjpbLTMzNjY1ODE1OSwxNjI4MDI4Mzk5LDExMD
+cxMzU1OTMsMTkwMjE4MjFdfQ==
 -->
