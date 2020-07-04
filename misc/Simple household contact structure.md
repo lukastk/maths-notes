@@ -59,8 +59,8 @@ where $I_j = M \bar{I}_j$, and $M$ is the number of households.
 We multiply by $M$ on both sides, to get
 
 $$
-\dot{S}_i = - \beta \bar{S}_i \sum_{j} C^H_{ij} \frac{\bar{I}_j}{\bar{N}_j} \quad - \beta \bar{S}_i \sum_j ( C_{ij}^W + C_{ij}^S + C_{ij}^O)  \frac{I_j}{N_j}
+\dot{S}_i = - \beta S_i \sum_{j} \tilde{C}^H_{ij} \frac{I_j}{\bar{N}_j} \quad - \beta \bar{S}_i \sum_j ( C_{ij}^W + C_{ij}^S + C_{ij}^O)  \frac{I_j}{N_j}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTcxNjg2NDMsMTkwMjE4MjFdfQ==
+eyJoaXN0b3J5IjpbMTEwNzEzNTU5MywxOTAyMTgyMV19
 -->
