@@ -15,7 +15,12 @@ Agent-based
 
 Within the idealisations of microeconomics, this exercise is quite doable. I don't think the results will be quantitatively predictive of reality, but I do think it will paint us a qualitative picture.
 
-\* Does it matter whether the buyer or the seller has to pay for the logistical costs? My intuition says that the only effect is that prices will just off-load the effect, regardless of whether we make the buyer/seller pay for it. Actually, it probably does make a difference, as each farmer and buyer is spread geographically. Mak
+Why this exercise could be useful:
+
+- The effect of logistical costs. Should we make the buyer or the farmer pay for it?
+- The effect of the service charge. Does it drive down prices 
+
+<small> \* Does it matter whether the buyer or the seller has to pay for the logistical costs? My intuition says that the only effect is that prices will just off-load the effect, regardless of whether we make the buyer/seller pay for it. Actually, it probably does make a difference, as each farmer and buyer is spread geographically. Making the farmer/buyer pay for logistical costs would probably have an effect due to this. </small>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTk0MTg1NywxMDQ3NjUyODg0XX0=
+eyJoaXN0b3J5IjpbMTAwMTM4NzgxMywxMDQ3NjUyODg0XX0=
 -->
