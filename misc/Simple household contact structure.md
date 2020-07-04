@@ -46,7 +46,13 @@ $$
 S_i^\mu \approx \bar{S}_i.
 $$
 
-In other words, we replace the dynamics of the individual households with that of the mean household
+In other words, we replace the dynamics of the individual households with that of the mean household. We also set all household sizes to be the same: $N^\mu_i = \bar{N}_i$.
+
+We get
+
+$$
+\dot{\bar{S}}_i = - \beta \bar{S}_i \sum_{j} C^H_{ij} \frac{\bar{I}_j}{\bar{N}_j} \quad - \beta S_i \sum_j ( C_{ij}^W + C_{ij}^S + C_{ij}^O)  \frac{ \sum_{\nu\neq\mu} I_j^\nu}{ \sum_{\nu\neq\mu} N_j^\nu}
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjYyMjQ5MTgsMTkwMjE4MjFdfQ==
+eyJoaXN0b3J5IjpbMjEzMTkwODM5NiwxOTAyMTgyMV19
 -->
