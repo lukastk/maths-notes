@@ -9,7 +9,7 @@ Soko changes the picture by introducing some extra costs:
 
 (The latter is a bit problematic for us, as microeconomically it is possible that the service charge will cut out of the profits of the farmers. But this is something that this exercise can actually measure to some extent.)
 
-The logistical costs will add an interesting component to the problem. The cost of logistics is a function of the Euclidean distance between the buyer and the seller.\* Which means that the cost 
+The logistical costs will add an interesting component to the problem. The cost of logistics is a function of the Euclidean distance between the buyer and the seller.\* Which means that the per-unit cost of produce will effectively differ depending on which farmer you buy from.
 
 Agent-based
 
@@ -18,9 +18,9 @@ Within the idealisations of microeconomics, this exercise is quite doable. I don
 Why this exercise could be useful:
 
 - The effect of logistical costs. Should we make the buyer or the farmer pay for it?
-- The effect of the service charge. Does it drive down prices 
+- The effect of the service charge. Does it drive down prices for the farmer? Is it effectively taking a cut out of the farmer's profits?
 
 <small> \* Does it matter whether the buyer or the seller has to pay for the logistical costs? My intuition says that the only effect is that prices will just off-load the effect, regardless of whether we make the buyer/seller pay for it. Actually, it probably does make a difference, as each farmer and buyer is spread geographically. Making the farmer/buyer pay for logistical costs would probably have an effect due to this. </small>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMTM4NzgxMywxMDQ3NjUyODg0XX0=
+eyJoaXN0b3J5IjpbLTEzOTY4OTUxNjksMTA0NzY1Mjg4NF19
 -->
