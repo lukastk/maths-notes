@@ -40,7 +40,13 @@ $$
 
 ## Simplification
 
-Let's make the approximation that the dynamics of each household progresses 
+Let's make the MFT approximation that
+
+$$
+S_i^\mu \approx \bar{S}_i.
+$$
+
+In other words, we replace the dynamics of the individual households with that of the mean household
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3NTE2ODA4LDE5MDIxODIxXX0=
+eyJoaXN0b3J5IjpbLTE1NjYyMjQ5MTgsMTkwMjE4MjFdfQ==
 -->
