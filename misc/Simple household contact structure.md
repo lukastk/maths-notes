@@ -59,8 +59,13 @@ where $I_j = M \bar{I}_j$, and $M$ is the number of households.
 We multiply by $M$ on both sides, to get
 
 $$
-\dot{S}_i = - \beta S_i \sum_{j} \tilde{C}^H_{ij} \frac{I_j}{\bar{N}_j} \quad - \beta \bar{S}_i \sum_j ( C_{ij}^W + C_{ij}^S + C_{ij}^O)  \frac{I_j}{N_j}
+\dot{S}_i = -\beta S_i \sum_j (C_{ij}^H + C_{ij}^W + C_{ij}^S + C_{ij}^O)  \frac{I_j}{N_j}
 $$
+
+we get exactly the usual expression.
+
+Why do we get this? This exercise shows us that the over-estimation of home-contacts come from 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzEzNTU5MywxOTAyMTgyMV19
+eyJoaXN0b3J5IjpbMTYyODAyODM5OSwxMTA3MTM1NTkzLDE5MD
+IxODIxXX0=
 -->
