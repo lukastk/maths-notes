@@ -13,7 +13,9 @@ The logistical costs will add an interesting component to the problem. The cost 
 
 Considering the fact that we are considering multiple farmers and multiple buyers, spread over different geographical locations, the right approach might be an agent-based model. Alternatively, this might be able to be solved using some high-dimensional convex optimiser.
 
-Buyers will in general order the same produce from multiple farmers at once. Do we make them pay each farmer the same pric
+The advantage of an agent-based model is that we can to some extent stress-test the market. If we introduce erratic behaviour in an agent, systematically undervaluing their product, does this crash the market? We can investigate geographical effects too.
+
+Buyers will in general order the same produce from multiple farmers at once. Do we make them pay each farmer the same price? This will fundamentally alter the price-fixing.
 
 Within the idealisations of microeconomics, this exercise is quite doable. I don't think the results will be quantitatively predictive of reality, but I do think it will paint us a qualitative picture.
 
@@ -24,5 +26,6 @@ Why this exercise could be useful:
 
 <small> \* Does it matter whether the buyer or the seller has to pay for the logistical costs? My intuition says that the only effect is that prices will just off-load the effect, regardless of whether we make the buyer/seller pay for it. Actually, it probably does make a difference, as each farmer and buyer is spread geographically. Making the farmer/buyer pay for logistical costs would probably have an effect due to this. </small>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzM1ODY2NCwxMDQ3NjUyODg0XX0=
+eyJoaXN0b3J5IjpbLTE5NTc4MDgyOTAsMTk5NzM1ODY2NCwxMD
+Q3NjUyODg0XX0=
 -->
