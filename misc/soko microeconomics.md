@@ -9,9 +9,11 @@ Soko changes the picture by introducing some extra costs:
 
 (The latter is a bit problematic for us, as microeconomically it is possible that the service charge will cut out of the profits of the farmers. But this is something that this exercise can actually measure to some extent.)
 
-The logistical 
+The logistical costs will add an interesting component to the problem. The cost of logistics is a function of the Euclidean distance between the buyer and the seller. 
+
+Agent-based
 
 Within the idealisations of microeconomics, this exercise is quite doable. I don't think the results will be quantitatively predictive of reality, but I do think it will paint us a qualitative picture.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTUzMzAzNSwxMDQ3NjUyODg0XX0=
+eyJoaXN0b3J5IjpbMTc3NjcwNTk0NywxMDQ3NjUyODg0XX0=
 -->
