@@ -7,7 +7,9 @@ Soko changes the picture by introducing some extra costs:
 - Logistical costs
 - Service charge for buyers
 
+(The latter is a bit problematic for us, as microeconomically it is possible that the service charge will cut out of the profits of the farmers. But this is something that this exercise can actually measure to some extent.)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTI4NzgxNjEsMTA0NzY1Mjg4NF19
+eyJoaXN0b3J5IjpbLTEwNjAyNTU4MzMsMTA0NzY1Mjg4NF19
 -->
