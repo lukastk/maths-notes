@@ -51,8 +51,16 @@ In other words, we replace the dynamics of the individual households with that o
 We get
 
 $$
-\dot{\bar{S}}_i = - \beta \bar{S}_i \sum_{j} C^H_{ij} \frac{\bar{I}_j}{\bar{N}_j} \quad - \beta S_i \sum_j ( C_{ij}^W + C_{ij}^S + C_{ij}^O)  \frac{ \sum_{\nu\neq\mu} I_j^\nu}{ \sum_{\nu\neq\mu} N_j^\nu}
+\dot{\bar{S}}_i = - \beta \bar{S}_i \sum_{j} C^H_{ij} \frac{\bar{I}_j}{\bar{N}_j} \quad - \beta \bar{S}_i \sum_j ( C_{ij}^W + C_{ij}^S + C_{ij}^O)  \frac{I_j}{N_j}
+$$
+
+where $I_j = M \bar{I}_j$, and $M$ is the number of households.
+
+We multiply by $M$ on both sides, to get
+
+$$
+\dot{S}_i = - \beta \bar{S}_i \sum_{j} C^H_{ij} \frac{\bar{I}_j}{\bar{N}_j} \quad - \beta \bar{S}_i \sum_j ( C_{ij}^W + C_{ij}^S + C_{ij}^O)  \frac{I_j}{N_j}
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTkwODM5NiwxOTAyMTgyMV19
+eyJoaXN0b3J5IjpbLTE5MTcxNjg2NDMsMTkwMjE4MjFdfQ==
 -->
