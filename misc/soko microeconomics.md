@@ -28,11 +28,11 @@ Why this exercise could be useful:
 - Stress-testing
 - What happens if we let farmer set their own prices, but on the buyer side we mask the bidding process (so we do the bidding for them essentially)?
 - The cost incurred by Soko due to more listings being put than can be bought. Soko would buy up the produce that does not get sold.
-- 
+- What happens if we restrict farmers and buyers to always put up listings some N days before pick up day?
 
 <small> \* Does it matter whether the buyer or the seller has to pay for the logistical costs? My intuition says that the only effect is that prices will just off-load the effect, regardless of whether we make the buyer/seller pay for it. Actually, it probably does make a difference, as each farmer and buyer is spread geographically. Making the farmer/buyer pay for logistical costs would probably have an effect due to this. </small>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTgyNTE5MCw5NjQ5OTY0OSwtMTEyOT
-MwODY3OCwtMjA1MzM2MDU3MCwxMTM3ODgyMDA3LDE5OTczNTg2
-NjQsMTA0NzY1Mjg4NF19
+eyJoaXN0b3J5IjpbMjU1MjA2NjU1LDk2NDk5NjQ5LC0xMTI5Mz
+A4Njc4LC0yMDUzMzYwNTcwLDExMzc4ODIwMDcsMTk5NzM1ODY2
+NCwxMDQ3NjUyODg0XX0=
 -->
