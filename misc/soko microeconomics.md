@@ -27,11 +27,11 @@ Why this exercise could be useful:
 - The effect of the service charge. Does it drive down prices for the farmer? Is it effectively taking a cut out of the farmer's profits?
 - Stress-testing
 - What happens if we let farmer set their own prices, but on the buyer side we mask the bidding process (so we do the bidding for them essentially)?
-- 
+- The cost incurred by Soko due to more listings being put than can be bought. Soko would buy up the produce that does not get sold.
 
 <small> \* Does it matter whether the buyer or the seller has to pay for the logistical costs? My intuition says that the only effect is that prices will just off-load the effect, regardless of whether we make the buyer/seller pay for it. Actually, it probably does make a difference, as each farmer and buyer is spread geographically. Making the farmer/buyer pay for logistical costs would probably have an effect due to this. </small>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODYxNzY5MzQsLTExMjkzMDg2NzgsLT
-IwNTMzNjA1NzAsMTEzNzg4MjAwNywxOTk3MzU4NjY0LDEwNDc2
-NTI4ODRdfQ==
+eyJoaXN0b3J5IjpbOTY0OTk2NDksLTExMjkzMDg2NzgsLTIwNT
+MzNjA1NzAsMTEzNzg4MjAwNywxOTk3MzU4NjY0LDEwNDc2NTI4
+ODRdfQ==
 -->
