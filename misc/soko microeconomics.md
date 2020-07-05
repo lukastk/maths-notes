@@ -1,6 +1,6 @@
 The problem has three components: sellers (SHFs), buyers and economic stress imposed by Soko.
 
-In the absence of logistical costs, the market interaction between buyers and sellers becomes a very simple miscroeconomic supply and demand problem. The per-unit cost of production of the farmers would be some decreasing function of quantity, that we can probably find from literature. We use this curve to then to calculate the price of the product based on supply and demand (which we would also have to find from the literature).
+In the absence of logistical costs, the market interaction between buyers and sellers becomes a very simple microeconomic supply and demand problem. The per-unit cost of production of the farmers would be some decreasing function of quantity, that we can probably find from literature. We use this curve to then to calculate the price of the product based on supply and demand (which we would also have to find from the literature).
 
 Soko changes the picture by introducing some extra costs:
 
@@ -12,6 +12,8 @@ Soko changes the picture by introducing some extra costs:
 The logistical costs will add an interesting component to the problem. The cost of logistics is a function of the Euclidean distance between the buyer and the seller.\* Which means that the per-unit cost of the same produce will effectively differ depending on which farmer you buy from.
 
 Considering the fact that we are considering multiple farmers and multiple buyers, spread over different geographical locations, the right approach might be an agent-based model. Alternatively, this might be able to be solved using some high-dimensional convex optimiser.
+
+Agent-based models will also allows us to consider temporal aspects, and the annual farming cycle. 
 
 The advantage of an agent-based model is that we can to some extent stress-test the market. If we introduce erratic behaviour in an agent, systematically undervaluing their product, does this crash the market? We can investigate geographical effects too.
 
@@ -27,6 +29,6 @@ Why this exercise could be useful:
 
 <small> \* Does it matter whether the buyer or the seller has to pay for the logistical costs? My intuition says that the only effect is that prices will just off-load the effect, regardless of whether we make the buyer/seller pay for it. Actually, it probably does make a difference, as each farmer and buyer is spread geographically. Making the farmer/buyer pay for logistical costs would probably have an effect due to this. </small>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNzg4MjAwNywxOTk3MzU4NjY0LDEwND
-c2NTI4ODRdfQ==
+eyJoaXN0b3J5IjpbLTIwNTMzNjA1NzAsMTEzNzg4MjAwNywxOT
+k3MzU4NjY0LDEwNDc2NTI4ODRdfQ==
 -->
