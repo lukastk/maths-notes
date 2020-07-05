@@ -13,7 +13,7 @@ The logistical costs will add an interesting component to the problem. The cost 
 
 Considering the fact that we are considering multiple farmers and multiple buyers, spread over different geographical locations, the right approach might be an agent-based model. Alternatively, this might be able to be solved using some high-dimensional convex optimiser.
 
-Agent-based models will also allows us to consider temporal aspects, and the annual farming cycle, and th 
+Agent-based models will also allows us to consider temporal aspects, and the annual farming cycle, and the fact that produce has an expiration date.
 
 The advantage of an agent-based model is that we can to some extent stress-test the market. If we introduce erratic behaviour in an agent, systematically undervaluing their product, does this crash the market? We can investigate geographical effects too.
 
@@ -26,9 +26,10 @@ Why this exercise could be useful:
 - The effect of logistical costs. Should we make the buyer or the farmer pay for it?
 - The effect of the service charge. Does it drive down prices for the farmer? Is it effectively taking a cut out of the farmer's profits?
 - Stress-testing
+- What happens if we let farmer set their own prices, but on the buyer side we mask the bidding process (so 
 
 <small> \* Does it matter whether the buyer or the seller has to pay for the logistical costs? My intuition says that the only effect is that prices will just off-load the effect, regardless of whether we make the buyer/seller pay for it. Actually, it probably does make a difference, as each farmer and buyer is spread geographically. Making the farmer/buyer pay for logistical costs would probably have an effect due to this. </small>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTkzMDc5MywtMjA1MzM2MDU3MCwxMT
-M3ODgyMDA3LDE5OTczNTg2NjQsMTA0NzY1Mjg4NF19
+eyJoaXN0b3J5IjpbLTExMjkzMDg2NzgsLTIwNTMzNjA1NzAsMT
+EzNzg4MjAwNywxOTk3MzU4NjY0LDEwNDc2NTI4ODRdfQ==
 -->
