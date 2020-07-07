@@ -36,10 +36,11 @@ $$
 Reverting back to the normal contact matrix form, we get
 
 $$
-C^\ell_{ij} = \frac{1}{a_{ij}} (\rho^\ell_i \rho^\ell_j)^b \frac{N_i}{N^\ell_i} \tilde{C}_{ij} (4)
+C^\ell_{ij} = \frac{1}{a_{ij}} (\rho^\ell_i \rho^\ell_j)^b \frac{N_i}{N^\ell_i} C_{ij} (4)
 $$
 
 In Eq. (4) we see two different scalings: The $(\rho^\ell_i \rho^\ell_j)^b$ factor that scales contacts according to local population density, and $\frac{N_i}{N^\ell_i}$ that scales the contacts such that the consistency relation (2) is maintained. It should be noted that the density scaling $(\rho_i^\ell \rho_j^\ell)^b$ could easily be replaced by another function $f(\rho_i^\ell \rho_j^\ell)$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjUzODg5NiwtMTUwMjgyOTc4XX0=
+eyJoaXN0b3J5IjpbMTE1ODkwNjQ3MiwtMzY2NTM4ODk2LC0xNT
+AyODI5NzhdfQ==
 -->
