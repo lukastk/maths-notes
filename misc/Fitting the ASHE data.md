@@ -74,7 +74,7 @@ $$
 The last data-point to take into consideration is the mean earnings $\bar{x}$. We must have
 
 $$
-\int_0^\infty x f(x | \theta) = \bar{x} \quad (1)
+\int_0^\infty dx\ x f(x | \theta) = \bar{x} \quad (1)
 $$
 
 which sets up a dependency $\tau = \tau(\sigma^2, \alpha )$ that reduces our total number of free parameters to 2.
@@ -82,7 +82,7 @@ which sets up a dependency $\tau = \tau(\sigma^2, \alpha )$ that reduces our tot
 We further evaluate the LHS of (1):
 
 $$
-\int_0^\infty x f(x | \theta)  =  r G_1 (\tau ; \mu, \sigma^2, \tau) + (1-r) \frac{\alpha \tau}{\alpha - 1}
+\int_0^\infty dx\ x f(x | \theta)  =  r G_1 (\tau ; \mu, \sigma^2, \tau) + (1-r) \frac{\alpha \tau}{\alpha - 1}
 $$
 
 where
@@ -103,8 +103,8 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjMwNTExOCwtNTE1MzE4Nzk0LC0yMj
-IxNDgzMzcsLTEyNTY3NDYzNzYsLTE2MjA5NTAxNjcsLTE4ODk1
-MjM2MDAsLTM2NzIxODE0MywtMTEwMzczMjA1NywxMTE0NzAyNj
-ExLC0yMDYyNzIwMDczXX0=
+eyJoaXN0b3J5IjpbMTM5MTI5Njg0NCwyMDUyMzA1MTE4LC01MT
+UzMTg3OTQsLTIyMjE0ODMzNywtMTI1Njc0NjM3NiwtMTYyMDk1
+MDE2NywtMTg4OTUyMzYwMCwtMzY3MjE4MTQzLC0xMTAzNzMyMD
+U3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
 -->
