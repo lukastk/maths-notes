@@ -18,7 +18,7 @@ $$
 f_2(x ; \tau, \alpha) = \frac{\alpha \theta^\alpha}{x^{\alpha+1}} \mathbb{I}_{ \{ x > \tau \}} 
 $$
 
-is the Pareto distribution.
+is the Pareto distribution. We presume that $\alpha > 1$ henceforth.
 
 The parameter space is reduced by enforcing continuity on the distribution, which gives
 
@@ -82,7 +82,7 @@ which sets up a dependency $\tau = \tau(\sigma^2, \alpha )$ that reduces our tot
 We further evaluate the LHS of (1):
 
 $$
-\int_0^\infty x f(x | \theta)  =  r G_1 (\tau ; \mu, \sigma^2, \tau) + (1-r) G_2(\infty; \tau, \alpha)
+\int_0^\infty x f(x | \theta)  =  r G_1 (\tau ; \mu, \sigma^2, \tau) + (1-r) \frac{\alpha \tau}{\alpha - 1}
 $$
 
 
@@ -91,7 +91,7 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY3NDYzNzYsLTE2MjA5NTAxNjcsLT
-E4ODk1MjM2MDAsLTM2NzIxODE0MywtMTEwMzczMjA1NywxMTE0
-NzAyNjExLC0yMDYyNzIwMDczXX0=
+eyJoaXN0b3J5IjpbLTIyMjE0ODMzNywtMTI1Njc0NjM3NiwtMT
+YyMDk1MDE2NywtMTg4OTUyMzYwMCwtMzY3MjE4MTQzLC0xMTAz
+NzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
 -->
