@@ -13,8 +13,12 @@ $$
 is a truncated Log-Normal distribution, and $\mathcal{N}(\cdot)$ is a standard normal distribution, and where
 
 $$
-f_2(x ; \tau, \alpha) = \frac{\alpha \
+f_2(x ; \tau, \alpha) = \frac{\alpha \theta^\alpha}{x^{\alpha+1}} \mathbb{I}_{ \{ x > \tau \}} 
 $$
+
+is the Pareto distribution.
+
+The d
 
 ## References
 
@@ -24,5 +28,5 @@ using Probability Weighted
 Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMwODA5NTldfQ==
+eyJoaXN0b3J5IjpbMTAwMjAzODEzOV19
 -->
