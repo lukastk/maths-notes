@@ -1,6 +1,10 @@
 # Fitting distributions to binned data
 
+We have random variable $X$ with a distribution
 
+$$
+f(x) = 
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDU2MTc2Nl19
+eyJoaXN0b3J5IjpbLTc4MDczMzI5OF19
 -->
