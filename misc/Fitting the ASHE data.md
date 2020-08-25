@@ -85,13 +85,20 @@ $$
 \int_0^\infty x f(x | \theta)  =  r G_1 (\tau ; \mu, \sigma^2, \tau) + (1-r) \frac{\alpha \tau}{\alpha - 1}
 $$
 
+where
+
+$$
+G_1 (\tau ; \mu, \sigma^2, \tau) = - \frac{ e^{ \mu + \frac{\sigma^2}{2}} \sqrt{\pi} \text{erf} \left( \frac{\mu + \sigma^2 - \log x}{\sqrt{2} \sigma} \right)
+$$
+
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjE0ODMzNywtMTI1Njc0NjM3NiwtMT
-YyMDk1MDE2NywtMTg4OTUyMzYwMCwtMzY3MjE4MTQzLC0xMTAz
-NzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
+eyJoaXN0b3J5IjpbLTM5NTYwODgyMywtMjIyMTQ4MzM3LC0xMj
+U2NzQ2Mzc2LC0xNjIwOTUwMTY3LC0xODg5NTIzNjAwLC0zNjcy
+MTgxNDMsLTExMDM3MzIwNTcsMTExNDcwMjYxMSwtMjA2MjcyMD
+A3M119
 -->
