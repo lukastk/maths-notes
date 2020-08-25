@@ -8,7 +8,11 @@ $$
 
 where $h_i,\ i=1,\dots, m$ are the bin boundaries.
 
-Whereas the likelihood function 
+The likelihood function over the sample set itself is
+
+$$
+L(
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTIwNzYyMzIsLTc4MDczMzI5OF19
+eyJoaXN0b3J5IjpbLTYyNDI3ODI4MSwtNzgwNzMzMjk4XX0=
 -->
