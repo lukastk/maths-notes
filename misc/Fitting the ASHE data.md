@@ -26,7 +26,7 @@ $$
 
 where $\tau^* = (\log(\tau) - \mu)/\sigma$.
 
-If we impose differentiability, then we get $\mu = \log(\tau) - \alpha \sigma^2$, and $r$ simplifies to
+If we impose differentiability, we get $\mu = \log(\tau) - \alpha \sigma^2$, and $r$ simplifies to
 
 $$
 r(\sigma^2, \alpha)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} {\alpha \sigma}^2}}{ \sqrt{2 \pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} {\alpha \sigma}^2} + 1 }
@@ -36,11 +36,8 @@ $$
 
 ## References
 
-Statistical analysis of the
-Lognormal-Pareto distribution
-using Probability Weighted
-Moments and Maximum Likelihood - Marco Bee
+Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODY4OTY2Nl19
+eyJoaXN0b3J5IjpbLTIwNjI3MjAwNzNdfQ==
 -->
