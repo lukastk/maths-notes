@@ -7,7 +7,7 @@ $$
 where
 
 $$
-f_1(x;\mu,\sigma^2,\tau)=\frac{1}{\mathcal{N} \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \frac{1}{x \sigma \sqrt{
+f_1(x;\mu,\sigma^2,\tau)=\frac{1}{\mathcal{N} \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \frac{1}{x \sigma \sqrt{2 \pi}} e^{-\frac{1}{2} \left( \frac{\log(x) - \mu}{\sigma} \right)^2} \mathbb{1}
 $$
 
 ## References
@@ -18,5 +18,5 @@ using Probability Weighted
 Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4NDk1MTIyXX0=
+eyJoaXN0b3J5IjpbMTM3MzgxMjY1MF19
 -->
