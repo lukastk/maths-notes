@@ -60,7 +60,10 @@ $$
 and $F(x |\theta)$ is the CDF of the Log-Normal-Pareto distribution.
 
 $$
-F(x | \theta) = r F_1 (x ; \mu, \sigma^2, \tau) + (1-r) f_2(x; \tau, \alpha)
+F(x | \theta) = r F_1 (x ; \mu, \sigma^2, \tau) + (1-r) F_2(x; \tau, \alpha)
+$$
+
+$$
 $$
 
 #### References
@@ -68,6 +71,6 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Mzc1NjA2MywtMzY3MjE4MTQzLC0xMT
-AzNzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
+eyJoaXN0b3J5IjpbNjAyMjQ4MjAxLC0zNjcyMTgxNDMsLTExMD
+M3MzIwNTcsMTExNDcwMjYxMSwtMjA2MjcyMDA3M119
 -->
