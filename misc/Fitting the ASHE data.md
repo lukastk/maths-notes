@@ -51,13 +51,17 @@ L(\theta | \psi) & = \prod_{j=1}^m \left(\int_{h_j}^{h_{j+1}} dx\ f(x|\theta)\ri
 \end{aligned}
 $$
 
-where $h_j,\ j=1,\dots,11$ are the earnings reported in ASHE, and 
+where $h_j,\ j=1,\dots,11$ are the earnings reported in ASHE, and $y_i$ are the bin populations:
+
+$$
+y_i = \left\{  \frac{n}{10}, \frac{n}{10}, \frac{n}{20} \right\}
+$$
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzYwNjk0OSwtMTEwMzczMjA1NywxMT
+eyJoaXN0b3J5IjpbLTg1NDAzMDY2NSwtMTEwMzczMjA1NywxMT
 E0NzAyNjExLC0yMDYyNzIwMDczXX0=
 -->
