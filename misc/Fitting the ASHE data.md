@@ -38,15 +38,17 @@ $$
 
 The ASHE data has, by sector, the highest annual earnings within the following percentile brackets:
 
-$$
+```
+0-10, 10-20, 20-25, 30-40, 50-60, 70-75, 80-90
+```
 
-$$
+as well as the mean salaries
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MjM5MzkwMywxMTE0NzAyNjExLC0yMD
-YyNzIwMDczXX0=
+eyJoaXN0b3J5IjpbLTExMDM3MzIwNTcsMTExNDcwMjYxMSwtMj
+A2MjcyMDA3M119
 -->
