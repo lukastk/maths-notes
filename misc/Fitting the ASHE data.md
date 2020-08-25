@@ -65,8 +65,8 @@ $$
 
 $$
 F_1(x;\mu,\sigma^2,\tau)= \begin{cases}
-\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln x - \mu}{\sqrt{2}\sigma} \right] \right)  & & 0 < x < \tau  \\
-\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln \tau - \mu}{\sqrt{2}\sigma} \right] \right) & x> \tau 
+\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln x - \mu}{\sqrt{2}\sigma} \right] \right)  &  0  \leq x \leq \tau  \\
+\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln \tau - \mu}{\sqrt{2}\sigma} \right] \right) &  x> \tau 
 \end{cases}
 $$
 
@@ -106,7 +106,7 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTI2MTY2NiwtNzU3MzM3NjA3LDEzOT
+eyJoaXN0b3J5IjpbMTAzNzk0NjAyMiwtNzU3MzM3NjA3LDEzOT
 EyOTY4NDQsMjA1MjMwNTExOCwtNTE1MzE4Nzk0LC0yMjIxNDgz
 MzcsLTEyNTY3NDYzNzYsLTE2MjA5NTAxNjcsLTE4ODk1MjM2MD
 AsLTM2NzIxODE0MywtMTEwMzczMjA1NywxMTE0NzAyNjExLC0y
