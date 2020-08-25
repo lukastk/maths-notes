@@ -21,7 +21,7 @@ is the Pareto distribution.
 The parameter space is reduced by enforcing continuity on the distribution, which gives
 
 $$
-r(\mu, \sigma^2, \alpha, \tau)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\tau^*) e^{\frac{1}{2} 
+r(\mu, \sigma^2, \alpha, \tau)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\tau^*) e^{\frac{1}{2} {\tau^*}^2}}{ \sqrt{2 \pi} \alpha \sigma \Phi(\theta^*} e^{\frac{1}{2} {\tau^*}^2} + 1 }
 $$
 
 ## References
@@ -32,5 +32,5 @@ using Probability Weighted
 Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDIyMDU2Nl19
+eyJoaXN0b3J5IjpbLTIwNTE1MjIxNTJdfQ==
 -->
