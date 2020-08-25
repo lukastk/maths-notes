@@ -91,7 +91,11 @@ $$
 G_1 (x ; \mu, \sigma^2, \tau) = - \frac{1}{2} e^{ \mu + \frac{\sigma^2}{2}} \text{erf} \left( \frac{\mu + \sigma^2 - \log x}{\sqrt{2} \sigma} \right)
 $$
 
-and the 2nd term on the RHS is the mean of the Pareto distribution. We get that, for each 
+and the 2nd term on the RHS is the mean of the Pareto distribution. We get that, for each choice of $\sigma$ and $\alpha$, we must compute $\tau$ numerically by solving the transcendental equation
+
+$$
+r G_1 (\tau ; \mu, \sigma^2, \tau) + (1-r) \frac{\alpha \tau}{\alpha - 1} = \bar{x}
+$$
 
 
 #### References
@@ -99,7 +103,7 @@ and the 2nd term on the RHS is the mean of the Pareto distribution. We get that,
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTk5MzcxMSwtNTE1MzE4Nzk0LC0yMj
+eyJoaXN0b3J5IjpbMjA1MjMwNTExOCwtNTE1MzE4Nzk0LC0yMj
 IxNDgzMzcsLTEyNTY3NDYzNzYsLTE2MjA5NTAxNjcsLTE4ODk1
 MjM2MDAsLTM2NzIxODE0MywtMTEwMzczMjA1NywxMTE0NzAyNj
 ExLC0yMDYyNzIwMDczXX0=
