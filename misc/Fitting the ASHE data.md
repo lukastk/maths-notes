@@ -18,7 +18,11 @@ $$
 
 is the Pareto distribution.
 
-The d
+The parameter space is reduced by enforcing continuity on the distribution, which gives
+
+$$
+r(\mu, \sigma^2, \alpha, \tau)= \frac{ \sqrt{2\pi} \alpha \sigma \mathcal{N}(
+$$
 
 ## References
 
@@ -28,5 +32,5 @@ using Probability Weighted
 Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjAzODEzOV19
+eyJoaXN0b3J5IjpbMTA2MDcxNDk5M119
 -->
