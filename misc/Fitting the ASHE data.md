@@ -36,13 +36,12 @@ $$
 
 ### Construction of the likelihood function
 
-The ASHE data gives us the 
+The ASHE data gives us earnings distribution of UK workers in deciles, meaning that 
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE5MTIzNjksLTIwNjI3MjAwNzNdfQ
-==
+eyJoaXN0b3J5IjpbMTExNDcwMjYxMSwtMjA2MjcyMDA3M119
 -->
