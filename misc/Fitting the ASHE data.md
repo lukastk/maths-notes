@@ -74,17 +74,24 @@ $$
 The last data-point to take into consideration is the mean earnings $\bar{x}$. We must have
 
 $$
-\int_0^\infty x f(x | \theta) = \bar{x}
+\int_0^\infty x f(x | \theta) = \bar{x} \quad (1)
 $$
 
-which sets up a dependency $\tau = \tau(\sigma^2, \alpha )$
+which sets up a dependency $\tau = \tau(\sigma^2, \alpha )$ that reduces our total number of free parameters to 2.
+
+We further evaluate the LHS of (1):
+
+$$
+\int_0^\infty x f(x | \theta)  = 
+$$
+
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjIzMDYyMDgsLTE4ODk1MjM2MDAsLT
+eyJoaXN0b3J5IjpbLTEwOTg1ODE5OTAsLTE4ODk1MjM2MDAsLT
 M2NzIxODE0MywtMTEwMzczMjA1NywxMTE0NzAyNjExLC0yMDYy
 NzIwMDczXX0=
 -->
