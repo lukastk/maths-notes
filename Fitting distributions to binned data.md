@@ -11,10 +11,16 @@ where $h_i,\ i=1,\dots, m+1$ are the bin boundaries.
 The likelihood function over the sample set itself is
 
 $$
-L(\theta | \psi) = \prod_i f(x_i|\theta)
+L(\theta | \chi) = \prod_{i=1}^n f(x_i|\theta)
 $$
 
-neglecting prior
+implicitly assuming a uniform prior, and discarding overall constants.
+
+For the binned data, the likelihood function is instead
+
+$$
+L(\theta | \psi) = \prod_{j=1}^m \int_{h_j}^{h_{j+1}} dx\ f(x|\theta)
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2OTkwNTA2LC03ODA3MzMyOThdfQ==
+eyJoaXN0b3J5IjpbLTIwOTE1MDIzNTYsLTc4MDczMzI5OF19
 -->
