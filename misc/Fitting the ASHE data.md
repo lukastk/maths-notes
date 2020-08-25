@@ -88,7 +88,7 @@ $$
 where
 
 $$
-G_1 (\tau ; \mu, \sigma^2, \tau) = - \frac{ e^{ \mu + \frac{\sigma^2}{2}} \sqrt{\pi} \text{erf} \left( \frac{\mu + \sigma^2 - \log x}{\sqrt{2} \sigma} \right)
+G_1 (x ; \mu, \sigma^2, \tau) = - \frac{ e^{ \mu + \frac{\sigma^2}{2}} \sqrt{\pi} \text{erf} \left( \frac{\mu + \sigma^2 - \log x}{\sqrt{2} \sigma} \right)}{2 \sqrt{\pi}}
 $$
 
 
@@ -97,8 +97,8 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTYwODgyMywtMjIyMTQ4MzM3LC0xMj
-U2NzQ2Mzc2LC0xNjIwOTUwMTY3LC0xODg5NTIzNjAwLC0zNjcy
-MTgxNDMsLTExMDM3MzIwNTcsMTExNDcwMjYxMSwtMjA2MjcyMD
-A3M119
+eyJoaXN0b3J5IjpbNTMzNzIyNjU3LC0yMjIxNDgzMzcsLTEyNT
+Y3NDYzNzYsLTE2MjA5NTAxNjcsLTE4ODk1MjM2MDAsLTM2NzIx
+ODE0MywtMTEwMzczMjA1NywxMTE0NzAyNjExLC0yMDYyNzIwMD
+czXX0=
 -->
