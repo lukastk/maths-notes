@@ -64,11 +64,14 @@ F(x | \theta) = r F_1 (x ; \mu, \sigma^2, \tau) + (1-r) F_2(x; \tau, \alpha)
 $$
 
 $$
-F_1(x;\mu,\sigma^2,\tau)=\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln x - \mu}{\sqrt{2}\sigma} \right] \right)
+F_1(x;\mu,\sigma^2,\tau)= \begin{cases}
+\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln x - \mu}{\sqrt{2}\sigma} \right] \right)  & & 0 < x < \tau  \\
+\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln \tau - \mu}{\sqrt{2}\sigma} \right] \right) & x> \tau 
+\end{cases}
 $$
 
 $$
-F_2(x ; \tau, \alpha) = 1 - \left( \frac{\tau}{x}\right)^\alpha
+F_2(x ; \tau, \alpha) = 1 - \left( \frac{\tau}{x}\right)^\alpha  \mathbb{I}_{ \{ x  > \tau \}} 
 $$
 
 where $\Phi$ is the Standard Normal Distribution. The last data-point to take into consideration is the mean earnings $\bar{x}$. We must have
@@ -103,9 +106,9 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzMzNzYwNywxMzkxMjk2ODQ0LDIwNT
-IzMDUxMTgsLTUxNTMxODc5NCwtMjIyMTQ4MzM3LC0xMjU2NzQ2
-Mzc2LC0xNjIwOTUwMTY3LC0xODg5NTIzNjAwLC0zNjcyMTgxND
-MsLTExMDM3MzIwNTcsMTExNDcwMjYxMSwtMjA2MjcyMDA3M119
-
+eyJoaXN0b3J5IjpbMTgzOTI2MTY2NiwtNzU3MzM3NjA3LDEzOT
+EyOTY4NDQsMjA1MjMwNTExOCwtNTE1MzE4Nzk0LC0yMjIxNDgz
+MzcsLTEyNTY3NDYzNzYsLTE2MjA5NTAxNjcsLTE4ODk1MjM2MD
+AsLTM2NzIxODE0MywtMTEwMzczMjA1NywxMTE0NzAyNjExLC0y
+MDYyNzIwMDczXX0=
 -->
