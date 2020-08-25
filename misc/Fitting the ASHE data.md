@@ -71,11 +71,18 @@ $$
 F_2(x ; \tau, \alpha) = 1 - \left( \frac{\tau}{x}\right)^\alpha
 $$
 
+The last data-point to take into consideration is the mean earnings $\bar{x}$. We must have
+
+$$
+\int_0^\infty x f(x | \theta
+$$
+
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODk1MjM2MDAsLTM2NzIxODE0MywtMT
-EwMzczMjA1NywxMTE0NzAyNjExLC0yMDYyNzIwMDczXX0=
+eyJoaXN0b3J5IjpbNDc3MzE4MzgxLC0xODg5NTIzNjAwLC0zNj
+cyMTgxNDMsLTExMDM3MzIwNTcsMTExNDcwMjYxMSwtMjA2Mjcy
+MDA3M119
 -->
