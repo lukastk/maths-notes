@@ -1,18 +1,18 @@
 # Fitting distributions to binned data
 
-We have random variable $X$ which is distributed according to the PDF $f(x|\theta)$. We draw $n$ samples $\chi = \{x_i\}_{i=1}^{n}$ from the distribution, and then bin them into $m$ bins
+We have random variable $X$ which is distributed according to the PDF $f(x|\theta)$. We draw $n$ samples $\chi = \{x_i\}_{i=1}^{n}$ from the distribution, and then bin them into $m$ bins $\psi= \{ y_i \}_{i=1}^m$ where
 
 $$
-y_i = \sum_{i=1}^m \int_{h_i}^{h_{i+1}} dx\ \delta(x_i - x)
+y_j = \sum_{j=1}^m \int_{h_j}^{h_{j+1}} dx\ \delta(x_i - x)
 $$
 
-where $h_i,\ i=1,\dots, m$ are the bin boundaries.
+where $h_i,\ i=1,\dots, m+1$ are the bin boundaries.
 
 The likelihood function over the sample set itself is
 
 $$
-L(
+L(\theta | \psi) = \prod_i
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDI3ODI4MSwtNzgwNzMzMjk4XX0=
+eyJoaXN0b3J5IjpbLTE0Mjk3MDk2OCwtNzgwNzMzMjk4XX0=
 -->
