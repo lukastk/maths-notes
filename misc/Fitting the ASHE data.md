@@ -26,7 +26,13 @@ $$
 
 where $\tau^* = (\log(\tau) - \mu)/\sigma$.
 
-If we impose differentiability, then we get $\mu = \log(\tau) - \alpha \sigma^2$
+If we impose differentiability, then we get $\mu = \log(\tau) - \alpha \sigma^2$, and $r$ simplifies to
+
+$$
+r(\sigma^2, \alpha)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} {\alpha \sigma}^2}}{ \sqrt{2 \pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} {\alpha \sigma}^2} + 1 }
+$$
+
+
 
 ## References
 
@@ -36,5 +42,5 @@ using Probability Weighted
 Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjE3NTUwXX0=
+eyJoaXN0b3J5IjpbMTQxODY4OTY2Nl19
 -->
