@@ -71,7 +71,7 @@ $$
 F_2(x ; \tau, \alpha) = 1 - \left( \frac{\tau}{x}\right)^\alpha
 $$
 
-The last data-point to take into consideration is the mean earnings $\bar{x}$. We must have
+where $\Phi$ is the Standard Normal Distribution. The last data-point to take into consideration is the mean earnings $\bar{x}$. We must have
 
 $$
 \int_0^\infty dx\ x f(x | \theta) = \bar{x} \quad (1)
@@ -103,8 +103,9 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTI5Njg0NCwyMDUyMzA1MTE4LC01MT
-UzMTg3OTQsLTIyMjE0ODMzNywtMTI1Njc0NjM3NiwtMTYyMDk1
-MDE2NywtMTg4OTUyMzYwMCwtMzY3MjE4MTQzLC0xMTAzNzMyMD
-U3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
+eyJoaXN0b3J5IjpbLTc1NzMzNzYwNywxMzkxMjk2ODQ0LDIwNT
+IzMDUxMTgsLTUxNTMxODc5NCwtMjIyMTQ4MzM3LC0xMjU2NzQ2
+Mzc2LC0xNjIwOTUwMTY3LC0xODg5NTIzNjAwLC0zNjcyMTgxND
+MsLTExMDM3MzIwNTcsMTExNDcwMjYxMSwtMjA2MjcyMDA3M119
+
 -->
