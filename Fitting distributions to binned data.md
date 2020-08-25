@@ -19,8 +19,13 @@ implicitly assuming a uniform prior, and discarding overall constants.
 For the binned data, the likelihood function is instead
 
 $$
-L(\theta | \psi) = \prod_{j=1}^m \int_{h_j}^{h_{j+1}} dx\ f(x|\theta)
+\begin{aligned}
+L(\theta | \psi) & = \prod_{j=1}^m \left(\int_{h_j}^{h_{j+1}} dx\ f(x|\theta)\right)^{y_j} \\
+& = \prod_{j=1}^m \left( F(h_{j+1}|\theta) - F(h_{j}|\theta) \right)^{y_j}
+\end{aligned}
 $$
+
+where $F(x|\theta)$ is the CDF of $X$.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE1MDIzNTYsLTc4MDczMzI5OF19
+eyJoaXN0b3J5IjpbLTczOTgzNjQ0OCwtNzgwNzMzMjk4XX0=
 -->
