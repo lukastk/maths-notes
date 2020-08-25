@@ -36,12 +36,17 @@ $$
 
 ### Construction of the likelihood function
 
-The ASHE data gives us earnings distribution of UK workers in deciles, meaning that 
+The ASHE data has, by sector, the highest annual earnings within the following percentile brackets:
+
+$$
+
+$$
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDcwMjYxMSwtMjA2MjcyMDA3M119
+eyJoaXN0b3J5IjpbLTY1MjM5MzkwMywxMTE0NzAyNjExLC0yMD
+YyNzIwMDczXX0=
 -->
