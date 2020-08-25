@@ -42,13 +42,13 @@ The ASHE data has, by sector, the highest annual earnings within the following p
 0-10, 10-20, 20-25, 30-40, 50-60, 70-75, 80-90
 ```
 
-as well as the mean salaries
+The data can thus be interpreted as a histogram, where the bin boundaries has been adjusted so that each bin has the same population.
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM3MzIwNTcsMTExNDcwMjYxMSwtMj
-A2MjcyMDA3M119
+eyJoaXN0b3J5IjpbLTQxMDMxNDI4OCwtMTEwMzczMjA1NywxMT
+E0NzAyNjExLC0yMDYyNzIwMDczXX0=
 -->
