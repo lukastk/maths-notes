@@ -64,13 +64,16 @@ F(x | \theta) = r F_1 (x ; \mu, \sigma^2, \tau) + (1-r) F_2(x; \tau, \alpha)
 $$
 
 $$
+F_1(x;\mu,\sigma^2,\tau)=\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln x - \mu}{\sqrt{2}\sigma} \right] \right)
 $$
+
+
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyMjQ4MjAxLC0zNjcyMTgxNDMsLTExMD
-M3MzIwNTcsMTExNDcwMjYxMSwtMjA2MjcyMDA3M119
+eyJoaXN0b3J5IjpbMTEyMzYxMzc1MiwtMzY3MjE4MTQzLC0xMT
+AzNzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
 -->
