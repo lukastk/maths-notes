@@ -82,7 +82,7 @@ which sets up a dependency $\tau = \tau(\sigma^2, \alpha )$ that reduces our tot
 We further evaluate the LHS of (1):
 
 $$
-\int_0^\infty x f(x | \theta)  =  r G_1 (\tau) + (1-r) G_2(x)
+\int_0^\infty x f(x | \theta)  =  r G_1 (\tau ; \mu, \sigma^2, \tau) + (1-r) G_2(\infty; \tau, \alpha)
 $$
 
 
@@ -91,7 +91,7 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NTU0NTMxLC0xNjIwOTUwMTY3LC0xOD
-g5NTIzNjAwLC0zNjcyMTgxNDMsLTExMDM3MzIwNTcsMTExNDcw
-MjYxMSwtMjA2MjcyMDA3M119
+eyJoaXN0b3J5IjpbLTEyNTY3NDYzNzYsLTE2MjA5NTAxNjcsLT
+E4ODk1MjM2MDAsLTM2NzIxODE0MywtMTEwMzczMjA1NywxMTE0
+NzAyNjExLC0yMDYyNzIwMDczXX0=
 -->
