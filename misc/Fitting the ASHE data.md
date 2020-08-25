@@ -67,13 +67,15 @@ $$
 F_1(x;\mu,\sigma^2,\tau)=\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln x - \mu}{\sqrt{2}\sigma} \right] \right)
 $$
 
-
+$$
+F_2(x ; \tau, \alpha) = 1 - \left( \frac{\tau}{x}\right)^\alpha
+$$
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzYxMzc1MiwtMzY3MjE4MTQzLC0xMT
-AzNzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
+eyJoaXN0b3J5IjpbLTE4ODk1MjM2MDAsLTM2NzIxODE0MywtMT
+EwMzczMjA1NywxMTE0NzAyNjExLC0yMDYyNzIwMDczXX0=
 -->
