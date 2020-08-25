@@ -57,11 +57,17 @@ $$
 y_i = \left\{  \frac{n}{10}, \frac{n}{10}, \frac{n}{20}, \frac{n}{20},\frac{n}{10},\frac{n}{10},\frac{n}{10}, \frac{n}{20}, \frac{n}{20}, \frac{n}{10} \right\}
 $$
 
+and $F(x |\theta)$ is the CDF of the Log-Normal-Pareto distribution.
+
+$$
+F(x | \theta) = r F_1 (x ; \mu, \sigma^2, \tau) + (1-r) f_2(x; \tau, \alpha)
+$$
+
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzIxODE0MywtMTEwMzczMjA1NywxMT
-E0NzAyNjExLC0yMDYyNzIwMDczXX0=
+eyJoaXN0b3J5IjpbMTQ5Mzc1NjA2MywtMzY3MjE4MTQzLC0xMT
+AzNzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
 -->
