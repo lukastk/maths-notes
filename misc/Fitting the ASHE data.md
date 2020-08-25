@@ -42,13 +42,15 @@ The ASHE data has, by sector, the highest annual earnings within the following p
 0-10, 10-20, 20-25, 30-40, 50-60, 70-75, 80-90
 ```
 
-The data can thus be interpreted as a histogram, where the bin boundaries has been adjusted so that each bin has the same population.
+Let $n$ be the total number of people in the workforce, then the deciles comprise $n/10$ workers, and the quintiles $n/20$. If we interpret the data as
+
+The data can thus be interpreted as a histogram.
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDMxNDI4OCwtMTEwMzczMjA1NywxMT
+eyJoaXN0b3J5IjpbMTkzMTc4MzAxNiwtMTEwMzczMjA1NywxMT
 E0NzAyNjExLC0yMDYyNzIwMDczXX0=
 -->
