@@ -8,7 +8,7 @@ $$
 
 where $h_i,\ i=1,\dots, m$ are the bin boundaries.
 
-Whereas the likelihood fun
+Whereas the likelihood function 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc5NjExMTksLTc4MDczMzI5OF19
+eyJoaXN0b3J5IjpbLTIwNTIwNzYyMzIsLTc4MDczMzI5OF19
 -->
