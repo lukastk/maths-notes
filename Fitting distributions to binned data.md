@@ -3,8 +3,8 @@
 We have random variable $X$ with a distribution
 
 $$
-f(x) = 
+f(x|\t) = 
 $$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDczMzI5OF19
+eyJoaXN0b3J5IjpbMTgxNzMwNDIxNCwtNzgwNzMzMjk4XX0=
 -->
