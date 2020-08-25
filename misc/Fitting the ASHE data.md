@@ -51,11 +51,13 @@ L(\theta | \psi) & = \prod_{j=1}^m \left(\int_{h_j}^{h_{j+1}} dx\ f(x|\theta)\ri
 \end{aligned}
 $$
 
+where $h_j,\ j=1,\dots,11$ are the earnings reported in ASHE, and 
+
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzQzMTg5LC0xMTAzNzMyMDU3LDExMT
-Q3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
+eyJoaXN0b3J5IjpbMTM2NzYwNjk0OSwtMTEwMzczMjA1NywxMT
+E0NzAyNjExLC0yMDYyNzIwMDczXX0=
 -->
