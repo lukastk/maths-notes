@@ -1,3 +1,5 @@
+### Choice of distribution
+
 We fit the decile data from ASHE using the Log-Normal-Pareto distribution
 
 $$
@@ -32,12 +34,15 @@ $$
 r(\sigma^2, \alpha)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} {\alpha \sigma}^2}}{ \sqrt{2 \pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} {\alpha \sigma}^2} + 1 }
 $$
 
+### Construction of the likelihood function
 
+The ASHE data gives us the 
 
-## References
+#### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI3MjAwNzNdfQ==
+eyJoaXN0b3J5IjpbLTEwMjE5MTIzNjksLTIwNjI3MjAwNzNdfQ
+==
 -->
