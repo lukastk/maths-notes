@@ -42,15 +42,20 @@ The ASHE data has, by sector, the highest annual earnings within the following p
 0-10, 10-20, 20-25, 30-40, 50-60, 70-75, 80-90
 ```
 
-Let $n$ be the total number of people in the workforce, then the deciles comprise $n/10$ workers, and the quintiles $n/20$. If we interpret the data as
+Let $n$ be the total number of people in the workforce, then the deciles comprise $n/10$ workers, and the quintiles $n/20$. If we interpret the data as binned microdata (where the bin boundaries have been adjusted so that bins have either populations of $n/10$ or $n/20$), then the likelihood function is
 
-The data can thus be interpreted as a histogram.
+$$
+\begin{aligned}
+L(\theta | \psi) & = \prod_{j=1}^m \left(\int_{h_j}^{h_{j+1}} dx\ f(x|\theta)\right)^{y_j} \\
+& = \prod_{j=1}^m \left( F(h_{j+1}|\theta) - F(h_{j}|\theta) \right)^{y_j}
+\end{aligned}
+$$
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTc4MzAxNiwtMTEwMzczMjA1NywxMT
-E0NzAyNjExLC0yMDYyNzIwMDczXX0=
+eyJoaXN0b3J5IjpbLTYwNzQzMTg5LC0xMTAzNzMyMDU3LDExMT
+Q3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
 -->
