@@ -13,6 +13,8 @@ The likelihood function over the sample set itself is
 $$
 L(\theta | \psi) = \prod_i f(x_i|\theta)
 $$
+
+neglecting prior
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzU5ODc1MiwtNzgwNzMzMjk4XX0=
+eyJoaXN0b3J5IjpbNjY2OTkwNTA2LC03ODA3MzMyOThdfQ==
 -->
