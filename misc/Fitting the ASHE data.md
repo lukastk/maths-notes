@@ -74,15 +74,17 @@ $$
 The last data-point to take into consideration is the mean earnings $\bar{x}$. We must have
 
 $$
-\int_0^\infty x f(x | \theta
+\int_0^\infty x f(x | \theta) = \bar{x}
 $$
+
+which sets up a dependency $\tau = \tau(\sigma^2, \alpha )$
 
 #### References
 
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3MzE4MzgxLC0xODg5NTIzNjAwLC0zNj
-cyMTgxNDMsLTExMDM3MzIwNTcsMTExNDcwMjYxMSwtMjA2Mjcy
-MDA3M119
+eyJoaXN0b3J5IjpbLTExNjIzMDYyMDgsLTE4ODk1MjM2MDAsLT
+M2NzIxODE0MywtMTEwMzczMjA1NywxMTE0NzAyNjExLC0yMDYy
+NzIwMDczXX0=
 -->
