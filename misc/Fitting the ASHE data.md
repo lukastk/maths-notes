@@ -34,6 +34,8 @@ $$
 r(\sigma^2, \alpha)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} (\alpha \sigma)^2}}{ \sqrt{2 \pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} (\alpha \sigma)^2} + 1 }
 $$
 
+### CF
+
 ### Construction of the likelihood function
 
 The ASHE data has, by sector, the highest annual earnings within the following percentile brackets:
@@ -57,24 +59,7 @@ $$
 y_i = \left\{  \frac{n}{10}, \frac{n}{10}, \frac{n}{20}, \frac{n}{20},\frac{n}{10},\frac{n}{10},\frac{n}{10}, \frac{n}{20}, \frac{n}{20}, \frac{n}{10} \right\}
 $$
 
-and $F(x |\theta)$ is the CDF of the Log-Normal-Pareto distribution.
-
-$$
-F(x | \theta) = r F_1 (x ; \mu, \sigma^2, \tau) + (1-r) F_2(x; \tau, \alpha)
-$$
-
-$$
-F_1(x;\mu,\sigma^2,\tau)= \begin{cases}
-\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln x - \mu}{\sqrt{2}\sigma} \right] \right)  &  0  \leq x \leq \tau  \\
-\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln \tau - \mu}{\sqrt{2}\sigma} \right] \right) &  x> \tau 
-\end{cases}
-$$
-
-$$
-F_2(x ; \tau, \alpha) = 1 - \left( \frac{\tau}{x}\right)^\alpha  \mathbb{I}_{ \{ x  > \tau \}} 
-$$
-
-where $\Phi$ is the Standard Normal Distribution. The last data-point to take into consideration is the mean earnings $\bar{x}$. We must have
+The last data-point to take into consideration is the mean earnings $\bar{x}$. We must have
 
 $$
 \int_0^\infty dx\ x f(x | \theta) = \bar{x} \quad (1)
@@ -106,10 +91,10 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzOTA0OTIyLC0xNzU5MTI0MTQ0LDkxNj
-Y5ODA5NiwxMDM3OTQ2MDIyLC03NTczMzc2MDcsMTM5MTI5Njg0
-NCwyMDUyMzA1MTE4LC01MTUzMTg3OTQsLTIyMjE0ODMzNywtMT
-I1Njc0NjM3NiwtMTYyMDk1MDE2NywtMTg4OTUyMzYwMCwtMzY3
-MjE4MTQzLC0xMTAzNzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3Mj
-AwNzNdfQ==
+eyJoaXN0b3J5IjpbMTU1MTczMDgyMSwyMDM5MDQ5MjIsLTE3NT
+kxMjQxNDQsOTE2Njk4MDk2LDEwMzc5NDYwMjIsLTc1NzMzNzYw
+NywxMzkxMjk2ODQ0LDIwNTIzMDUxMTgsLTUxNTMxODc5NCwtMj
+IyMTQ4MzM3LC0xMjU2NzQ2Mzc2LC0xNjIwOTUwMTY3LC0xODg5
+NTIzNjAwLC0zNjcyMTgxNDMsLTExMDM3MzIwNTcsMTExNDcwMj
+YxMSwtMjA2MjcyMDA3M119
 -->
