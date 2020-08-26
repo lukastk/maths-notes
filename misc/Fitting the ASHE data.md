@@ -58,12 +58,19 @@ where $\Phi$ is the Standard Normal Distribution.
 To normalize $f$, we compute $F$ as $x \to \infty$.
 
 $$
+\begin{align
 \lim_{x \to \infty} F(x;\theta) = r \left( F_1(\tau;\mu,\sigma^2,\tau) \right) + (1-r) \equiv \mathcal{N}(\theta)
 $$
 
 We re-normalize the distributions as follows:
 
+$$
+f(x | \theta) = \frac{1}{\mathcal{N}(\theta)} \left(  r f_1 (x ; \mu, \sigma^2, \tau) + (1-r) f_2(x; \tau, \alpha) \right)
+$$
 
+$$
+F(x | \theta) = r F_1 (x ; \mu, \sigma^2, \tau) + (1-r) F_2(x; \tau, \alpha)
+$$
 
 ### Construction of the likelihood function
 
@@ -120,10 +127,10 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0NTIxMjE4LDIwMzkwNDkyMiwtMTc1OT
-EyNDE0NCw5MTY2OTgwOTYsMTAzNzk0NjAyMiwtNzU3MzM3NjA3
-LDEzOTEyOTY4NDQsMjA1MjMwNTExOCwtNTE1MzE4Nzk0LC0yMj
-IxNDgzMzcsLTEyNTY3NDYzNzYsLTE2MjA5NTAxNjcsLTE4ODk1
-MjM2MDAsLTM2NzIxODE0MywtMTEwMzczMjA1NywxMTE0NzAyNj
-ExLC0yMDYyNzIwMDczXX0=
+eyJoaXN0b3J5IjpbLTE5MzA1Nzg1MDksODY0NTIxMjE4LDIwMz
+kwNDkyMiwtMTc1OTEyNDE0NCw5MTY2OTgwOTYsMTAzNzk0NjAy
+MiwtNzU3MzM3NjA3LDEzOTEyOTY4NDQsMjA1MjMwNTExOCwtNT
+E1MzE4Nzk0LC0yMjIxNDgzMzcsLTEyNTY3NDYzNzYsLTE2MjA5
+NTAxNjcsLTE4ODk1MjM2MDAsLTM2NzIxODE0MywtMTEwMzczMj
+A1NywxMTE0NzAyNjExLC0yMDYyNzIwMDczXX0=
 -->
