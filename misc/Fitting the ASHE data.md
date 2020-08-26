@@ -106,7 +106,11 @@ $$
 
 which sets up a dependency $\tau = \tau(\sigma^2, \alpha )$ that reduces our total number of free parameters to 2.
 
-We further evaluate the LHS of (1):
+We further evaluate the LHS of (1). The indefinite integral of $x f_1(x|\theta)$ is
+
+$$
+-\sqrt{ \frac{\pi}{2}} e^{ \frac{(\mu + \sigma^2)^2}{2 \sigma^2}} \tau^{ - \frac{2 \mu - \log{\tau}
+$$
 
 $$
 \int_0^\infty dx\ x f(x | \theta)  =  r G_1 (\tau ; \mu, \sigma^2, \tau) + (1-r) \frac{\alpha \tau}{\alpha - 1}
@@ -130,10 +134,11 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTEwNTQ0OCw4NjQ1MjEyMTgsMjAzOT
-A0OTIyLC0xNzU5MTI0MTQ0LDkxNjY5ODA5NiwxMDM3OTQ2MDIy
-LC03NTczMzc2MDcsMTM5MTI5Njg0NCwyMDUyMzA1MTE4LC01MT
-UzMTg3OTQsLTIyMjE0ODMzNywtMTI1Njc0NjM3NiwtMTYyMDk1
-MDE2NywtMTg4OTUyMzYwMCwtMzY3MjE4MTQzLC0xMTAzNzMyMD
-U3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
+eyJoaXN0b3J5IjpbMTQ0NjI4MTksMTg0OTEwNTQ0OCw4NjQ1Mj
+EyMTgsMjAzOTA0OTIyLC0xNzU5MTI0MTQ0LDkxNjY5ODA5Niwx
+MDM3OTQ2MDIyLC03NTczMzc2MDcsMTM5MTI5Njg0NCwyMDUyMz
+A1MTE4LC01MTUzMTg3OTQsLTIyMjE0ODMzNywtMTI1Njc0NjM3
+NiwtMTYyMDk1MDE2NywtMTg4OTUyMzYwMCwtMzY3MjE4MTQzLC
+0xMTAzNzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
+
 -->
