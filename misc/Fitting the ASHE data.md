@@ -23,7 +23,7 @@ is the Pareto distribution. We presume that $\alpha > 1$ henceforth.
 The parameter space is reduced by enforcing continuity on the distribution, which gives
 
 $$
-r(\mu, \sigma^2, \alpha, \tau)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\tau^*) e^{\frac{1}{2} {\tau^*}^2}}{ \sqrt{2 \pi} \alpha \sigma \Phi(\theta^*) e^{\frac{1}{2} {\tau^*}^2} + 1 }
+r(\mu, \sigma^2, \alpha, \tau)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\tau^*) e^{\frac{1}{2} {\tau^*}^2}}{ \sqrt{2 \pi} \alpha \sigma \Phi(\tau^*) e^{\frac{1}{2} {\tau^*}^2} + 1 }
 $$
 
 where $\tau^* = (\log(\tau) - \mu)/\sigma$.
@@ -106,9 +106,9 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzk0NjAyMiwtNzU3MzM3NjA3LDEzOT
-EyOTY4NDQsMjA1MjMwNTExOCwtNTE1MzE4Nzk0LC0yMjIxNDgz
-MzcsLTEyNTY3NDYzNzYsLTE2MjA5NTAxNjcsLTE4ODk1MjM2MD
-AsLTM2NzIxODE0MywtMTEwMzczMjA1NywxMTE0NzAyNjExLC0y
-MDYyNzIwMDczXX0=
+eyJoaXN0b3J5IjpbOTE2Njk4MDk2LDEwMzc5NDYwMjIsLTc1Nz
+MzNzYwNywxMzkxMjk2ODQ0LDIwNTIzMDUxMTgsLTUxNTMxODc5
+NCwtMjIyMTQ4MzM3LC0xMjU2NzQ2Mzc2LC0xNjIwOTUwMTY3LC
+0xODg5NTIzNjAwLC0zNjcyMTgxNDMsLTExMDM3MzIwNTcsMTEx
+NDcwMjYxMSwtMjA2MjcyMDA3M119
 -->
