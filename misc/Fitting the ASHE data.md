@@ -127,10 +127,7 @@ $$
 where
 
 $$
-G_1 (x ; \mu, \sigma^2, \tau) = - \frac{1}{2} e^{ \mu + \frac{\sigma^2}{2}} \text{erf} \left( \frac{\mu + \sigma^2 - \log x}{\sqrt{2} \sigma} \right)
-$$
-
-$$
+G_1 (x ; \mu, \sigma^2, \tau) = \sqrt{ \frac{\pi}{2}} e^{ \frac{(\mu + \sigma^2)^2}{2 \sigma^2}} \tau^{ - \frac{2 \mu - \log{\tau}}{2 \sigma^2}} \left[ 1 -  \text{erf} \left( \frac{ \mu + \sigma^2 - \log{x} }{\sqrt{2} \sigma} \right) \right]
 $$
 
 and the 2nd term on the RHS is the mean of the Pareto distribution. We get that, for each choice of $\sigma$ and $\alpha$, we must compute $\tau$ numerically by solving the transcendental equation
@@ -145,11 +142,11 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjM1MTgyNTYsMTg0OTEwNTQ0OCw4Nj
-Q1MjEyMTgsMjAzOTA0OTIyLC0xNzU5MTI0MTQ0LDkxNjY5ODA5
-NiwxMDM3OTQ2MDIyLC03NTczMzc2MDcsMTM5MTI5Njg0NCwyMD
-UyMzA1MTE4LC01MTUzMTg3OTQsLTIyMjE0ODMzNywtMTI1Njc0
-NjM3NiwtMTYyMDk1MDE2NywtMTg4OTUyMzYwMCwtMzY3MjE4MT
-QzLC0xMTAzNzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNd
-fQ==
+eyJoaXN0b3J5IjpbMzA4ODI2NzksMTg0OTEwNTQ0OCw4NjQ1Mj
+EyMTgsMjAzOTA0OTIyLC0xNzU5MTI0MTQ0LDkxNjY5ODA5Niwx
+MDM3OTQ2MDIyLC03NTczMzc2MDcsMTM5MTI5Njg0NCwyMDUyMz
+A1MTE4LC01MTUzMTg3OTQsLTIyMjE0ODMzNywtMTI1Njc0NjM3
+NiwtMTYyMDk1MDE2NywtMTg4OTUyMzYwMCwtMzY3MjE4MTQzLC
+0xMTAzNzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3MjAwNzNdfQ==
+
 -->
