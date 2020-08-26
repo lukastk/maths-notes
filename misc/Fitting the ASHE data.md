@@ -31,7 +31,7 @@ where $\tau^* = (\log(\tau) - \mu)/\sigma$.
 If we impose differentiability, we get $\mu = \log(\tau) - \alpha \sigma^2$, and $r$ simplifies to
 
 $$
-r(\sigma^2, \alpha)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} {\alpha \sigma}^2}}{ \sqrt{2 \pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} {\alpha \sigma}^2} + 1 }
+r(\sigma^2, \alpha)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} (\alpha \sigma)^2}}{ \sqrt{2 \pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} (\alpha \sigma)^2} + 1 }
 $$
 
 ### Construction of the likelihood function
@@ -106,9 +106,9 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2Njk4MDk2LDEwMzc5NDYwMjIsLTc1Nz
-MzNzYwNywxMzkxMjk2ODQ0LDIwNTIzMDUxMTgsLTUxNTMxODc5
-NCwtMjIyMTQ4MzM3LC0xMjU2NzQ2Mzc2LC0xNjIwOTUwMTY3LC
-0xODg5NTIzNjAwLC0zNjcyMTgxNDMsLTExMDM3MzIwNTcsMTEx
-NDcwMjYxMSwtMjA2MjcyMDA3M119
+eyJoaXN0b3J5IjpbLTE3NTkxMjQxNDQsOTE2Njk4MDk2LDEwMz
+c5NDYwMjIsLTc1NzMzNzYwNywxMzkxMjk2ODQ0LDIwNTIzMDUx
+MTgsLTUxNTMxODc5NCwtMjIyMTQ4MzM3LC0xMjU2NzQ2Mzc2LC
+0xNjIwOTUwMTY3LC0xODg5NTIzNjAwLC0zNjcyMTgxNDMsLTEx
+MDM3MzIwNTcsMTExNDcwMjYxMSwtMjA2MjcyMDA3M119
 -->
