@@ -34,7 +34,32 @@ $$
 r(\sigma^2, \alpha)= \frac{ \sqrt{2\pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} (\alpha \sigma)^2}}{ \sqrt{2 \pi} \alpha \sigma \Phi(\alpha \sigma) e^{\frac{1}{2} (\alpha \sigma)^2} + 1 }
 $$
 
-### CF
+### Normalization and the CDF
+
+$F(x |\theta)$ is the CDF of the Log-Normal-Pareto distribution.
+
+$$
+F(x | \theta) = r F_1 (x ; \mu, \sigma^2, \tau) + (1-r) F_2(x; \tau, \alpha)
+$$
+
+$$
+F_1(x;\mu,\sigma^2,\tau)= \begin{cases}
+\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln x - \mu}{\sqrt{2}\sigma} \right] \right)  &  0  \leq x \leq \tau  \\
+\frac{1}{\Phi \left( \frac{\log(\tau)-\mu}{\sigma} \right)} \left( \frac{1}{2} + \frac{1}{2} \text{erf}\left[ \frac{\ln \tau - \mu}{\sqrt{2}\sigma} \right] \right) &  x> \tau 
+\end{cases}
+$$
+
+$$
+F_2(x ; \tau, \alpha) = 1 - \left( \frac{\tau}{x}\right)^\alpha  \mathbb{I}_{ \{ x  > \tau \}} 
+$$
+
+where $\Phi$ is the Standard Normal Distribution.
+
+To normalize $f$, we compute $F$ as $x \to \infty$.
+
+$$
+\lim_{x \to \infty} F(x;\theta) = r \left( \right)
+$$
 
 ### Construction of the likelihood function
 
@@ -91,10 +116,10 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTczMDgyMSwyMDM5MDQ5MjIsLTE3NT
-kxMjQxNDQsOTE2Njk4MDk2LDEwMzc5NDYwMjIsLTc1NzMzNzYw
-NywxMzkxMjk2ODQ0LDIwNTIzMDUxMTgsLTUxNTMxODc5NCwtMj
-IyMTQ4MzM3LC0xMjU2NzQ2Mzc2LC0xNjIwOTUwMTY3LC0xODg5
-NTIzNjAwLC0zNjcyMTgxNDMsLTExMDM3MzIwNTcsMTExNDcwMj
-YxMSwtMjA2MjcyMDA3M119
+eyJoaXN0b3J5IjpbLTE1NTMzMDc5MDUsMjAzOTA0OTIyLC0xNz
+U5MTI0MTQ0LDkxNjY5ODA5NiwxMDM3OTQ2MDIyLC03NTczMzc2
+MDcsMTM5MTI5Njg0NCwyMDUyMzA1MTE4LC01MTUzMTg3OTQsLT
+IyMjE0ODMzNywtMTI1Njc0NjM3NiwtMTYyMDk1MDE2NywtMTg4
+OTUyMzYwMCwtMzY3MjE4MTQzLC0xMTAzNzMyMDU3LDExMTQ3MD
+I2MTEsLTIwNjI3MjAwNzNdfQ==
 -->
