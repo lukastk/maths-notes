@@ -15,7 +15,7 @@ $$
 is a truncated Log-Normal distribution, and $\Phi(\cdot)$ is a standard normal distribution, and where
 
 $$
-f_2(x ; \tau, \alpha) = \frac{\alpha \theta^\alpha}{x^{\alpha+1}} \mathbb{I}_{ \{ x > \tau \}} 
+f_2(x ; \tau, \alpha) = \frac{\alpha \tau^\alpha}{x^{\alpha+1}} \mathbb{I}_{ \{ x > \tau \}} 
 $$
 
 is the Pareto distribution. We presume that $\alpha > 1$ henceforth.
@@ -106,9 +106,10 @@ $$
 Statistical analysis of the Lognormal-Pareto distribution using Probability Weighted Moments and Maximum Likelihood - Marco Bee
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkxMjQxNDQsOTE2Njk4MDk2LDEwMz
-c5NDYwMjIsLTc1NzMzNzYwNywxMzkxMjk2ODQ0LDIwNTIzMDUx
-MTgsLTUxNTMxODc5NCwtMjIyMTQ4MzM3LC0xMjU2NzQ2Mzc2LC
-0xNjIwOTUwMTY3LC0xODg5NTIzNjAwLC0zNjcyMTgxNDMsLTEx
-MDM3MzIwNTcsMTExNDcwMjYxMSwtMjA2MjcyMDA3M119
+eyJoaXN0b3J5IjpbMjAzOTA0OTIyLC0xNzU5MTI0MTQ0LDkxNj
+Y5ODA5NiwxMDM3OTQ2MDIyLC03NTczMzc2MDcsMTM5MTI5Njg0
+NCwyMDUyMzA1MTE4LC01MTUzMTg3OTQsLTIyMjE0ODMzNywtMT
+I1Njc0NjM3NiwtMTYyMDk1MDE2NywtMTg4OTUyMzYwMCwtMzY3
+MjE4MTQzLC0xMTAzNzMyMDU3LDExMTQ3MDI2MTEsLTIwNjI3Mj
+AwNzNdfQ==
 -->
