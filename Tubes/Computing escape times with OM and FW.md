@@ -23,8 +23,12 @@ $$
 For OM, I think we could write it as
 
 $$
-\tau_\text{OM} = \int_0^\infty dT \int dx(t)
+\tau_\text{OM} = \int_0^\infty dT \int dx(t) P_\text{OM}[x_T(t)]T
 $$
+
+where $x_T(t)$ are paths of duration $T$, and $\int dx(t)$ is a path integral. One could also replace $P_\text{OM}$ with Julian's rate function of course as well.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMzcxODM0Ml19
+eyJoaXN0b3J5IjpbLTEwNjA5ODM3NzZdfQ==
 -->
