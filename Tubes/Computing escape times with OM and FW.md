@@ -18,17 +18,21 @@ For FW, it's simple:
 
 $$
 \tau_\text{FW} \sim e^{-S^*_\text{FW}}
+\quad (1)
 $$
 
 For OM, I think we could write it as
 
 $$
 \tau_\text{OM} = \int_0^\infty dT \int dx(t) P_\text{OM}[x_T(t)]T
+ \quad(2)
 $$
 
 where $x_T(t)$ are paths of duration $T$, and $\int dx(t)$ is a path integral. One could also replace $P_\text{OM}$ with Julian's rate function of course as well.
 
+Note that 
 
+Also note that (1) can be written in terms of a path integral as well, although we then recover (1) by taking a Laplace approximation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjA5ODM3NzZdfQ==
+eyJoaXN0b3J5IjpbNDk2MTM2NTk1XX0=
 -->
