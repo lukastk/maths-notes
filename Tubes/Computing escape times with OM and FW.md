@@ -30,9 +30,9 @@ $$
 
 where $x_T(t)$ are paths of duration $T$, and $\int dx(t)$ is a path integral. One could also replace $P_\text{OM}$ with Julian's rate function of course as well.
 
-Note that 
+Note that $P_\text{OM}$ also has a factor of $e^{DT/R}$, which supresses the $-\infty$ of the OM instanton.
 
 Also note that (1) can be written in terms of a path integral as well, although we then recover (1) by taking a Laplace approximation.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2MTM2NTk1XX0=
+eyJoaXN0b3J5IjpbODIyOTAzMjgzXX0=
 -->
