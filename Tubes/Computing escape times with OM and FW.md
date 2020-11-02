@@ -8,7 +8,7 @@ On the other hand FW theory does produce some other very measurable results. Esc
 
 Importantly, all these "second-hand" results always come via the computation of the instanton first. And this further reinforces our view of the importance of the FW instanton, and perhaps its stature as a physical observable.
 
-None of these results hold true in the OM case. There the effects of entropy/diffusion affect the system to the extent that, though most-probable paths exist, they 
+None of these results hold true in the OM case. There the effects of entropy/diffusion affect the system to the extent that, though most-probable paths exist, they are in no way physically very important. The most probable paths are still extremely improbable
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjE0NTQ3MV19
+eyJoaXN0b3J5IjpbLTE4MjU1MTg0MzVdfQ==
 -->
