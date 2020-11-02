@@ -1,6 +1,8 @@
+## Cap Tables
+
+**Lecturer:** Jeremy Sosabowski
 
 
-Lecturer: Jeremy Sosabowski
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjM4OTgwOTddfQ==
+eyJoaXN0b3J5IjpbMTc2OTE0MTkyMl19
 -->
