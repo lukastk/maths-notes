@@ -12,7 +12,19 @@ None of these results hold true in the OM case. There the effects of entropy/dif
 
 So the OM instanton and the FW instantons are quite different beasts altogether.
 
-I think one thing one could do 
+I think one thing one could do the gauge the connection between the two, and also to find the relative regimes of applicability of both, is to compare the escape times predicted by both theories.
+
+For FW, it's simple:
+
+$$
+\tau_\text{FW} \sim e^{-S^*_\text{FW}}
+$$
+
+For OM, I think we could write it as
+
+$$
+\tau_\text{OM} = \int_0^\infty dT \int dx(t)
+$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDQ2MDAxMV19
+eyJoaXN0b3J5IjpbMTkyMzcxODM0Ml19
 -->
